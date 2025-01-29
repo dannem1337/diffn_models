@@ -18,7 +18,7 @@
 %
 % The carpet cutting problem is a two-dimensional cutting and packing problem
 % in which carpet shapes are cut from a rectangular carpet roll with fixed roll
-% width and a sufficiently long roll length. The goal is to find a non-overlap-
+% witdh and a sufficiently long roll length. The goal is to find a non-overlap-
 % ping placement of all carpet shapes on the carpet roll, so that the waste is
 % minimised while meeting all additional constraints. Here, the objective is to
 % minimise the carpet roll length.
@@ -50,30 +50,32 @@ int: roll_wid;      % Roll width
 int: max_roll_len;  % Maximal roll length
 
     % Orientations: 1 - 0, 2 - 90, 3 - 180, and 4 - 270
+    %
 set of int: Ori = 1..4;
 
     % Room carpets
+    %
 int: n_rm;                                  % Number of room carpets
 set of int: Rooms = 1..n_rm;                % Identifiers of room carpets
 array [Rooms] of set of int: rm_rec_ids;    % Identifiers of rectangles belonging to each room carpet
 array [Rooms] of set of Ori: rm_ori;        % Allowed rotation for each room carpet
 array [Rooms] of int:        rm_max_len;    % Maximal length in orientation 1 (0 degree)
 array [Rooms] of int:        rm_max_wid;    % Maximal width in orientation 1  (0 degree)
+array [Rooms] of int:        rm_area =      % Area of each room carpets
+    [ sum(j in rm_rec_ids[i])(rm_rec_len[j] * rm_rec_wid[j]) | i in Rooms ];
+array [Rooms] of int:        rm_sort =      % Identifiers of room carpets order by decreasing area
+    [ 1 + sum(j in Rooms where j != i /\ rm_area[j] > rm_area[i])(1)
+        + sum(j in Rooms where j < i /\ rm_area[j] = rm_area[i])(1)
+    | i in Rooms ];
 
     % Rectangles of the room carpets
+    %
 int: n_rm_rec;                              % Number of rectangles of room carpets
 set of int: RmRecs = 1..n_rm_rec;           % Identifiers of these rectangles
 array [RmRecs] of int:      rm_rec_len;     % Length in orientation 1 (0 degree)
 array [RmRecs] of int:      rm_rec_wid;     % Length in orientation 1 (0 degree)
 array [RmRecs, Ori] of int: rm_rec_os_x;    % Offset of the x-origin of the rectangles to their room carpet for each orientation
 array [RmRecs, Ori] of int: rm_rec_os_y;    % Offset of the y-origin of the rectangles to their room carpet for each orientation
-
-array [Rooms] of int: rm_area =
-    [ sum(j in rm_rec_ids[i])(rm_rec_len[j] * rm_rec_wid[j]) | i in Rooms ];
-array [Rooms] of int: rm_sort =
-    [ 1 + sum(j in Rooms where j != i /\ rm_area[j] > rm_area[i])(1)
-        + sum(j in Rooms where j < i /\ rm_area[j] = rm_area[i])(1)
-    | i in Rooms ];
 
     % Stair carpets
     %
@@ -123,7 +125,7 @@ int: MaxRmRecSize = max(i in RmRecs)(max(rm_rec_len[i], rm_rec_wid[i]));
 % Variables
 
     % Roll length
-var MinRollLen..MaxRollLen: RollLen;
+var MinRollLen..MaxRollLen: RollLen :: add_to_output;
 
     % Room carpets
 array [Rooms] of var DomX: rm_x;
@@ -168,9 +170,15 @@ constraint
     % Orientations
 constraint
     forall(i in Rooms)(
-        rm_vori[i] in rm_ori[i]
-    /\  (rm_ori_0_or_90[i]  <-> (rm_vori[i] in {1, 2}))
-    /\  (rm_ori_0_or_180[i] <-> (rm_vori[i] in {1, 3}))
+        forall(o in Ori where not(o in rm_ori[i]))(
+            not(rm_vori[i] = o)
+        )
+    /\  exists(o in Ori where o in rm_ori[i])(
+            rm_vori[i] = o
+        )
+    /\  (rm_ori_0_or_90[i]  <-> (rm_vori[i] <= 2))
+    /\  (rm_ori_0_or_180[i] <-> (rm_vori[i] = 1 \/ rm_vori[i] = 3))
+    /\  (rm_ori_0_or_180[i] <-> (not(rm_vori[i] = 2) /\ rm_vori[i] <= 3))
     );
 
     % Origin offsets
@@ -312,13 +320,12 @@ ann: search1 = seq_search([
     ]);
 
 output [
-    "RolLen    = ", show(RollLen), "\n",
-    "rm_vori   = ", show(rm_vori), "\n",
-    "rm_x      = ", show(rm_x), "\n",
-    "rm_y      = ", show(rm_y), "\n",
-    "rm_rec_x  = ", show(rm_rec_x), "\n",
-    "rm_rec_y  = ", show(rm_rec_y), "\n",
-    "st_rec_x  = ", show(st_rec_x), "\n",
-    "st_rec_y  = ", show(st_rec_y), "\n",
-    "objective = ", show(RollLen), "\n"
+    show( RollLen ),
+    show( rm_vori ),
+    show( rm_x ),
+    show( rm_y ),
+    show( rm_rec_x ),
+    show( rm_rec_y ),
+    show( st_rec_x ),
+    show( st_rec_y )
 ];
