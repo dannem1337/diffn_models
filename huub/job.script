@@ -1,0 +1,7 @@
+#!/bin/bash
+#SBATCH --time=20
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=16384
+#SBATCH --nodelist=critical001
+
+minizinc --solver gecode model.mzn data.dzn

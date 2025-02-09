@@ -10,6 +10,6 @@
       13, 17, 19, 21, 23, 25, 27, 29, 31, 16, 21, 17, 18, 19, 20, 22, 23, 24, 25,
       26, 27, 28, 29, 31, 33]
   status: SATISFIED
-  time: 0.279
+  time: 0.163
 - {configuration: gecode, data_file: ../filters/dct_1_1.dzn, model: ../filters/filter.mzn,
-  problem: '', status: SATISFIED}
+  problem: '', status: OPTIMAL_SOLUTION}
