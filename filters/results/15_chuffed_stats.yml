@@ -1,0 +1,3 @@
+{configuration: cp-sat, data_file: ../filters/fir16_1_1.dzn, error: 'Type array[int,int]
+    of int is not allowed in as a FlatZinc builtin argument, arrays must be one dimensional',
+  model: ../filters/filter.mzn, problem: '', status: ERROR, time: 0.6117286402732134}
