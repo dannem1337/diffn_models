@@ -12,14 +12,13 @@ schedule(
     output_dir=pathlib.Path("./results/"), 
     timeout=timedelta(minutes=20),
     configurations=[
-        # Configuration(name="Huub_vsids", solver=minizinc.Solver.load(pathlib.Path("./share/minizinc/solvers/huub.msc")), other_flags={"--vsids-only": True} ),
-        # Configuration(name="Huub_free", solver=minizinc.Solver.lookup("huub"), free_search=True ),
+        Configuration(name="Huub_vsids", solver=minizinc.Solver.load(pathlib.Path("./share/minizinc/solvers/huub.msc")), other_flags={"--vsids-only": True} ),
+        Configuration(name="Huub_free", solver=minizinc.Solver.load(pathlib.Path('./share/minizinc/solvers/huub.msc')), free_search=True ),
         # Configuration(name="chuffed", solver=minizinc.Solver.lookup("chuffed")),
         Configuration(name="Huub_user", solver=minizinc.Solver.load(pathlib.Path('./share/minizinc/solvers/huub.msc')) ),
-        # Configuration(name="Huub_free", solver=minizinc.Solver.lookup("huub"), free_search=True ),
         # Configuration(name="gecode", solver=minizinc.Solver.lookup("gecode")),
     ],
-    # nodelist=["critical001"],
+    nodelist=["critical001"],
     #partition=["comp"],
     cpus_per_task=1, 
     memory=16000

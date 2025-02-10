@@ -1,0 +1,5 @@
+{configuration: Huub_vsids, data_file: ../filters/dfq_1_1.dzn, error: 'MiniZinc stopped
+    with a non-zero exit code, but did not output an error message. ', evaluatedHalfReifiedConstraints: 80,
+  flatBoolConstraints: 20, flatBoolVars: 80, flatIntConstraints: 92, flatIntVars: 26,
+  flatTime: 0.405242, method: minimize, model: ../filters/filter.mzn, nSolutions: 0,
+  paths: 0, problem: '', status: ERROR, time: 2.1258664838969707}
