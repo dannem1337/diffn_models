@@ -1,3 +1,7 @@
-{configuration: cp-sat, data_file: ../filters/fir_1_1.dzn, error: 'Type array[int,int]
-    of int is not allowed in as a FlatZinc builtin argument, arrays must be one dimensional',
-  model: ../filters/filter.mzn, problem: '', status: ERROR, time: 0.8980459999293089}
+{backjumps: 279, baseMem: 0.0, boolVariables: 5129, configuration: chuffed, data_file: ../filters/fir_1_1.dzn,
+  evaluatedReifiedConstraints: 254, failures: 2126, flatBoolConstraints: 127, flatBoolVars: 254,
+  flatIntConstraints: 277, flatIntVars: 24, flatTime: 0.20152, initTime: 0.01, intVars: 25,
+  method: minimize, model: ../filters/filter.mzn, nSolutions: 1, nodes: 2429, nogoods: 2126,
+  objective: 18, optTime: 0.004, paths: 0, peakDepth: 24, peakMem: 0.0, problem: '',
+  propagations: 448275, propagators: 533, randomSeed: -494243845, restarts: 1, solveTime: 0.038,
+  status: OPTIMAL_SOLUTION, time: 0.7257332447916269, trailMem: 0.01, variables: 5156}

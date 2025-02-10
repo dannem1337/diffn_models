@@ -1,6 +1,5 @@
-{configuration: gecode, data_file: ../filters/dct_3_4.dzn, evaluatedReifiedConstraints: 2412,
-  failures: 23564540, flatBoolConstraints: 603, flatBoolVars: 2412, flatIntConstraints: 2491,
-  flatIntVars: 112, flatTime: 0.314741, initTime: 0.017884, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 0, nodes: 47129128, paths: 0, peakDepth: 54, problem: '', propagations: 17387708263,
-  propagators: 3094, restarts: 0, solutions: 0, solveTime: 1199.68, status: UNKNOWN,
-  time: 1200.7690454553813, variables: 2524}
+{configuration: gecode, data_file: ../filters/dct_3_4.dzn, failures: 161, flatIntConstraints: 75,
+  flatIntVars: 105, flatTime: 0.185319, initTime: 0.002641, method: minimize, model: ../filters/filter.mzn,
+  nSolutions: 2, nodes: 399, objective: 11, paths: 0, peakDepth: 104, problem: '',
+  propagations: 4128, propagators: 79, restarts: 0, solutions: 2, solveTime: 0.011643,
+  status: OPTIMAL_SOLUTION, time: 0.6321053225547075, variables: 105}
