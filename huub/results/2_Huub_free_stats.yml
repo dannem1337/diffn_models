@@ -1,5 +1,7 @@
-{configuration: Huub_free, data_file: ../filters/fir_2_3.dzn, error: 'MiniZinc stopped
-    with a non-zero exit code, but did not output an error message. ', evaluatedHalfReifiedConstraints: 508,
-  flatBoolConstraints: 127, flatBoolVars: 508, flatIntConstraints: 532, flatIntVars: 48,
-  flatTime: 0.419199, method: minimize, model: ../filters/filter.mzn, nSolutions: 0,
-  paths: 0, problem: '', status: ERROR, time: 2.127430846914649}
+{blockType: complete, configuration: Huub_free, data_file: ../filters/fir_2_3.dzn,
+  evaluatedHalfReifiedConstraints: 508, extractedViews: 1, failures: 104, flatBoolConstraints: 127,
+  flatBoolVars: 508, flatIntConstraints: 532, flatIntVars: 48, flatTime: 0.439238,
+  initTime: 0.010464, intVariables: 32, method: minimize, model: ../filters/filter.mzn,
+  nSolutions: 5, objective: 10, oracleDecisions: 3395, paths: 0, peakDepth: 738, problem: '',
+  propagations: 29442, propagators: 531, restarts: 3, solveTime: 0.018774, status: OPTIMAL_SOLUTION,
+  time: 1.9898124616593122, unifiedVariables: 0, userDecisions: 335}
