@@ -14,9 +14,9 @@ schedule(
     configurations=[
         Configuration(name="Huub_vsids", solver=minizinc.Solver.load(pathlib.Path("./share/minizinc/solvers/huub.msc")), other_flags={"--vsids-only": True} ),
         Configuration(name="Huub_free", solver=minizinc.Solver.load(pathlib.Path('./share/minizinc/solvers/huub.msc')), free_search=True ),
-        # Configuration(name="chuffed", solver=minizinc.Solver.lookup("chuffed")),
+        Configuration(name="chuffed", solver=minizinc.Solver.lookup("chuffed")),
         Configuration(name="Huub_user", solver=minizinc.Solver.load(pathlib.Path('./share/minizinc/solvers/huub.msc')) ),
-        # Configuration(name="gecode", solver=minizinc.Solver.lookup("gecode")),
+        Configuration(name="gecode", solver=minizinc.Solver.lookup("gecode")),
     ],
     nodelist=["critical001"],
     #partition=["comp"],

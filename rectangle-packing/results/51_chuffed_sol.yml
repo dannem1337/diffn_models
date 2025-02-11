@@ -1,0 +1,14 @@
+- configuration: chuffed
+  data_file: ../rectangle-packing/data_square/rpp14_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 1035
+    Height: 23
+    Width: 45
+    X: [0, 14, 42, 38, 40, 39, 38, 9, 0, 17, 27, 27, 14, 0]
+    Y: [0, 13, 20, 19, 6, 0, 12, 15, 14, 13, 12, 0, 0, 0]
+  status: SATISFIED
+  time: 0.131
+- {configuration: chuffed, data_file: ../rectangle-packing/data_square/rpp14_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED, time: 0.022}

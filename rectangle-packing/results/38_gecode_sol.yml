@@ -1,0 +1,14 @@
+- configuration: gecode
+  data_file: ../rectangle-packing/data_square/rpp12_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 667
+    Height: 23
+    Width: 29
+    X: [0, 12, 11, 19, 14, 23, 22, 11, 20, 12, 0, 0]
+    Y: [0, 10, 12, 10, 10, 7, 0, 15, 14, 0, 12, 0]
+  status: SATISFIED
+  time: 0.099
+- {configuration: gecode, data_file: ../rectangle-packing/data_square/rpp12_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}
