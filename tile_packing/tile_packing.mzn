@@ -11,7 +11,7 @@ array[1..n] of 1..n: Squares = [i | i in 1..n]; % Square[s] = dimension of squar
 % None
 
 %% Decision variables:
-% w = The width of the rectangle
+% w = The width of the r ectangle
 var n..maxLen: w; 
 % h = The length of the rectangle
 var n..maxLen: h;
@@ -46,4 +46,4 @@ constraint symmetry_breaking_constraint(2*X[n] < w /\ 2*Y[n] < h);
 % Minimize the rectangle area
 solve minimize rec;
 
-output ["w:\(w) h:\(h) rec: \(rec) squares: \(Squares)"];
+output ["w:\(w) h:\(h) X:\(X) Y:\(Y) rec: \(rec) squares: \(Squares)"];
