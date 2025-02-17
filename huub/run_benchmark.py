@@ -17,6 +17,7 @@ schedule(
         Configuration(name="chuffed", solver=minizinc.Solver.lookup("chuffed")),
         Configuration(name="Huub_user", solver=minizinc.Solver.load(pathlib.Path('./share/minizinc/solvers/huub.msc')) ),
         Configuration(name="gecode", solver=minizinc.Solver.lookup("gecode")),
+        Configuration(name="cp-sat", solver=minizinc.Solver.lookup("cp-sat")),
     ],
     nodelist=["critical001"],
     #partition=["comp"],

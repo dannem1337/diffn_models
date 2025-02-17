@@ -1,0 +1,10 @@
+{configuration: Huub_free, data_file: ../container-loading/cl08.dzn, error: 'thread
+    ''main'' panicked at /home/allenzhong/huub/crates/huub/src/flatzinc.rs:751:37:
+
+    not yet implemented: Variables without a domain are not yet supported
+
+    note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace',
+  evaluatedHalfReifiedConstraints: 50310, flatBoolConstraints: 8385, flatBoolVars: 50310,
+  flatIntConstraints: 51485, flatIntVars: 785, flatTime: 3.38934, method: minimize,
+  model: ../container-loading/container-loading.mzn, nSolutions: 0, paths: 0, problem: '',
+  status: ERROR, time: 5.01381010748446}

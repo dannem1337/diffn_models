@@ -1,0 +1,6 @@
+{configuration: gecode, data_file: ../container-loading/cl05.dzn, evaluatedHalfReifiedConstraints: 42840,
+  failures: 1254257, flatBoolConstraints: 7140, flatBoolVars: 42840, flatIntConstraints: 43925,
+  flatIntVars: 725, flatTime: 2.80895, initTime: 0.38003, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 0, nodes: 2508750, paths: 0, peakDepth: 258, problem: '', propagations: 5634623691,
+  propagators: 50345, restarts: 0, solutions: 0, solveTime: 1197.2, status: UNKNOWN,
+  time: 1201.175598345697, variables: 43565}
