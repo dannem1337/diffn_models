@@ -1,10 +1,10 @@
-container_length = 4800;
-container_width = 3600;
-container_height = 1500;
+container_length = 48;
+container_width = 36;
+container_height = 15;
 n = 6;
-boxes = [|900, 275, 200, 10
-         |400, 350, 275, 33
-         |1200, 300, 250, 10
-         |500, 375, 275, 27
-         |800, 400, 200, 15
-         |600, 300, 225, 25|];
+boxes = [|9, 2, 2, 10
+         |4, 3, 2, 33
+         |12,3, 2, 10
+         |5, 3, 2, 27
+         |8, 4, 2, 15
+         |6, 3, 2, 25|];

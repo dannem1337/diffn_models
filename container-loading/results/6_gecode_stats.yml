@@ -1,6 +1,0 @@
-{configuration: gecode, data_file: ../container-loading/cl14.dzn, evaluatedHalfReifiedConstraints: 42840,
-  failures: 811269, flatBoolConstraints: 7140, flatBoolVars: 42840, flatIntConstraints: 43925,
-  flatIntVars: 725, flatTime: 2.91909, initTime: 0.375455, method: minimize, model: ../container-loading/container-loading.mzn,
-  nSolutions: 0, nodes: 1622759, paths: 0, peakDepth: 249, problem: '', propagations: 6751807558,
-  propagators: 50345, restarts: 0, solutions: 0, solveTime: 1197.08, status: UNKNOWN,
-  time: 1201.1713624447584, variables: 43565}
