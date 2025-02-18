@@ -42,9 +42,18 @@ constraint diffn_k(startXYZ, box_sizes);
 
 constraint forall(i in 1..no_boxes) 
     (
-        startXYZ[i, 1] > 0 /\
-        startXYZ[i, 2] > 0 /\
-        startXYZ[i, 3] > 0
+        startXYZ[i, 1] + box_sizes[i, 1] <= container_length /\
+        startXYZ[i, 1] >= 0
+    );
+constraint forall(i in 1..no_boxes) 
+    (
+        startXYZ[i, 2] + box_sizes[i, 2] <= container_width /\
+        startXYZ[i, 2] >= 0
+    );
+constraint forall(i in 1..no_boxes) 
+    (
+        startXYZ[i, 3] + box_sizes[i, 3] <= container_height /\
+        startXYZ[i, 3] >= 0
     );
 
 solve minimize l*w*h;
