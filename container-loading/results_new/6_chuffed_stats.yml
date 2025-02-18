@@ -1,0 +1,8 @@
+{configuration: chuffed, data_file: ../container-loading/cl14.dzn, error: 'WARNING:
+    the --time-out flag has recently been changed.The time-out is now provided in
+    milliseconds instead of seconds
+
+    Error: Empty var int domain. in line no. 1078', evaluatedReifiedConstraints: 42840,
+  flatBoolConstraints: 7140, flatBoolVars: 42840, flatIntConstraints: 43559, flatIntVars: 1079,
+  flatTime: 2.72114, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 0, paths: 0, problem: '', status: ERROR, time: 3.8863245509564877}

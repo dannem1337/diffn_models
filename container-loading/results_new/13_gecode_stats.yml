@@ -1,0 +1,9 @@
+{configuration: gecode, data_file: ../container-loading/cl15.dzn, error: 'Error: The
+    literal ''1157625000000'' of the type int is out of range (-2147483646..2147483646)
+    in line no. 1506
+
+    Error: syntax error, unexpected '':'', expecting FZ_INT_LIT in line no. 1506',
+  evaluatedHalfReifiedConstraints: 186750, flatBoolConstraints: 31125, flatBoolVars: 186750,
+  flatIntConstraints: 187505, flatIntVars: 1505, flatTime: 13.2164, method: minimize,
+  model: ../container-loading/container-loading.mzn, nSolutions: 0, paths: 0, problem: '',
+  status: ERROR, time: 16.417263329029083}
