@@ -1,8 +1,5 @@
 include "diffn_k.mzn";
 %% Parameters
-int: container_length;
-int: container_width;
-int: container_height;
 int: n; % Total number of boxes
 array[1..n, 1..4] of int: boxes;
 
@@ -27,16 +24,12 @@ array[1..no_boxes, 1..3] of var int: box_sizes::add_to_output;
 
 array[1..no_boxes, 1..3] of var int: startXYZ::add_to_output;
 
-var int: l::add_to_output;
-var int: w::add_to_output;
-var int: h::add_to_output;
+var int: l::add_to_output = max(i in 1..no_boxes) (startXYZ[i,1] + box_sizes[i,1]);
+var int: w::add_to_output = max(i in 1..no_boxes) (startXYZ[i,2] + box_sizes[i,2]);
+var int: h::add_to_output = max(i in 1..no_boxes) (startXYZ[i,3] + box_sizes[i,3]);
+var int: area::add_to_output = l*w*h;
 
 
-constraint l = max(i in 1..no_boxes) (startXYZ[i,1] + box_sizes[i,1]);
-
-constraint w = max(i in 1..no_boxes) (startXYZ[i,2] + box_sizes[i,2]);
-
-constraint h = max(i in 1..no_boxes) (startXYZ[i,3] + box_sizes[i,3]);
 
 constraint forall(i in 1..no_boxes) 
     (
@@ -48,17 +41,10 @@ constraint forall(i in 1..no_boxes)
 constraint diffn_k(startXYZ, box_sizes);
 
 constraint forall(i in 1..no_boxes) (
-                startXYZ[i, 1] + box_sizes[i, 1] <= container_length /\
-                startXYZ[i, 1] >= 0
+                startXYZ[i, 1] > 0 /\
+                startXYZ[i, 2] > 0 /\
+                startXYZ[i, 3] > 0
                 );
-constraint forall(i in 1..no_boxes) (
-                startXYZ[i, 2] + box_sizes[i, 2] <= container_width /\
-                startXYZ[i, 2] >= 0
-                );
-constraint forall(i in 1..no_boxes) (
-                startXYZ[i, 3] + box_sizes[i, 3] <= container_height /\
-                startXYZ[i, 3] >= 0
-                );
-solve minimize l*w*h;
+solve minimize area;
 
 
