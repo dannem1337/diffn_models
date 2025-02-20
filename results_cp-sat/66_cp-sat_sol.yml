@@ -1,0 +1,16 @@
+- configuration: cp-sat
+  data_file: ../rectangle-packing/data_square/rpp24_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 4928
+    Height: 56
+    Width: 88
+    X: [0, 15, 66, 47, 58, 60, 63, 51, 51, 60, 15, 26, 38, 58, 0, 72, 0, 70, 47, 38,
+      17, 66, 24, 0]
+    Y: [0, 35, 22, 19, 36, 19, 35, 28, 19, 25, 24, 23, 23, 42, 24, 40, 39, 22, 0,
+      36, 35, 0, 0, 0]
+  status: SATISFIED
+  time: 732.731
+- {configuration: cp-sat, data_file: ../rectangle-packing/data_square/rpp24_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: ALL_SOLUTIONS}
