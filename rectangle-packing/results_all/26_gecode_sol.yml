@@ -1,0 +1,14 @@
+- configuration: gecode
+  data_file: ../filters/fir16_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: filters
+  solution:
+    objective: 19
+    r: [1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 2, 4, 5, 6, 7, 8,
+      9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  status: SATISFIED
+  time: 0.199
+- {configuration: gecode, data_file: ../filters/fir16_1_2.dzn, model: ../filters/filter.mzn,
+  problem: filters, status: OPTIMAL_SOLUTION}

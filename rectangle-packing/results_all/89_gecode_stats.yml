@@ -1,0 +1,7 @@
+{configuration: gecode, data_file: ../rectangle-packing/data_square/rpp13_true.dzn,
+  eliminatedImplications: 52, evaluatedHalfReifiedConstraints: 104, failures: 347,
+  flatBoolConstraints: 78, flatBoolVars: 104, flatIntConstraints: 151, flatIntVars: 57,
+  flatTime: 0.08384, initTime: 0.001433, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
+  nSolutions: 1, nodes: 715, paths: 0, peakDepth: 32, problem: '', propagations: 21443,
+  propagators: 231, restarts: 0, solutions: 1, solveTime: 0.011852, status: SATISFIED,
+  time: 0.21633365005254745, variables: 161}

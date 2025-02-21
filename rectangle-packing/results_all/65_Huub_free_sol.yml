@@ -1,0 +1,14 @@
+- configuration: Huub_free
+  data_file: ../rectangle-packing/data_square/rpp15_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 1265
+    Height: 23
+    Width: 55
+    X: [0, 40, 24, 40, 40, 24, 8, 0, 15, 45, 29, 30, 42, 15, 0]
+    Y: [0, 9, 14, 5, 0, 17, 16, 15, 14, 0, 0, 11, 10, 0, 0]
+  status: SATISFIED
+  time: 0.521
+- {configuration: Huub_free, data_file: ../rectangle-packing/data_square/rpp15_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

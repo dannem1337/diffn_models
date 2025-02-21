@@ -1,0 +1,14 @@
+- configuration: Huub_vsids
+  data_file: ../rectangle-packing/data_square/rpp10_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 405
+    Height: 15
+    Width: 27
+    X: [0, 10, 10, 0, 5, 13, 20, 19, 10, 0]
+    Y: [0, 4, 0, 11, 10, 0, 8, 0, 6, 0]
+  status: SATISFIED
+  time: 0.2
+- {configuration: Huub_vsids, data_file: ../rectangle-packing/data_square/rpp10_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

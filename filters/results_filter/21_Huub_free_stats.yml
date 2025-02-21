@@ -1,0 +1,7 @@
+{blockType: complete, configuration: Huub_free, data_file: ../filters/dct_1_1.dzn,
+  evaluatedHalfReifiedConstraints: 1216, extractedViews: 8, failures: 4922766, flatBoolConstraints: 608,
+  flatBoolVars: 1216, flatIntConstraints: 1289, flatIntVars: 57, flatTime: 0.254,
+  initTime: 0.020811, intVariables: 49, method: minimize, model: ../filters/filter.mzn,
+  nSolutions: 1, objective: 34, oracleDecisions: 3494561, paths: 0, peakDepth: 1265,
+  problem: '', propagations: 1516425490, propagators: 1281, restarts: 131099, solveTime: 1199.723937,
+  status: SATISFIED, time: 1200.2890323679894, unifiedVariables: 0, userDecisions: 4460167}

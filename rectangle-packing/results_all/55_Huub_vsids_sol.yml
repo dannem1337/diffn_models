@@ -1,0 +1,14 @@
+- configuration: Huub_vsids
+  data_file: ../rectangle-packing/data_square/rpp07_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 154
+    Height: 7
+    Width: 22
+    X: [0, 13, 19, 18, 13, 7, 0]
+    Y: [0, 5, 0, 3, 0, 0, 0]
+  status: SATISFIED
+  time: 0.143
+- {configuration: Huub_vsids, data_file: ../rectangle-packing/data_square/rpp07_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

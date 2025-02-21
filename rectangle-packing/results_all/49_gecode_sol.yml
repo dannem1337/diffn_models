@@ -1,0 +1,14 @@
+- configuration: gecode
+  data_file: ../rectangle-packing/data_square/rpp03_true.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 15
+    Height: 3
+    Width: 5
+    X: [3, 3, 0]
+    Y: [2, 0, 0]
+  status: SATISFIED
+  time: 0.083
+- {configuration: gecode, data_file: ../rectangle-packing/data_square/rpp03_true.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}
