@@ -1,6 +1,0 @@
-{boolVariables: 155, configuration: cp-sat, data_file: ../rectangle-packing/data_square/rpp16_true.dzn,
-  eliminatedImplications: 64, evaluatedHalfReifiedConstraints: 128, failures: 1314,
-  flatBoolConstraints: 96, flatBoolVars: 128, flatIntConstraints: 187, flatIntVars: 75,
-  flatTime: 0.08892, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
-  nSolutions: 1, objective: 0, objectiveBound: 0, paths: 0, problem: '', propagations: 83708,
-  solveTime: 0.085756, status: ALL_SOLUTIONS, time: 0.41236672550439835}
