@@ -43,7 +43,7 @@ int: largest_product_size = max(i in 1..n, j in 1..3) (products[i,j]);
 
 %% Descision Variables
 %  The size of each product is its size if it is in the shelf and [0, 0, 0] if it is not 
-array[1..total_products, 1..3, 1..no_shelves] of var 0..largest_product: product_sizes_3d::add_to_output;
+array[1..total_products, 1..3, 1..no_shelves] of var 0..largest_product_size: product_sizes_3d::add_to_output;
 % Product j is placed on shelf product_placement[j]
 array[1..total_products] of var 1..no_shelves: product_placement::add_to_output;
 % Starting positions of each product in each shelf
