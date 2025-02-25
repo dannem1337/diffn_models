@@ -19,6 +19,9 @@
 %             length^
 
 include "diffn_nonstrict_k.mzn";
+include "increasing.mzn";
+include "lex_chain_lesseq.mzn";
+include "seq_precede_chain.mzn";
 
 % Dimensions considered
 enum Dimension = {Length, Width, Height};
@@ -76,6 +79,28 @@ constraint forall(s in Shelf) (
 % the shelf
 constraint forall(s in Shelf, it in Item, d in Dimension) (
   item_shelve_placement[it, s, d] + item_shelve_size[it, s, d] <= shelves[d] + 1
+);
+
+% Break symmetry of between the different shelves
+constraint symmetry_breaking_constraint(
+	seq_precede_chain(item_shelving)
+);
+
+% Break symmetry of shelving of multiple of the same products
+constraint symmetry_breaking_constraint(
+	forall(s in Shelf, p in Product) (
+		increasing([item_shelving[it] | it in Item where product[it] == p])
+	)
+);
+
+% Break symmetry between placement of the same products
+constraint symmetry_breaking_constraint(
+	forall(s in Shelf, p in Product) (
+	let {
+			any: x = [item_shelve_placement[i, s, d] | i in Item where product[i] = p, d in Dimension];
+			array[int, Dimension] of var int: coord = array2d(1..length(x) div 3, Dimension, x);
+		} in lex_chain_lesseq(coord)
+	)
 );
 
 solve minimize last_loaded_shelf;
