@@ -53,7 +53,7 @@ array[Item, Shelf, Dimension] of var 0..max(product_size): item_shelve_size ::no
 % Product j is placed on shelf item_shelving[j]
 array[Item] of var Shelf: item_shelving ::output;
 % Starting positions of each product in each shelf
-array[Item, Shelf, Dimension] of var 1..max(shelves): item_shelve_placement ::no_output;
+array[Item, Shelf, Dimension] of var 0..max(shelves): item_shelve_placement ::no_output;
 % The number of loaded shelves is the max item_shelving, this will also force
 % shelves to be filled in ascending order, starting from 1
 var Shelf: last_loaded_shelf ::output = max(item_shelving);
@@ -78,7 +78,7 @@ constraint forall(s in Shelf) (
 % The products must be placed such that they are contained within the dimensions of
 % the shelf
 constraint forall(s in Shelf, it in Item, d in Dimension) (
-  item_shelve_placement[it, s, d] + item_shelve_size[it, s, d] <= shelves[d] + 1
+  item_shelve_placement[it, s, d] + item_shelve_size[it, s, d] <= shelves[d]
 );
 
 % Break symmetry of between the different shelves
@@ -88,7 +88,7 @@ constraint symmetry_breaking_constraint(
 
 % Break symmetry of shelving of multiple of the same products
 constraint symmetry_breaking_constraint(
-	forall(s in Shelf, p in Product) (
+	forall(p in Product) (
 		increasing([item_shelving[it] | it in Item where product[it] == p])
 	)
 );
@@ -96,9 +96,10 @@ constraint symmetry_breaking_constraint(
 % Break symmetry between placement of the same products
 constraint symmetry_breaking_constraint(
 	forall(s in Shelf, p in Product) (
-	let {
-			any: x = [item_shelve_placement[i, s, d] | i in Item where product[i] = p, d in Dimension];
-			array[int, Dimension] of var int: coord = array2d(1..length(x) div 3, Dimension, x);
+		let {
+			% Note that this works because `i` is gauranteed to form a continues
+			% sequence because of how `Item` is created.
+			any: coord = [(d, i): item_shelve_placement[i, s, d] | i in Item where product[i] = p, d in Dimension];
 		} in lex_chain_lesseq(coord)
 	)
 );
@@ -107,4 +108,14 @@ solve minimize last_loaded_shelf;
 
 % Output
 % Real placement
-array[Item] of any: item_placement ::output_only ::output = [ (p[Length], p[Width], p[Height]) | it in Item, p = fix(item_shelve_placement[it, fix(item_shelving[it]), ..])];
+array[Item] of any: item_placement ::output_only ::output = [
+	(p[Length], p[Width], p[Height])
+	| it in Item, p = fix(item_shelve_placement[it, fix(item_shelving[it]), ..])
+];
+
+% Output code to check the placement on all (potentially unused shelves)
+% function int: enum2int($$E: e) = e;
+% output [
+% 	show2d([(d, i): item_shelve_placement[i, s, d] | i in Item where product[i] = p, d in Dimension]) ++ "\n"
+% 	| s in Shelf, p in Product,
+% ]
