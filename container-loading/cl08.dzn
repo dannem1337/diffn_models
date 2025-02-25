@@ -1,10 +1,12 @@
-container_length = 48;
-container_width = 30;
-container_height = 18;
-n = 6;
-boxes = [|4, 3, 3, 35
-         |3, 2, 2, 37
-         |5, 3, 2, 23
-         |6, 2, 2, 8
-         |9, 2, 2, 10
-         |7, 2, 2, 17|];
+container_size = [48, 30, 18];
+Box = B(1..6);
+no_boxes = [35, 37, 23, 8, 10, 17];
+box_size =
+[|       Length: Width: Height: 
+ | B(1):      4,     3,      3
+ | B(2):      3,     2,      2
+ | B(3):      5,     3,      2
+ | B(4):      6,     2,      2
+ | B(5):      9,     2,      2
+ | B(6):      7,     2,      2
+ |];

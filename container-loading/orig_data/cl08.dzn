@@ -1,0 +1,10 @@
+container_length = 48;
+container_width = 30;
+container_height = 18;
+n = 6;
+boxes = [|4, 3, 3, 35
+         |3, 2, 2, 37
+         |5, 3, 2, 23
+         |6, 2, 2, 8
+         |9, 2, 2, 10
+         |7, 2, 2, 17|];
