@@ -46,11 +46,11 @@ array[Item] of Product: product = array1d(Item, [
 
 %% Descision Variables
 %  The size of each product is its size if it is in the shelf and [0, 0, 0] if it is not
-array[Item, Dimension, Shelf] of var 0..max(product_size): item_shelve_size ::output;
+array[Item, Shelf, Dimension] of var 0..max(product_size): item_shelve_size ::no_output;
 % Product j is placed on shelf item_shelving[j]
 array[Item] of var Shelf: item_shelving ::output;
 % Starting positions of each product in each shelf
-array[Item, Dimension, Shelf] of var 1..max(shelves): item_shelve_placement ::output;
+array[Item, Shelf, Dimension] of var 1..max(shelves): item_shelve_placement ::no_output;
 % The number of loaded shelves is the max item_shelving, this will also force
 % shelves to be filled in ascending order, starting from 1
 var Shelf: last_loaded_shelf ::output = max(item_shelving);
@@ -59,9 +59,9 @@ var Shelf: last_loaded_shelf ::output = max(item_shelving);
 % shelf i and [0, 0, 0] if they do not exist in shelf i
 constraint forall(s in Shelf, it in Item, p = product[it]) (
 	if item_shelving[it] == s then
-		item_shelve_size[it,.., s] = product_size[p,..]
+		item_shelve_size[it, s, ..] = product_size[p,..]
 	else
-		item_shelve_size[it,.., s] = [0, 0, 0]
+		item_shelve_size[it, s, ..] = [0, 0, 0]
 	endif
 );
 
@@ -69,13 +69,17 @@ constraint forall(s in Shelf, it in Item, p = product[it]) (
 % that we do not include products which are not in that shelf (they have sizes
 % [0, 0, 0])
 constraint forall(s in Shelf) (
-	diffn_nonstrict_k(item_shelve_placement[.., .., s], item_shelve_size[.., .., s])
+	diffn_nonstrict_k(item_shelve_placement[.., s, ..], item_shelve_size[.., s, ..])
 );
 
 % The products must be placed such that they are contained within the dimensions of
 % the shelf
 constraint forall(s in Shelf, it in Item, d in Dimension) (
-  item_shelve_placement[it, d, s] + item_shelve_size[it, d, s] <= shelves[d] + 1
+  item_shelve_placement[it, s, d] + item_shelve_size[it, s, d] <= shelves[d] + 1
 );
 
 solve minimize last_loaded_shelf;
+
+% Output
+% Real placement
+array[Item] of any: item_placement ::output_only ::output = [ (p[Length], p[Width], p[Height]) | it in Item, p = fix(item_shelve_placement[it, fix(item_shelving[it]), ..])];
