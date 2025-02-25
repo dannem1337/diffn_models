@@ -19,6 +19,7 @@
 %             length^
 
 include "diffn_k.mzn";
+include "lex_chain_lesseq.mzn";
 
 % Dimensions considered
 enum Dimension = {Length, Width, Height};
@@ -58,5 +59,15 @@ array[Dimension] of var int: used_size ::output = [
 %% Constraints
 % None of the boxes can be overlapping
 constraint diffn_k(start_pos, item_size);
+
+% Force a lexicographic ordering of the boxes of the same size
+constraint symmetry_breaking_constraint(
+	forall(b in Box) (
+		let {
+			any: x = [start_pos[i, d] | i in Item where box_map[i] = b, d in Dimension];
+			array[int, Dimension] of var int: coord = array2d(1..length(x) div 3, Dimension, x);
+		} in lex_chain_lesseq(coord)
+	)
+);
 
 solve minimize product(used_size);
