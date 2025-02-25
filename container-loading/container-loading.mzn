@@ -1,7 +1,8 @@
 %% Problem Description
-% Given a container of fixed length, width and height. Packages shaped like 3-dimensional boxes
-% are to be placed in the container such that none overlap and their area is minmized. The area is calculated
-% by multiplying the length, width and height of the placed packages. Rotations of the packages and the 
+% Given a container of fixed length, width and height. Packages shaped like
+% 3-dimensional boxes are to be placed in the container such that none overlap
+% and their area is minmized. The area is calculated by multiplying the length,
+% width and height of the placed packages. Rotations of the packages and the
 % container is not allowed.
 %
 %            +--------------+
@@ -18,43 +19,55 @@
 %             length^
 
 include "diffn_k.mzn";
+include "lex_chain_lesseq.mzn";
+
+% Dimensions considered
+enum Dimension = {Length, Width, Height};
+
 %% Parameters
-int: container_length; 
-int: container_width;
-int: container_height;
-int: n; % Total number of boxes
-array[1..n, 1..4] of int: boxes; % Boxes to be placed in the with length, width, heigth and number of each box
+array[Dimension] of int: container_size;
+enum Box;
+array[Box] of int: no_boxes;
+array[Box, Dimension] of int: box_size;
+
+constraint forall(b1, b2 in Box where b1 < b2)(
+	assert(box_size[b1,..] != box_size[b2,..], "Boxes \(b1) and \(b2) have the same size and should therefore be combined")
+);
 
 %% Derived Parameters
-% Total number of boxes
-int: total_boxes = sum(boxes[..,4]); 
-% All box sizes
-array[1..total_boxes, 1..3] of int: box_sizes = array2d(1..total_boxes, 1..3, 
-    [
-        [boxes[i,1], boxes[i,2],boxes[i,3]][x] 
-        | i in 1..n, _ in 1..boxes[i,4], x in 1..3
-    ]);
+% Individual boxes and their mapping to their type
+enum Item = I(1..sum(no_boxes));
+array[Item] of Box: box_map = [b | b in Box, _ in 1..no_boxes[b]];
+array[Item, Dimension] of int: item_size = [(i,d): box_size[box_map[i], d] | i in Item, d in Dimension];
 
 %% Descision Variables
-% Starting positions of all boxes
-array[1..total_boxes, 1..3] of var 1..max([container_length, container_width, container_height]): start_pos::add_to_output;
-% The length of the placed boxes
-var 1..container_length: l::add_to_output = max(i in 1..total_boxes) (start_pos[i,1] + box_sizes[i,1]);
-% The width of the placed boxes
-var 1..container_width:  w::add_to_output = max(i in 1..total_boxes) (start_pos[i,2] + box_sizes[i,2]);
-% The height of the placed boxes
-var 1..container_height: h::add_to_output = max(i in 1..total_boxes) (start_pos[i,3] + box_sizes[i,3]);
+% Positions of individual boxes in each dimension
+% (Note that their domain restricts them to be within the container's dimensions)
+array[Item, Dimension] of var int: start_pos ::output = [
+	(i, d): let {
+		var 0..(container_size[d] - item_size[i, d]): pos
+	} in pos
+	| i in Item, d in Dimension
+];
+
+% Find the size of the minimal used rectangular cuboid
+array[Dimension] of var int: used_size ::output = [
+	max([start_pos[i, d] + item_size[i, d] | i in Item])
+	| d in Dimension
+];
 
 %% Constraints
 % None of the boxes can be overlapping
-constraint diffn_k(start_pos, box_sizes);
+constraint diffn_k(start_pos, item_size);
 
-% The boxes are to be placed such that they are within the limits of the container
-constraint forall(i in 1..total_boxes) 
-    (
-        start_pos[i, 1] + box_sizes[i, 1] <= container_length + 1 /\
-        start_pos[i, 2] + box_sizes[i, 2] <= container_width + 1  /\
-        start_pos[i, 3] + box_sizes[i, 3] <= container_height + 1
-    );
+% Force a lexicographic ordering of the boxes of the same size
+constraint symmetry_breaking_constraint(
+	forall(b in Box) (
+		let {
+			any: x = [start_pos[i, d] | i in Item where box_map[i] = b, d in Dimension];
+			array[int, Dimension] of var int: coord = array2d(1..length(x) div 3, Dimension, x);
+		} in lex_chain_lesseq(coord)
+	)
+);
 
-solve minimize l*w*h;
+solve minimize product(used_size);

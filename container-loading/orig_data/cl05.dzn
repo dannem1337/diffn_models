@@ -1,0 +1,10 @@
+container_length = 45;
+container_width = 30;
+container_height = 13;
+n = 6;
+boxes = [|4, 3, 2, 35
+         |3, 2, 2, 15
+         |5, 5, 1, 25
+         |8, 2, 2, 10
+         |15,2, 2, 20
+         |9, 2, 2, 15|];
