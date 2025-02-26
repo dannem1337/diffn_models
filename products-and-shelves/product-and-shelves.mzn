@@ -34,17 +34,17 @@ array[Dimension] of int: shelves;
 % Space required for each product in all dimensions
 array[Product, Dimension] of int: product_size;
 % Total number of shelves
-int: no_shelves;
+int: nr_shelves;
 
 %% Derived Parameters
-enum Shelf = S(1..no_shelves);
+enum Shelf = S(1..nr_shelves);
 % Number of each product
-array[Product] of int: no_products;
+array[Product] of int: nr_products;
 % Enumeration of all items (of all type products)
-enum Item = I(1..sum(no_products));
+enum Item = I(1..sum(nr_products));
 % Mapping each item to its product
 array[Item] of Product: product = array1d(Item, [
-	p | p in Product, _ in 1..no_products[p]
+	p | p in Product, _ in 1..nr_products[p]
 ]);
 
 %% Descision Variables
