@@ -483,7 +483,7 @@ set of 0..MAXT: real_temps(int: p) = operand_temps[p] intersect 0..MAXT;
 
 %% basic invariants, null instructions
 
-test opt_in_temporary(int: v) = 
+test opt_in_temporary(int: v) =
     let {int: p = temp_def[v]} in
     op_type[temp_definer[v]] = TYPE_IN /\ card(operand_temps[p])>1;
 
@@ -662,7 +662,7 @@ constraint
 %% slack and balancing
 
 %% Model::global_operand
-test global_operand(int: p) = 
+test global_operand(int: p) =
   exists(j in index_set(adj_from))(adj_from[j]=p) \/
   exists(j in index_set(adj_to))(adj_to[j]=p);
 
@@ -909,7 +909,7 @@ constraint
 	)
     )
   );
-  
+
 %% disjoint live ranges projected on callee-saved regs
 constraint
   redundant_constraint(
@@ -1136,7 +1136,7 @@ constraint
 	  forall(up in temp_uses[v])(temp_eq(up,v) -> ld[v] >= lat(up,v))
     )
   );
-        
+
 %% Model::post_define_issue_cycle_constraints
 constraint
   symmetry_breaking_constraint(
@@ -1152,7 +1152,7 @@ constraint
 	else true endif
     )
   );
-        
+
 %% DOMINATION: live range of temp occurring in (kill)
 predicate kill_live_range(int: v) =
   (ld[v] = lt[temp_def[v]]);
@@ -1198,7 +1198,7 @@ constraint
 	   set of int: outps = long_latency_index[j,3],
 	   set of int: outix = long_latency_index[j,4],
 	   array[int] of var int:  inubs = [ if temp_eq(q,single_temp(p)) then
-					       c[operand_definer[q]] - lt[q] - s[q] - lt[p] 
+					       c[operand_definer[q]] - lt[q] - s[q] - lt[p]
 					     else MAXL endif
 					   | i in inix,
 					     p in [long_latency_def[i]],
@@ -1246,7 +1246,7 @@ var 0..MAXC: o_wcet(0..MAXO: o) =
 %------------------------------------------------------------------------------
 % Solve item
 
-solve 
+solve
     :: seq_search([
         seq_search([
             int_search(
@@ -1259,7 +1259,7 @@ solve
     		    first_fail, indomain_min, complete
             )
         ])
-    | b in bb_order 
+    | b in bb_order
     ] ++ [
         int_search([ii[o] | o in bb_ops[b]], input_order, indomain_min, complete)
     | b in bb_order
@@ -1271,7 +1271,7 @@ solve
     | b in bb_order
     ] ++ [
         int_search(
-            [r[t] | t in bb_temps[b] where op_type[temp_definer[t]] != TYPE_IN]++[0], 
+            [r[t] | t in bb_temps[b] where op_type[temp_definer[t]] != TYPE_IN]++[0],
             first_fail, indomain_min, complete
         )
     | b in bb_order

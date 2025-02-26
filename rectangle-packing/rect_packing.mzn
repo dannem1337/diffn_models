@@ -6,7 +6,7 @@
 %------------------------------------------------------------------------------%
 % A model for the rectangle (square) packing problem (RPP).
 %
-% A RPP of size N consists of N square of size 1x1, 2x2, 3x3, ..., NxN. The 
+% A RPP of size N consists of N square of size 1x1, 2x2, 3x3, ..., NxN. The
 % optimised variant asked for the smallest rectangle wrt. its area where all
 % squares can be placed without overlapping in this rectangle.
 %------------------------------------------------------------------------------%
@@ -17,7 +17,7 @@ include "diffn.mzn";
 %------------------------------------------------------------------------------%
 % Model parameters for the squares.
 %
-    
+
 
     % Size of the biggest square.
 int: n;
@@ -30,7 +30,7 @@ bool: Consider_Unit_Square;
     % The fraction of slack for squares
 float: slack_frac = 0.3;
 
-array [ Squares ] of int: int_slack = 
+array [ Squares ] of int: int_slack =
     [ floor(slack_frac * int2float(i)) | i in Squares ];
 
 %------------------------------------------------------------------------------%
@@ -68,11 +68,11 @@ int: min_width  = ceil(  sqrt( int2float( min_area ) ) );
 array [ Squares ] of var 0..max_width : X;
     % Y-coordinate of the square's origin (left lower corner)
 array [ Squares ] of var 0..max_height: Y;
-    
+
     % Auxiliary X-variables needed for the search strategy
-array [ Squares ] of var 0..max_width : X_div = 
+array [ Squares ] of var 0..max_width : X_div =
     [   if int_slack[i] < 2 then X[i] else
-            let { 
+            let {
                 int: dmax = max_width div int_slack[i],
                 var 0..dmax: x
             } in x
@@ -85,9 +85,9 @@ array [ Squares ] of var 0..max_width : X_rem =
     | i in Squares ];
 
     % Auxiliary Y-variables needed for the search strategy
-array [ Squares ] of var 0..max_height : Y_div = 
+array [ Squares ] of var 0..max_height : Y_div =
     [   if int_slack[i] < 2 then Y[i] else
-            let { 
+            let {
                 int: dmax = max_height div int_slack[i],
                 var 0..dmax: y
             } in y
@@ -182,16 +182,16 @@ constraint
 %
     % Symmetry breaking rules
 constraint
-        2 * X[n] <= (Width  - n) 
+        2 * X[n] <= (Width  - n)
     /\  2 * Y[n] <= (Height - n);
 
-    % Empty Strip Dominance Criterion 
+    % Empty Strip Dominance Criterion
     % NOTE: Here only an adaption of it from H. Simonis, B. O'Sullivan, "Search
     %       Strategies for Rectangle Packing"
     %
     % Forbidden gaps for squares between their edges and the border of the
     % rectangle.
-array [1..45] of int: fgaps = [0, 2, 3, 2, 3, 3, 3, 3, 4, 4, 
+array [1..45] of int: fgaps = [0, 2, 3, 2, 3, 3, 3, 3, 4, 4,
                                4, 5, 5, 5, 5, 5, 5, 6, 6, 6,
                                6, 7, 7, 7, 7, 7, 7, 7, 7, 8,
                                8, 8, 8, 8, 9, 9, 9, 9, 9, 9,

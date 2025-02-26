@@ -1,7 +1,7 @@
 %-----------------------------------------------------------------------------%
 % vim: ts=4 sw=4 et wm=0 tw=0
 %-----------------------------------------------------------------------------%
-% 
+%
 % This file contains a model for a carpet cutting problem in which carpet
 % shapes must be cut from a carpet roll minimising the wastage, i.e., the
 % needed length of the carpet roll.
@@ -24,7 +24,7 @@
 % minimise the carpet roll length.
 %
 % Here, we distinguise between carpet shapes covering rooms and stairs:
-% 
+%
 % Room carpets:
 % They are rectilinear polygons that are made up of non-overlapping rectangles
 % A rotation may be allowed by 90, 180, or 270 degree before they are placed
@@ -86,7 +86,7 @@ array [Stairs] of int: st_min_steps;        % Minimal number of steps in each pa
 array [Stairs] of int: st_max_breaks;       % Maximal number of cuts for each stair carpet
 array [Stairs] of int: st_rec_id_offset =
     [ sum(j in Stairs where j < i)(st_no_steps[j]) | i in Stairs ];
-array [Stairs] of set of int: st_rec_ids = 
+array [Stairs] of set of int: st_rec_ids =
     [(st_rec_id_offset[i] + 1)..(st_rec_id_offset[i] + st_no_steps[i])
     | i in Stairs ];
 
@@ -95,9 +95,9 @@ array [Stairs] of set of int: st_rec_ids =
     %
 int: n_st_rec = sum(i in Stairs)(st_no_steps[i]);
 set of int: StRecs = 1..n_st_rec;
-array [StRecs] of int: st_rec_len = 
+array [StRecs] of int: st_rec_len =
     [ st_len[i] div st_no_steps[i] | i in Stairs, j in st_rec_ids[i] ];
-array [StRecs] of int: st_rec_wid = 
+array [StRecs] of int: st_rec_wid =
     [ st_wid[i] | i in Stairs, j in st_rec_ids[i] ];
 
 
@@ -153,11 +153,11 @@ array [StRecs] of var DomY: st_rec_y;
     % Carpet roll
 constraint
     forall(i in Rooms)(
-        rm_x[i] + rm_max_wid[i] + 
-            (rm_max_len[i] - rm_max_wid[i]) * bool2int(rm_ori_0_or_180[i]) 
+        rm_x[i] + rm_max_wid[i] +
+            (rm_max_len[i] - rm_max_wid[i]) * bool2int(rm_ori_0_or_180[i])
             <= RollLen
-    /\  rm_y[i] + rm_max_len[i] + 
-            (rm_max_wid[i] - rm_max_len[i]) * bool2int(rm_ori_0_or_180[i]) 
+    /\  rm_y[i] + rm_max_len[i] +
+            (rm_max_wid[i] - rm_max_len[i]) * bool2int(rm_ori_0_or_180[i])
             <= roll_wid
     /\  forall(j in rm_rec_ids[i])(
             rm_rec_x[j] + rm_rec_vlen[j] <= RollLen
@@ -291,10 +291,10 @@ solve
 %------------------------------------------------------------------------------%
 % Search annotations
 
-ann: fix_ori_0_or_180 = 
+ann: fix_ori_0_or_180 =
     bool_search(rm_ori_0_or_180, input_order, indomain_max,  complete);
 
-ann: fix_ori_0_or_90 = 
+ann: fix_ori_0_or_90 =
     bool_search(rm_ori_0_or_90, input_order, indomain_max,  complete);
 
 ann: fix_yx = int_search(
