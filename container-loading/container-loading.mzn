@@ -64,8 +64,9 @@ constraint diffn_k(start_pos, item_size);
 constraint symmetry_breaking_constraint(
 	forall(b in Box) (
 		let {
-			any: x = [start_pos[i, d] | i in Item where box_map[i] = b, d in Dimension];
-			array[int, Dimension] of var int: coord = array2d(1..length(x) div 3, Dimension, x);
+			% Note that this works because `i` is gauranteed to form a continues
+			% sequence because of how `Item` is created.
+			any: coord = [(d,i): start_pos[i, d] | i in Item where box_map[i] = b, d in Dimension];
 		} in lex_chain_lesseq(coord)
 	)
 );
