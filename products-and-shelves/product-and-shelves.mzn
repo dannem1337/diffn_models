@@ -3,7 +3,8 @@
 % the the minimum amount of shelves are used. These products are all shaped like
 % 3-dimensional boxes, with dimensions length, width and height. The shelves are
 % also shaped like 3-dimensional with dimensions length, width and height and the
-% number of shelves are finite. Neither the shelf or the products are allowed to be rotated.
+% number of shelves are finite. Neither the shelf or the products are allowed
+% to be rotated.
 %
 %            +--------------+
 %           /|             /|
@@ -99,7 +100,9 @@ constraint symmetry_breaking_constraint(
 		let {
 			% Note that this works because `i` is gauranteed to form a continues
 			% sequence because of how `Item` is created.
-			any: coord = [(d, i): item_shelve_placement[i, s, d] | i in Item where product[i] = p, d in Dimension];
+			any: coord =
+			  [ (d, i): item_shelve_placement[i, s, d]
+			  | i in Item where product[i] == p, d in Dimension];
 		} in lex_chain_lesseq(coord)
 	)
 );

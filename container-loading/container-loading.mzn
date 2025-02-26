@@ -31,14 +31,18 @@ array[Box] of int: no_boxes;
 array[Box, Dimension] of int: box_size;
 
 constraint forall(b1, b2 in Box where b1 < b2)(
-	assert(box_size[b1,..] != box_size[b2,..], "Boxes \(b1) and \(b2) have the same size and should therefore be combined")
+	assert(
+		box_size[b1,..] != box_size[b2,..],
+		"Boxes \(b1) and \(b2) have the same size and should therefore be combined")
 );
 
 %% Derived Parameters
 % Individual boxes and their mapping to their type
 enum Item = I(1..sum(no_boxes));
 array[Item] of Box: box_map = [b | b in Box, _ in 1..no_boxes[b]];
-array[Item, Dimension] of int: item_size = [(i,d): box_size[box_map[i], d] | i in Item, d in Dimension];
+array[Item, Dimension] of int: item_size =
+	[(i,d): box_size[box_map[i], d]
+	| i in Item, d in Dimension];
 
 %% Descision Variables
 % Positions of individual boxes in each dimension
@@ -66,7 +70,9 @@ constraint symmetry_breaking_constraint(
 		let {
 			% Note that this works because `i` is gauranteed to form a continues
 			% sequence because of how `Item` is created.
-			any: coord = [(d,i): start_pos[i, d] | i in Item where box_map[i] = b, d in Dimension];
+			any: coord =
+				[(d,i): start_pos[i, d]
+				| i in Item where box_map[i] = b, d in Dimension];
 		} in lex_chain_lesseq(coord)
 	)
 );
