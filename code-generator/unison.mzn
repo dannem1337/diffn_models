@@ -1297,4 +1297,3 @@ output [
 %    ["\"live start\": "]   ++ [show([ls[v] | v in 0..MAXT])] ++ ["\n"] ++
 %    ["\"live duration\": "]   ++ [show([ld[v] | v in 0..MAXT])] ++ ["\n"] ++
 %    ["\"live end\": "]   ++ [show([le[v] | v in 0..MAXT])] ++ ["\n"];
-
