@@ -78,7 +78,7 @@ constraint forall(s in Shelf) (
 % The products must be placed such that they are contained within the dimensions of
 % the shelf
 constraint forall(s in Shelf, it in Item, d in Dimension) (
-  item_shelve_placement[it, s, d] + item_shelve_size[it, s, d] <= shelves[d]
+	item_shelve_placement[it, s, d] + item_shelve_size[it, s, d] <= shelves[d]
 );
 
 % Break symmetry of between the different shelves
