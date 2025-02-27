@@ -16,7 +16,7 @@ int: hourDiscr;
 
 array[VESSELS] of int: eta;
 array[PILES] of int: whichV;
-array[PILES] of int: dS__; 
+array[PILES] of int: dS__;
 array[PILES] of int: dR;
 
 int: H;
@@ -37,7 +37,7 @@ array[PILES] of int: stTonnagePerHour = [ dR[o] * mulTonnage div dS[o] | o in PI
 array[PILES] of int: len = [ dR[o] * mulPileLen div hourDiscr | o in PILES];
 array[PILES] of int: len__ = [ (len[o] + discrPadPos - 1) div discrPadPos | o in PILES];
 
-array[VESSELS] of PILES: whichPlast = [max(o in PILES where whichV[o]=v)(o) | v in VESSELS]; 
+array[VESSELS] of PILES: whichPlast = [max(o in PILES where whichV[o]=v)(o) | v in VESSELS];
 array[PILES] of int: ones = [1 | o in PILES];
 
 % ---------------------- VARIABLES -------------------------------
@@ -55,7 +55,7 @@ var 0..sum_delay_max: sum_delay;
 int: comb_min = min([ lb_array(tR), lb_array(tS__), lb_array(h__) ]);
 int: comb_max = max([ ub_array(tR), ub_array(tS__), ub_array(h__) ]);
 
-array[1..nS*3] of var comb_min..comb_max: comb = 
+array[1..nS*3] of var comb_min..comb_max: comb =
 [
 	[tR[i], tS__[i], h__[i]][k]
   | i in PILES, k in 1..3
@@ -65,7 +65,7 @@ array[1..nS*3] of var comb_min..comb_max: comb =
 
 constraint forall(o in PILES)
   (dTotal[o] >= tR[o] + dR[o] - tS[o]);
-constraint forall(v in VESSELS) (tS__[whichPlast[v]] + dT__[whichPlast[v]] <= (T + discrStackStart - 1) div discrStackStart); 
+constraint forall(v in VESSELS) (tS__[whichPlast[v]] + dT__[whichPlast[v]] <= (T + discrStackStart - 1) div discrStackStart);
 constraint forall(o in PILES)(tR[o] >= eta[whichV[o]]);
 constraint forall(o in PILES)(tS[o] >= eta[whichV[o]] - stackbefore*discrStackStart);
 constraint forall(a,b in PILES where whichV[a]=whichV[b] /\ a+1 = b)
@@ -102,7 +102,7 @@ constraint
 
 % --------------------------- SOLVE --------------------------------------
 
-solve 
+solve
   	:: seq_search([
 		int_search(comb, input_order, indomain_split, complete),
 		int_search([objective], input_order, indomain_min, complete)

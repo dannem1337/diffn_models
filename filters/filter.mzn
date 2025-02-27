@@ -25,14 +25,14 @@ var 0..1000: objective;
 constraint  % to be sure that the model is correct- can be removed
 	add intersect mul = {}
 	/\
-	card(add) + card(mul) = n;	
+	card(add) + card(mul) = n;
 
 constraint % dependencies
     forall (i in 1..n, j in dependencies[i]) (
 	   t[i] + d[i] <= t[j]
     );
 
-constraint 
+constraint
     forall (i in 1..n) (
        if (i in add) then r[i] <= number_add else r[i] <= number_mul endif
        );
@@ -44,7 +44,7 @@ constraint
        array[1..card(add)] of var int : d_add = [ del_add | i in add],
        array[1..card(add)] of var int : h_add = [ 1 | i in add]
      }
-     in 
+     in
        diffn(t_add, r_add, d_add, h_add)
 ;
 
@@ -55,10 +55,10 @@ constraint
        array[1..card(mul)] of var int : d_mul = [ del_mul | i in mul],
        array[1..card(mul)] of var int : h_mul = [ 1 | i in mul]
      }
-     in 
+     in
        diffn(t_mul, r_mul, d_mul, h_mul)
 ;
-	
+
 
 constraint
     let {
@@ -67,11 +67,11 @@ constraint
     in
       maximum(objective, opp);
 
-solve 
+solve
 	:: seq_search([
     	int_search(t, smallest, indomain_min, complete),
       	int_search(r, input_order, indomain_min, complete)
-	]) 
+	])
 	minimize objective;
 
 output [
