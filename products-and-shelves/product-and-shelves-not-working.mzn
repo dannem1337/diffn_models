@@ -67,4 +67,3 @@ constraint forall(i in 1..total_products)
     );
 
 solve minimize no_loaded_shelves;
-

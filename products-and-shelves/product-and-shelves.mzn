@@ -3,7 +3,8 @@
 % the the minimum amount of shelves are used. These products are all shaped like
 % 3-dimensional boxes, with dimensions length, width and height. The shelves are
 % also shaped like 3-dimensional with dimensions length, width and height and the
-% number of shelves are finite. Neither the shelf or the products are allowed to be rotated.
+% number of shelves are finite. Neither the shelf or the products are allowed
+% to be rotated.
 %
 %            +--------------+
 %           /|             /|
@@ -34,21 +35,21 @@ array[Dimension] of int: shelves;
 % Space required for each product in all dimensions
 array[Product, Dimension] of int: product_size;
 % Total number of shelves
-int: no_shelves;
+int: nr_shelves;
 
 %% Derived Parameters
-enum Shelf = S(1..no_shelves);
+enum Shelf = S(1..nr_shelves);
 % Number of each product
-array [Product] of int: no_products;
+array[Product] of int: nr_products;
 % Enumeration of all items (of all type products)
-enum Item = I(1..sum(no_products));
+enum Item = I(1..sum(nr_products));
 % Mapping each item to its product
 array[Item] of Product: product = array1d(Item, [
-	p | p in Product, _ in 1..no_products[p]
+	p | p in Product, _ in 1..nr_products[p]
 ]);
 
 %% Descision Variables
-%  The size of each product is its size if it is in the shelf and [0, 0, 0] if it is not
+% The size of each product is its size if it is in the shelf and [0, 0, 0] if it is not
 array[Item, Shelf, Dimension] of var 0..max(product_size): item_shelve_size ::no_output;
 % Product j is placed on shelf item_shelving[j]
 array[Item] of var Shelf: item_shelving ::output;
@@ -78,7 +79,7 @@ constraint forall(s in Shelf) (
 % The products must be placed such that they are contained within the dimensions of
 % the shelf
 constraint forall(s in Shelf, it in Item, d in Dimension) (
-  item_shelve_placement[it, s, d] + item_shelve_size[it, s, d] <= shelves[d]
+	item_shelve_placement[it, s, d] + item_shelve_size[it, s, d] <= shelves[d]
 );
 
 % Break symmetry of between the different shelves
@@ -99,7 +100,9 @@ constraint symmetry_breaking_constraint(
 		let {
 			% Note that this works because `i` is gauranteed to form a continues
 			% sequence because of how `Item` is created.
-			any: coord = [(d, i): item_shelve_placement[i, s, d] | i in Item where product[i] = p, d in Dimension];
+			any: coord =
+			  [ (d, i): item_shelve_placement[i, s, d]
+			  | i in Item where product[i] == p, d in Dimension];
 		} in lex_chain_lesseq(coord)
 	)
 );

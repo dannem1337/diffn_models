@@ -1,7 +1,11 @@
-no_shelves = 20;
+nr_shelves = 20;
 shelves = [8, 4, 4];
 
 Product = P(1..2);
-product_size = [|4, 4, 4
-                |8, 4, 4|];
-no_products = [10, 1];
+
+product_size = [|       Length: Width: Height:
+                | P(1):      4,     4,       4
+                | P(2):      8,     4,       4
+                |];
+
+nr_products = [10, 1];
