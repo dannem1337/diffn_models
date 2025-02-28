@@ -1,0 +1,12 @@
+nr_shelves = 20;
+shelves = [15, 5, 7];
+
+Product = P(1..2);
+
+product_size = 
+[|       Length: Width: Height: 
+ | P(1):      8,     2,      3
+ | P(2):      7,     3,      7
+ |];
+
+nr_products = [25, 25];
