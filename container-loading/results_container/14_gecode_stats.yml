@@ -1,6 +1,6 @@
 {configuration: gecode, data_file: ../container-loading/cl13.dzn, evaluatedHalfReifiedConstraints: 50310,
-  failures: 596291, flatBoolConstraints: 8385, flatBoolVars: 50310, flatIntConstraints: 50705,
-  flatIntVars: 785, flatTime: 2.88782, initTime: 0.443313, method: minimize, model: ../container-loading/container-loading.mzn,
-  nSolutions: 0, nodes: 1192802, paths: 0, peakDepth: 234, problem: '', propagations: 8574753660,
-  propagators: 59090, restarts: 0, solutions: 0, solveTime: 1197.11, status: UNKNOWN,
-  time: 1201.3262036349624, variables: 51095}
+  failures: 563842, flatBoolConstraints: 8385, flatBoolVars: 50310, flatIntConstraints: 50828,
+  flatIntVars: 785, flatTime: 3.16106, initTime: 0.446702, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 0, nodes: 1127814, paths: 0, peakDepth: 221, problem: '', propagations: 1963495288,
+  propagators: 59213, restarts: 0, solutions: 0, solveTime: 1196.84, status: UNKNOWN,
+  time: 1201.397106045857, variables: 51095}

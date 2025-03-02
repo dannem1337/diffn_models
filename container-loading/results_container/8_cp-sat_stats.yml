@@ -1,6 +1,6 @@
-{boolVariables: 124507, configuration: cp-sat, data_file: ../container-loading/cl03.dzn,
-  evaluatedHalfReifiedConstraints: 119400, failures: 5966, flatBoolConstraints: 19900,
-  flatBoolVars: 119400, flatIntConstraints: 120005, flatIntVars: 1205, flatTime: 7.00271,
-  method: minimize, model: ../container-loading/container-loading.mzn, nSolutions: 1,
-  objective: 9576, objectiveBound: 250, paths: 0, problem: '', propagations: 6881417,
-  solveTime: 68.4913, status: SATISFIED, time: 1202.0775849558413}
+{boolVariables: 119462, configuration: cp-sat, data_file: ../container-loading/cl03.dzn,
+  evaluatedHalfReifiedConstraints: 119378, evaluatedReifiedConstraints: 1366, failures: 438,
+  flatBoolConstraints: 20860, flatBoolVars: 120552, flatIntConstraints: 120965, flatIntVars: 1205,
+  flatTime: 7.14561, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 1, objective: 8645, objectiveBound: 144, paths: 0, problem: '', propagations: 2126830,
+  solveTime: 52.1535, status: SATISFIED, time: 1202.338588964194}

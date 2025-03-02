@@ -1,0 +1,8 @@
+{backjumps: 21563, baseMem: 0.0, boolVariables: 44759, configuration: chuffed, data_file: ../products-and-shelves/ps-25-02.dzn,
+  eliminatedImplications: 250, evaluatedReifiedConstraints: 21290, failures: 1444,
+  flatBoolConstraints: 5350, flatBoolVars: 21320, flatIntConstraints: 21647, flatIntVars: 1549,
+  flatTime: 1.61633, initTime: 0.32, intVars: 1549, method: minimize, model: ../products-and-shelves/product-and-shelves.mzn,
+  nSolutions: 5, nodes: 27289, nogoods: 1444, objective: 6, optTime: 0.916, paths: 0,
+  peakDepth: 888, peakMem: 0.0, problem: '', propagations: 6169765, propagators: 38778,
+  randomSeed: 369576863, restarts: 5, solveTime: 1.048, status: OPTIMAL_SOLUTION,
+  time: 4.391845114529133, trailMem: 0.12, variables: 46310}

@@ -1,0 +1,5 @@
+{configuration: cp-sat, data_file: ../products-and-shelves/ps-50-09.dzn, eliminatedImplications: 1000,
+  evaluatedHalfReifiedConstraints: 147000, evaluatedReifiedConstraints: 13440, flatBoolConstraints: 34100,
+  flatBoolVars: 160520, flatIntConstraints: 161745, flatIntVars: 6100, flatTime: 13.8212,
+  method: minimize, model: ../products-and-shelves/product-and-shelves.mzn, nSolutions: 0,
+  paths: 0, problem: '', status: UNKNOWN, time: 1203.3521371148527}

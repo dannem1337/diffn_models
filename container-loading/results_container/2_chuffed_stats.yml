@@ -1,8 +1,8 @@
-{backjumps: 1136101, baseMem: 0.0, boolVariables: 100692, configuration: chuffed,
-  data_file: ../container-loading/cl11.dzn, evaluatedReifiedConstraints: 29700, failures: 2540236,
-  flatBoolConstraints: 4950, flatBoolVars: 29700, flatIntConstraints: 30299, flatIntVars: 899,
-  flatTime: 1.64121, initTime: 0.418, intVars: 899, method: minimize, model: ../container-loading/container-loading.mzn,
-  nSolutions: 0, nodes: 3676813, nogoods: 2540236, objective: -1, optTime: 0.0, paths: 0,
-  peakDepth: 583, peakMem: 0.0, problem: '', propagations: 5245299243, propagators: 60300,
-  randomSeed: 606636057, restarts: 0, solveTime: 1198.357, status: UNKNOWN, time: 1201.101370451972,
-  trailMem: 0.42, variables: 101593}
+{backjumps: 922504, baseMem: 0.0, boolVariables: 81998, configuration: chuffed, data_file: ../container-loading/cl11.dzn,
+  evaluatedReifiedConstraints: 30358, failures: 2225464, flatBoolConstraints: 5420,
+  flatBoolVars: 30264, flatIntConstraints: 30769, flatIntVars: 899, flatTime: 1.8658,
+  initTime: 0.406, intVars: 899, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 39, nodes: 3166910, nogoods: 2225464, objective: 6240, optTime: 210.653,
+  paths: 0, peakDepth: 646, peakMem: 0.0, problem: '', propagations: 4439544312, propagators: 61146,
+  randomSeed: -428321423, restarts: 39, solveTime: 1198.132, status: SATISFIED, time: 1201.0875733792782,
+  trailMem: 0.63, variables: 82899}

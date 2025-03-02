@@ -1,4 +1,4 @@
-{configuration: chuffed, data_file: ../container-loading/cl10.dzn, evaluatedReifiedConstraints: 186750,
-  flatBoolConstraints: 31125, flatBoolVars: 186750, flatIntConstraints: 188249, flatIntVars: 2249,
-  flatTime: 10.8738, method: minimize, model: ../container-loading/container-loading.mzn,
-  nSolutions: 0, paths: 0, problem: '', status: UNKNOWN, time: 1204.1993095427752}
+{configuration: chuffed, data_file: ../container-loading/cl10.dzn, evaluatedReifiedConstraints: 188444,
+  flatBoolConstraints: 32335, flatBoolVars: 188202, flatIntConstraints: 189459, flatIntVars: 2249,
+  flatTime: 11.658, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 4, objective: 62208, paths: 0, problem: '', status: SATISFIED, time: 1204.4604415930808}

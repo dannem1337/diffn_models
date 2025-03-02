@@ -1,0 +1,7 @@
+{configuration: gecode, data_file: ../products-and-shelves/ps-25-02.dzn, eliminatedImplications: 250,
+  evaluatedHalfReifiedConstraints: 18000, evaluatedReifiedConstraints: 1750, failures: 3042499,
+  flatBoolConstraints: 4250, flatBoolVars: 20000, flatIntConstraints: 20772, flatIntVars: 1550,
+  flatTime: 1.51573, initTime: 0.190387, method: minimize, model: ../products-and-shelves/product-and-shelves.mzn,
+  nSolutions: 0, nodes: 6085356, paths: 0, peakDepth: 394, problem: '', propagations: 2156940418,
+  propagators: 24265, restarts: 0, solutions: 0, solveTime: 1198.49, status: UNKNOWN,
+  time: 1200.7206092476845, variables: 21550}
