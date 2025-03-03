@@ -1,52 +1,14 @@
 - configuration: Huub_free
-  data_file: ../filters/fir_2_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
+  data_file: ../rectangle-packing/rpp18_true.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
   solution:
-    objective: 14
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 1, 2, 2, 1, 1, 3, 1, 2, 2, 3]
-    t: [0, 4, 6, 8, 9, 10, 11, 12, 13, 0, 1, 2, 6, 3, 4, 1, 2, 1, 2, 2, 6, 3, 8]
+    Area: 2352
+    Height: 48
+    Width: 49
+    X: [0, 0, 0, 9, 8, 0, 13, 0, 13, 0, 22, 0, 20, 6, 34, 33, 32, 14]
+    Y: [37, 38, 28, 44, 39, 31, 18, 40, 39, 0, 37, 12, 22, 25, 17, 32, 0, 0]
   status: SATISFIED
-  time: 0.506
-- configuration: Huub_free
-  data_file: ../filters/fir_2_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 13
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 1, 2, 2, 1, 1, 3, 1, 2, 2, 3]
-    t: [0, 4, 6, 7, 8, 9, 10, 11, 12, 0, 1, 2, 5, 3, 4, 1, 2, 1, 2, 2, 6, 3, 8]
-  status: SATISFIED
-  time: 0.51
-- configuration: Huub_free
-  data_file: ../filters/fir_2_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 12
-    r: [1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 1, 2, 2, 1, 1, 3, 1, 1, 2, 3]
-    t: [0, 3, 5, 6, 7, 8, 9, 10, 11, 0, 1, 2, 4, 3, 5, 1, 2, 1, 2, 2, 7, 3, 8]
-  status: SATISFIED
-  time: 0.513
-- configuration: Huub_free
-  data_file: ../filters/fir_2_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 11
-    r: [1, 3, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 3, 1, 1, 2, 1, 1, 2, 2, 1]
-    t: [1, 2, 4, 5, 6, 7, 8, 9, 10, 0, 1, 2, 3, 3, 4, 0, 4, 1, 2, 2, 7, 3, 8]
-  status: SATISFIED
-  time: 0.516
-- configuration: Huub_free
-  data_file: ../filters/fir_2_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 10
-    r: [1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 2, 2, 3, 1, 2, 1, 1, 2, 2, 1, 1, 2, 3]
-    t: [0, 1, 3, 4, 5, 6, 7, 8, 9, 0, 1, 1, 2, 2, 3, 1, 3, 3, 5, 4, 6, 5, 7]
-  status: SATISFIED
-  time: 0.519
-- {configuration: Huub_free, data_file: ../filters/fir_2_3.dzn, model: ../filters/filter.mzn,
-  problem: filters, status: OPTIMAL_SOLUTION}
+  time: 1.993
+- {configuration: Huub_free, data_file: ../rectangle-packing/rpp18_true.dzn, model: ../rectangle-packing/rect_packing.mzn,
+  problem: '', status: SATISFIED}

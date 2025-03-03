@@ -1,67 +1,16 @@
 - configuration: Huub_free
-  data_file: ../filters/dct_2_2.dzn
-  model: ../filters/filter.mzn
-  problem: filters
+  data_file: ../rectangle-packing/rpp26_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
   solution:
-    objective: 23
-    r: [1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 1,
-      2, 1, 2, 1, 1, 1, 2, 2, 1, 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1]
-    t: [0, 0, 2, 3, 4, 3, 1, 1, 2, 4, 5, 5, 6, 6, 9, 8, 1, 1, 3, 16, 3, 12, 14, 16,
-      5, 8, 14, 6, 10, 7, 12, 10, 7, 20, 18, 16, 19, 19, 17, 18, 21, 20, 22, 21, 22,
-      15, 14, 15]
+    Area: 7020
+    Height: 60
+    Width: 117
+    X: [0, 3, 0, 0, 112, 45, 69, 37, 16, 6, 65, 51, 104, 90, 69, 84, 100, 76, 71,
+      51, 48, 95, 25, 0, 0, 25]
+    Y: [0, 58, 57, 50, 55, 54, 31, 52, 51, 50, 20, 20, 0, 0, 38, 37, 36, 19, 0, 0,
+      32, 14, 29, 0, 25, 0]
   status: SATISFIED
-  time: 0.411
-- configuration: Huub_free
-  data_file: ../filters/dct_2_2.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 22
-    r: [1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 1,
-      2, 1, 2, 1, 1, 1, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 1, 2, 2, 1, 1, 1, 1]
-    t: [0, 0, 2, 3, 4, 3, 1, 1, 2, 4, 5, 5, 6, 6, 9, 8, 1, 1, 3, 16, 3, 12, 14, 16,
-      5, 8, 12, 6, 10, 7, 14, 10, 7, 14, 18, 16, 19, 19, 17, 18, 15, 20, 21, 20, 21,
-      14, 17, 16]
-  status: SATISFIED
-  time: 0.42
-- configuration: Huub_free
-  data_file: ../filters/dct_2_2.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 21
-    r: [1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2, 1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2, 1,
-      2, 1, 2, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 1, 1, 2, 2, 1, 1, 1, 1]
-    t: [0, 1, 2, 0, 4, 3, 1, 3, 2, 4, 5, 5, 6, 6, 11, 8, 12, 1, 3, 16, 16, 12, 14,
-      4, 5, 8, 1, 6, 10, 7, 14, 10, 14, 14, 18, 16, 19, 13, 17, 18, 15, 20, 20, 19,
-      12, 13, 17, 16]
-  status: SATISFIED
-  time: 0.427
-- configuration: Huub_free
-  data_file: ../filters/dct_2_2.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 19
-    r: [1, 2, 1, 2, 1, 1, 2, 2, 1, 2, 1, 1, 2, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 1, 2,
-      2, 1, 1, 2, 2, 2, 2, 2, 1, 2, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 2, 1, 2]
-    t: [0, 0, 2, 2, 3, 1, 1, 3, 4, 4, 5, 6, 5, 7, 6, 8, 1, 1, 5, 3, 3, 9, 7, 15, 5,
-      15, 11, 13, 7, 11, 13, 9, 7, 17, 8, 11, 12, 17, 11, 13, 18, 12, 18, 14, 16,
-      16, 15, 15]
-  status: SATISFIED
-  time: 0.479
-- configuration: Huub_free
-  data_file: ../filters/dct_2_2.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 18
-    r: [1, 2, 1, 2, 1, 1, 2, 2, 1, 2, 1, 1, 2, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 1, 2,
-      1, 2, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2]
-    t: [0, 0, 2, 2, 3, 1, 1, 3, 4, 4, 5, 6, 5, 7, 6, 8, 1, 1, 5, 3, 3, 9, 7, 13, 5,
-      11, 13, 11, 7, 15, 15, 9, 7, 13, 8, 11, 12, 15, 11, 15, 14, 12, 16, 16, 14,
-      13, 17, 17]
-  status: SATISFIED
-  time: 0.491
-- {configuration: Huub_free, data_file: ../filters/dct_2_2.dzn, model: ../filters/filter.mzn,
-  problem: filters, status: OPTIMAL_SOLUTION}
+  time: 10.932
+- {configuration: Huub_free, data_file: ../rectangle-packing/rpp26_false.dzn, model: ../rectangle-packing/rect_packing.mzn,
+  problem: '', status: SATISFIED}

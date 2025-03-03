@@ -1,0 +1,50 @@
+- configuration: Huub_free
+  data_file: ../filters/fir16_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: filters
+  solution:
+    objective: 22
+    r: [2, 1, 1, 1, 2, 1, 2, 2, 1, 2, 1, 2, 1, 2, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1]
+    t: [2, 2, 4, 6, 6, 8, 0, 4, 0, 10, 12, 12, 14, 16, 10, 14, 8, 6, 7, 8, 9, 10,
+      11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+  status: SATISFIED
+  time: 0.394
+- configuration: Huub_free
+  data_file: ../filters/fir16_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: filters
+  solution:
+    objective: 21
+    r: [2, 1, 1, 1, 1, 2, 2, 2, 1, 2, 1, 2, 1, 2, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1]
+    t: [2, 2, 4, 0, 6, 6, 0, 4, 8, 10, 12, 12, 14, 14, 10, 16, 8, 5, 6, 7, 8, 9, 10,
+      11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  status: SATISFIED
+  time: 0.4
+- configuration: Huub_free
+  data_file: ../filters/fir16_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: filters
+  solution:
+    objective: 20
+    r: [1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 0, 2, 4, 4, 6, 6, 8, 8, 10, 2, 12, 12, 14, 14, 10, 16, 2, 4, 6, 7, 8, 9,
+      10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+  status: SATISFIED
+  time: 0.416
+- configuration: Huub_free
+  data_file: ../filters/fir16_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: filters
+  solution:
+    objective: 19
+    r: [1, 2, 2, 1, 1, 2, 2, 1, 2, 1, 1, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 2, 4, 5, 6, 7, 8,
+      9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  status: SATISFIED
+  time: 0.421
+- {configuration: Huub_free, data_file: ../filters/fir16_1_2.dzn, model: ../filters/filter.mzn,
+  problem: filters, status: OPTIMAL_SOLUTION}

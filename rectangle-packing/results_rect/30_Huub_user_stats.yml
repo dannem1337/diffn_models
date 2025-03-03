@@ -1,8 +1,8 @@
-{blockType: complete, configuration: Huub_user, data_file: ../rectangle-packing/rpp23_false.dzn,
-  eliminatedImplications: 44, evaluatedHalfReifiedConstraints: 1012, evaluatedReifiedConstraints: 12276,
-  extractedViews: 18964, failures: 3372079, flatBoolConstraints: 5995, flatBoolVars: 18920,
-  flatIntConstraints: 20383, flatIntVars: 6803, flatTime: 0.710055, initTime: 0.194318,
-  intVariables: 109, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
-  nSolutions: 1, oracleDecisions: 108, paths: 0, peakDepth: 126, problem: '', propagations: 428175968,
-  propagators: 1407, restarts: 0, solveTime: 751.174564, status: SATISFIED, time: 752.5124322809279,
-  unifiedVariables: 0, userDecisions: 3376331}
+{blockType: complete, configuration: Huub_user, data_file: ../rectangle-packing/data_square/rpp26_true.dzn,
+  eliminatedImplications: 52, evaluatedHalfReifiedConstraints: 1404, evaluatedReifiedConstraints: 17836,
+  extractedViews: 27456, failures: 4683557, flatBoolConstraints: 8749, flatBoolVars: 27508,
+  flatIntConstraints: 29351, flatIntVars: 9755, flatTime: 1.01092, initTime: 0.28611,
+  intVariables: 129, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
+  nSolutions: 0, oracleDecisions: 0, paths: 0, peakDepth: 16, problem: '', propagations: 667331930,
+  propagators: 1883, restarts: 0, solveTime: 1198.700709, status: UNKNOWN, time: 1200.56418938376,
+  unifiedVariables: 0, userDecisions: 4689341}

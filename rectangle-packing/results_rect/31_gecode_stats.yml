@@ -1,7 +1,7 @@
-{configuration: gecode, data_file: ../rectangle-packing/rpp18_true.dzn, eliminatedImplications: 72,
-  evaluatedHalfReifiedConstraints: 144, failures: 275139, flatBoolConstraints: 108,
-  flatBoolVars: 144, flatIntConstraints: 211, flatIntVars: 87, flatTime: 0.092525,
-  initTime: 0.001909, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
-  nSolutions: 1, nodes: 550308, paths: 0, peakDepth: 47, problem: '', propagations: 19009572,
-  propagators: 321, restarts: 0, solutions: 1, solveTime: 10.7154, status: SATISFIED,
-  time: 10.966706139966846, variables: 233}
+{configuration: gecode, data_file: ../rectangle-packing/data_square/rpp23_true.dzn,
+  eliminatedImplications: 92, evaluatedHalfReifiedConstraints: 184, failures: 30933334,
+  flatBoolConstraints: 138, flatBoolVars: 184, flatIntConstraints: 271, flatIntVars: 117,
+  flatTime: 0.102765, initTime: 0.010768, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
+  nSolutions: 0, nodes: 61866908, paths: 0, peakDepth: 63, problem: '', propagations: 855028653,
+  propagators: 411, restarts: 0, solutions: 0, solveTime: 1199.89, status: UNKNOWN,
+  time: 1200.2469632551074, variables: 303}

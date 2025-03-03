@@ -1,32 +1,16 @@
 - configuration: cp-sat
-  data_file: ../filters/fir_1_2.dzn
-  model: ../filters/filter.mzn
-  problem: filters
+  data_file: ../rectangle-packing/data_square/rpp24_true.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
   solution:
-    objective: 17
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 1]
-    t: [0, 1, 4, 5, 6, 10, 11, 12, 16, 1, 2, 2, 3, 3, 4, 7, 8, 8, 9, 9, 10, 13, 14]
+    Area: 4928
+    Height: 56
+    Width: 88
+    X: [69, 15, 66, 47, 58, 60, 63, 51, 51, 60, 15, 26, 38, 58, 0, 72, 0, 70, 47,
+      38, 17, 66, 24, 0]
+    Y: [22, 35, 22, 19, 36, 19, 35, 28, 19, 25, 24, 23, 23, 42, 24, 40, 39, 22, 0,
+      36, 35, 0, 0, 0]
   status: SATISFIED
-  time: 0.211
-- configuration: cp-sat
-  data_file: ../filters/fir_1_2.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 16
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 1]
-    t: [0, 1, 4, 5, 6, 10, 11, 13, 15, 1, 2, 2, 3, 3, 4, 7, 8, 8, 9, 9, 10, 12, 13]
-  status: SATISFIED
-  time: 0.215
-- configuration: cp-sat
-  data_file: ../filters/fir_1_2.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 15
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 1]
-    t: [0, 1, 4, 5, 6, 10, 12, 13, 14, 1, 2, 2, 3, 3, 4, 7, 8, 8, 9, 9, 10, 11, 12]
-  status: SATISFIED
-  time: 0.217
-- {configuration: cp-sat, data_file: ../filters/fir_1_2.dzn, model: ../filters/filter.mzn,
-  problem: filters, status: OPTIMAL_SOLUTION}
+  time: 742.781
+- {configuration: cp-sat, data_file: ../rectangle-packing/data_square/rpp24_true.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: ALL_SOLUTIONS}

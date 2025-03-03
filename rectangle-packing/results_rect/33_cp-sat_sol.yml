@@ -1,16 +1,16 @@
 - configuration: cp-sat
-  data_file: ../rectangle-packing/rpp22_false.dzn
+  data_file: ../rectangle-packing/data_square/rpp21_true.dzn
   model: ../rectangle-packing/rect_packing.mzn
   problem: ''
   solution:
-    Area: 3822
-    Height: 39
-    Width: 98
-    X: [0, 77, 60, 56, 17, 42, 22, 57, 48, 56, 66, 17, 64, 42, 65, 48, 0, 80, 29,
-      22, 77, 0]
-    Y: [0, 21, 10, 10, 22, 14, 20, 31, 30, 0, 0, 27, 11, 0, 24, 14, 22, 21, 20, 0,
-      0, 0]
+    Area: 3344
+    Height: 38
+    Width: 88
+    X: [32, 17, 46, 66, 61, 55, 40, 32, 46, 47, 21, 21, 57, 32, 17, 33, 0, 70, 49,
+      68, 0]
+    Y: [12, 21, 16, 20, 19, 19, 31, 30, 19, 28, 12, 0, 25, 16, 23, 0, 21, 20, 0, 0,
+      0]
   status: SATISFIED
-  time: 40.773
-- {configuration: cp-sat, data_file: ../rectangle-packing/rpp22_false.dzn, model: ../rectangle-packing/rect_packing.mzn,
-  problem: '', status: ALL_SOLUTIONS}
+  time: 12.524
+- {configuration: cp-sat, data_file: ../rectangle-packing/data_square/rpp21_true.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: ALL_SOLUTIONS}

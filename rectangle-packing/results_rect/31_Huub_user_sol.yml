@@ -1,14 +1,16 @@
 - configuration: Huub_user
-  data_file: ../rectangle-packing/rpp18_true.dzn
+  data_file: ../rectangle-packing/data_square/rpp23_true.dzn
   model: ../rectangle-packing/rect_packing.mzn
   problem: ''
   solution:
-    Area: 2139
-    Height: 31
-    Width: 69
-    X: [35, 13, 36, 36, 30, 30, 33, 18, 24, 26, 13, 18, 0, 40, 54, 53, 36, 0]
-    Y: [6, 18, 21, 17, 6, 0, 24, 12, 22, 12, 20, 0, 18, 17, 16, 0, 0, 0]
+    Area: 4352
+    Height: 64
+    Width: 68
+    X: [32, 49, 43, 45, 46, 39, 43, 32, 23, 40, 39, 43, 55, 23, 37, 52, 51, 50, 20,
+      0, 0, 21, 0]
+    Y: [14, 36, 42, 36, 40, 36, 45, 15, 14, 15, 25, 52, 51, 0, 0, 0, 34, 16, 23, 23,
+      43, 42, 0]
   status: SATISFIED
-  time: 3.371
-- {configuration: Huub_user, data_file: ../rectangle-packing/rpp18_true.dzn, model: ../rectangle-packing/rect_packing.mzn,
-  problem: '', status: SATISFIED}
+  time: 722.711
+- {configuration: Huub_user, data_file: ../rectangle-packing/data_square/rpp23_true.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

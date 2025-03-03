@@ -1,4 +1,5 @@
-{boolVariables: 88, configuration: cp-sat, data_file: ../filters/ar_2_4.dzn, failures: 16,
-  flatIntConstraints: 37, flatIntVars: 61, flatTime: 0.172104, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 2, objective: 11, objectiveBound: 11, paths: 0, problem: filters, propagations: 506,
-  solveTime: 0.011794, status: OPTIMAL_SOLUTION, time: 0.43314702436327934}
+{configuration: cp-sat, data_file: ../rectangle-packing/data_square/rpp28_true.dzn,
+  eliminatedImplications: 112, evaluatedHalfReifiedConstraints: 224, flatBoolConstraints: 168,
+  flatBoolVars: 224, flatIntConstraints: 331, flatIntVars: 147, flatTime: 0.100916,
+  method: satisfy, model: ../rectangle-packing/rect_packing.mzn, nSolutions: 0, paths: 0,
+  problem: '', status: UNKNOWN, time: 1200.4202663190663}

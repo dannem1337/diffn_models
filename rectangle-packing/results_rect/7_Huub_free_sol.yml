@@ -1,14 +1,14 @@
 - configuration: Huub_free
-  data_file: ../filters/ar_1_1.dzn
-  model: ../filters/filter.mzn
-  problem: filters
+  data_file: ../rectangle-packing/data_square/rpp16_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
   solution:
-    objective: 34
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-      1, 1, 1]
-    t: [0, 2, 4, 6, 12, 8, 14, 10, 4, 8, 14, 16, 15, 17, 18, 16, 20, 22, 20, 24, 26,
-      24, 28, 30, 28, 32, 29, 33]
+    Area: 1700
+    Height: 34
+    Width: 50
+    X: [0, 30, 0, 6, 10, 32, 31, 17, 26, 25, 39, 13, 0, 16, 35, 0]
+    Y: [0, 12, 16, 16, 16, 7, 0, 14, 25, 14, 0, 22, 21, 0, 13, 0]
   status: SATISFIED
-  time: 0.223
-- {configuration: Huub_free, data_file: ../filters/ar_1_1.dzn, model: ../filters/filter.mzn,
-  problem: filters, status: OPTIMAL_SOLUTION}
+  time: 0.589
+- {configuration: Huub_free, data_file: ../rectangle-packing/data_square/rpp16_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

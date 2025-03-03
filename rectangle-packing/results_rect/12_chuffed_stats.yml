@@ -1,7 +1,8 @@
-{backjumps: 213, baseMem: 0.0, boolVariables: 5225, configuration: chuffed, data_file: ../filters/fir_1_2.dzn,
-  evaluatedReifiedConstraints: 310, failures: 434, flatBoolConstraints: 127, flatBoolVars: 310,
-  flatIntConstraints: 333, flatIntVars: 32, flatTime: 0.18712, initTime: 0.008, intVars: 33,
-  method: minimize, model: ../filters/filter.mzn, nSolutions: 3, nodes: 720, nogoods: 434,
-  objective: 15, optTime: 0.009, paths: 0, peakDepth: 27, peakMem: 0.0, problem: filters,
-  propagations: 114538, propagators: 645, randomSeed: -1324374606, restarts: 3, solveTime: 0.017,
-  status: OPTIMAL_SOLUTION, time: 0.5020938906818628, trailMem: 0.01, variables: 5260}
+{backjumps: 191738, baseMem: 0.0, boolVariables: 20862, configuration: chuffed, data_file: ../rectangle-packing/data_square/rpp24_true.dzn,
+  eliminatedImplications: 48, evaluatedHalfReifiedConstraints: 96, evaluatedReifiedConstraints: 1200,
+  failures: 5398849, flatBoolConstraints: 468, flatBoolVars: 1344, flatIntConstraints: 1386,
+  flatIntVars: 123, flatTime: 0.142549, initTime: 0.034, intVars: 148, method: satisfy,
+  model: ../rectangle-packing/rect_packing.mzn, nSolutions: 1, nodes: 5590612, nogoods: 5398849,
+  paths: 0, peakDepth: 29, peakMem: 0.0, problem: '', propagations: 2690601105, propagators: 2527,
+  randomSeed: -95784322, restarts: 0, solveTime: 820.869, status: SATISFIED, time: 821.2771623954177,
+  trailMem: 0.05, variables: 21012}

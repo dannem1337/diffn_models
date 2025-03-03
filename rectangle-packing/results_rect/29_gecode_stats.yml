@@ -1,5 +1,7 @@
-{configuration: gecode, data_file: ../filters/dct_4_4.dzn, failures: 2087, flatIntConstraints: 75,
-  flatIntVars: 105, flatTime: 0.17771, initTime: 0.0077, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 2, nodes: 4267, objective: 10, paths: 0, peakDepth: 96, problem: filters,
-  propagations: 30651, propagators: 79, restarts: 0, solutions: 2, solveTime: 0.03622,
-  status: OPTIMAL_SOLUTION, time: 0.7211840394884348, variables: 105}
+{configuration: gecode, data_file: ../rectangle-packing/data_square/rpp22_false.dzn,
+  eliminatedImplications: 84, evaluatedHalfReifiedConstraints: 168, failures: 7122281,
+  flatBoolConstraints: 126, flatBoolVars: 168, flatIntConstraints: 249, flatIntVars: 109,
+  flatTime: 0.091872, initTime: 0.010234, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
+  nSolutions: 1, nodes: 14244726, paths: 0, peakDepth: 61, problem: '', propagations: 207704890,
+  propagators: 377, restarts: 0, solutions: 1, solveTime: 251.149, status: SATISFIED,
+  time: 251.44913738965988, variables: 281}

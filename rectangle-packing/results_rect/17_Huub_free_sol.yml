@@ -1,26 +1,16 @@
 - configuration: Huub_free
-  data_file: ../filters/ar_2_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
+  data_file: ../rectangle-packing/data_square/rpp22_true.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
   solution:
-    objective: 17
-    r: [1, 2, 3, 1, 1, 2, 3, 2, 1, 1, 1, 2, 1, 1, 1, 1, 2, 2, 1, 2, 1, 2, 3, 1, 1,
-      1, 1, 1]
-    t: [0, 0, 0, 4, 2, 2, 2, 4, 2, 6, 4, 6, 5, 7, 8, 6, 6, 8, 10, 10, 11, 11, 11,
-      13, 13, 15, 14, 16]
+    Area: 4275
+    Height: 57
+    Width: 75
+    X: [20, 21, 23, 26, 30, 35, 0, 21, 0, 43, 10, 29, 43, 21, 41, 35, 0, 57, 56, 55,
+      0, 21]
+    Y: [56, 55, 54, 53, 52, 51, 40, 44, 48, 17, 38, 39, 27, 0, 42, 0, 21, 20, 38,
+      0, 0, 17]
   status: SATISFIED
-  time: 0.251
-- configuration: Huub_free
-  data_file: ../filters/ar_2_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 15
-    r: [1, 2, 1, 2, 3, 1, 2, 3, 1, 1, 1, 2, 1, 2, 1, 1, 2, 3, 1, 1, 2, 1, 2, 3, 1,
-      2, 1, 2]
-    t: [0, 0, 4, 4, 0, 2, 2, 2, 2, 6, 4, 4, 5, 5, 6, 8, 6, 6, 10, 8, 9, 11, 11, 9,
-      13, 13, 14, 14]
-  status: SATISFIED
-  time: 0.272
-- {configuration: Huub_free, data_file: ../filters/ar_2_3.dzn, model: ../filters/filter.mzn,
-  problem: filters, status: OPTIMAL_SOLUTION}
+  time: 1.768
+- {configuration: Huub_free, data_file: ../rectangle-packing/data_square/rpp22_true.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

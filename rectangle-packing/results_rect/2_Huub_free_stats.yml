@@ -1,7 +1,8 @@
-{blockType: complete, configuration: Huub_free, data_file: ../filters/fir_2_3.dzn,
-  evaluatedHalfReifiedConstraints: 508, extractedViews: 1, failures: 104, flatBoolConstraints: 127,
-  flatBoolVars: 508, flatIntConstraints: 532, flatIntVars: 48, flatTime: 0.291275,
-  initTime: 0.015323, intVariables: 32, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 5, objective: 10, oracleDecisions: 3395, paths: 0, peakDepth: 738, problem: filters,
-  propagations: 29442, propagators: 531, restarts: 3, solveTime: 0.019986, status: OPTIMAL_SOLUTION,
-  time: 1.781004847958684, unifiedVariables: 0, userDecisions: 335}
+{blockType: complete, configuration: Huub_free, data_file: ../rectangle-packing/rpp18_true.dzn,
+  eliminatedImplications: 36, evaluatedHalfReifiedConstraints: 684, evaluatedReifiedConstraints: 6264,
+  extractedViews: 9738, failures: 12181, flatBoolConstraints: 3087, flatBoolVars: 9774,
+  flatIntConstraints: 10696, flatIntVars: 3561, flatTime: 0.398447, initTime: 0.105912,
+  intVariables: 81, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
+  nSolutions: 1, oracleDecisions: 5666, paths: 0, peakDepth: 237, problem: '', propagations: 1819716,
+  propagators: 944, restarts: 333, solveTime: 1.37472, status: SATISFIED, time: 2.1599507238715887,
+  unifiedVariables: 0, userDecisions: 8677}

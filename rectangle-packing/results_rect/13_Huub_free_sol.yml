@@ -1,50 +1,16 @@
 - configuration: Huub_free
-  data_file: ../filters/ar_1_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
+  data_file: ../rectangle-packing/data_square/rpp25_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
   solution:
-    objective: 19
-    r: [1, 2, 3, 1, 1, 2, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 2, 3, 2, 1,
-      1, 1, 1]
-    t: [0, 0, 0, 4, 2, 2, 2, 4, 2, 6, 4, 7, 5, 8, 9, 6, 6, 9, 11, 12, 13, 12, 12,
-      14, 15, 16, 17, 18]
+    Area: 6106
+    Height: 71
+    Width: 86
+    X: [0, 81, 83, 77, 25, 37, 30, 23, 62, 52, 0, 0, 73, 31, 71, 45, 51, 68, 12, 31,
+      65, 49, 0, 25, 0]
+    Y: [0, 23, 22, 21, 22, 21, 20, 8, 44, 44, 60, 48, 25, 0, 38, 6, 54, 53, 52, 51,
+      0, 22, 0, 27, 23]
   status: SATISFIED
-  time: 0.281
-- configuration: Huub_free
-  data_file: ../filters/ar_1_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 18
-    r: [1, 2, 3, 1, 1, 2, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 2, 3, 1,
-      1, 1, 1]
-    t: [0, 0, 0, 4, 2, 2, 2, 4, 2, 8, 4, 6, 5, 7, 8, 6, 6, 8, 11, 10, 11, 13, 12,
-      11, 15, 14, 16, 17]
-  status: SATISFIED
-  time: 0.286
-- configuration: Huub_free
-  data_file: ../filters/ar_1_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 17
-    r: [3, 3, 1, 3, 3, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 3, 2, 1, 1, 1, 1, 3, 1, 2, 1,
-      1, 1, 1]
-    t: [0, 9, 8, 5, 2, 3, 1, 1, 12, 11, 5, 3, 6, 4, 5, 7, 7, 6, 10, 9, 10, 11, 12,
-      10, 13, 14, 15, 16]
-  status: SATISFIED
-  time: 0.315
-- configuration: Huub_free
-  data_file: ../filters/ar_1_3.dzn
-  model: ../filters/filter.mzn
-  problem: filters
-  solution:
-    objective: 16
-    r: [2, 3, 1, 3, 3, 2, 2, 1, 1, 1, 1, 1, 1, 1, 3, 3, 2, 1, 1, 1, 2, 3, 2, 1, 1,
-      1, 1, 1]
-    t: [4, 8, 8, 2, 0, 0, 2, 1, 11, 10, 2, 4, 3, 5, 6, 4, 7, 6, 8, 9, 11, 10, 9, 10,
-      13, 12, 14, 15]
-  status: SATISFIED
-  time: 0.319
-- {configuration: Huub_free, data_file: ../filters/ar_1_3.dzn, model: ../filters/filter.mzn,
-  problem: filters, status: OPTIMAL_SOLUTION}
+  time: 4.356
+- {configuration: Huub_free, data_file: ../rectangle-packing/data_square/rpp25_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

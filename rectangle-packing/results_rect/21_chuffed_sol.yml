@@ -1,15 +1,14 @@
 - configuration: chuffed
-  data_file: ../filters/dct_1_1.dzn
-  model: ../filters/filter.mzn
-  problem: filters
+  data_file: ../rectangle-packing/data_square/rpp17_true.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
   solution:
-    objective: 34
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-      1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    t: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 3, 9, 5, 7, 15, 11,
-      13, 17, 19, 21, 23, 25, 27, 29, 31, 16, 21, 17, 18, 19, 20, 22, 23, 24, 25,
-      26, 27, 28, 29, 31, 33]
+    Area: 1794
+    Height: 39
+    Width: 46
+    X: [33, 33, 10, 13, 12, 12, 10, 27, 18, 0, 35, 0, 33, 17, 31, 17, 0]
+    Y: [15, 13, 29, 28, 23, 17, 32, 16, 16, 29, 13, 17, 0, 25, 24, 0, 0]
   status: SATISFIED
-  time: 0.295
-- {configuration: chuffed, data_file: ../filters/dct_1_1.dzn, model: ../filters/filter.mzn,
-  problem: filters, status: SATISFIED, time: 1199.775}
+  time: 0.187
+- {configuration: chuffed, data_file: ../rectangle-packing/data_square/rpp17_true.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED, time: 0.076}
