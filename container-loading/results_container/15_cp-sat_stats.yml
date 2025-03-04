@@ -1,0 +1,6 @@
+{boolVariables: 30122, configuration: cp-sat, data_file: ../container-loading/cl04.dzn,
+  evaluatedHalfReifiedConstraints: 29700, evaluatedReifiedConstraints: 651, failures: 328,
+  flatBoolConstraints: 5415, flatBoolVars: 30258, flatIntConstraints: 30470, flatIntVars: 605,
+  flatTime: 1.83685, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 2, objective: 5568, objectiveBound: 90, paths: 0, problem: '', propagations: 2660720,
+  solveTime: 12.2356, status: SATISFIED, time: 1200.7660827673972}
