@@ -6,9 +6,9 @@
     Area: 1978
     Height: 43
     Width: 46
-    X: [0, 17, 14, 18, 25, 19, 14, 0, 21, 9, 35, 22, 17, 0, 31, 30, 0]
-    Y: [0, 5, 17, 7, 38, 37, 25, 31, 27, 33, 0, 0, 12, 17, 28, 12, 0]
+    X: [0, 16, 17, 31, 31, 40, 31, 31, 11, 0, 35, 34, 18, 20, 16, 0, 0]
+    Y: [0, 10, 17, 7, 38, 37, 25, 31, 27, 33, 0, 0, 12, 17, 28, 12, 0]
   status: SATISFIED
-  time: 0.59
+  time: 0.523
 - {configuration: Huub_vsids, data_file: ../rectangle-packing/data_square/rpp17_false.dzn,
   model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

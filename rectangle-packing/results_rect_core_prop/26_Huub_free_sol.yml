@@ -6,9 +6,9 @@
     Area: 1700
     Height: 34
     Width: 50
-    X: [16, 30, 24, 20, 15, 44, 43, 29, 41, 40, 30, 28, 15, 16, 0, 0]
+    X: [3, 3, 0, 40, 40, 24, 17, 42, 41, 30, 30, 30, 15, 16, 0, 0]
     Y: [14, 12, 16, 16, 16, 7, 0, 14, 25, 14, 0, 22, 21, 0, 13, 0]
   status: SATISFIED
-  time: 0.591
+  time: 0.531
 - {configuration: Huub_free, data_file: ../rectangle-packing/data_square/rpp16_true.dzn,
   model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

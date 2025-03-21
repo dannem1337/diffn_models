@@ -6,11 +6,11 @@
     Area: 6150
     Height: 75
     Width: 82
-    X: [0, 68, 70, 73, 77, 4, 10, 74, 64, 40, 50, 56, 24, 68, 25, 66, 0, 25, 37, 62,
-      40, 17, 43, 0, 0]
-    Y: [0, 73, 72, 71, 70, 17, 17, 0, 0, 0, 0, 63, 56, 53, 22, 29, 0, 37, 56, 9, 12,
-      0, 33, 51, 25]
+    X: [0, 77, 75, 75, 73, 46, 14, 0, 65, 24, 13, 9, 0, 0, 67, 0, 21, 19, 0, 37, 61,
+      60, 38, 41, 16]
+    Y: [0, 52, 45, 0, 48, 52, 58, 18, 24, 65, 0, 34, 62, 61, 46, 7, 45, 0, 0, 34,
+      54, 53, 11, 27, 20]
   status: SATISFIED
-  time: 1.556
+  time: 1.557
 - {configuration: Huub_vsids, data_file: ../rectangle-packing/data_square/rpp25_false.dzn,
   model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}
