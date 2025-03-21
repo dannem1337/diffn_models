@@ -1,7 +1,6 @@
 {blockType: complete, configuration: Huub_vsids, data_file: ../filters/fir_1_2.dzn,
-  evaluatedHalfReifiedConstraints: 310, extractedViews: 1, failures: 2702, flatBoolConstraints: 127,
-  flatBoolVars: 310, flatIntConstraints: 336, flatIntVars: 33, flatTime: 0.175869,
-  initTime: 0.008177, intVariables: 24, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 3, objective: 15, oracleDecisions: 4601, paths: 0, peakDepth: 456, problem: '',
-  propagations: 181172, propagators: 335, restarts: 0, solveTime: 0.085097, status: OPTIMAL_SOLUTION,
-  time: 0.4889527629711665, unifiedVariables: 0, userDecisions: 0}
+  extractedViews: 1, failures: 13, flatIntConstraints: 26, flatIntVars: 33, flatTime: 0.305062,
+  initTime: 0.004922, intVariables: 24, method: minimize, model: ../filters/filter.mzn,
+  nSolutions: 1, objective: 11, oracleDecisions: 673, paths: 0, peakDepth: 128, problem: '',
+  propagations: 2265, propagators: 25, restarts: 0, solveTime: 0.004841, status: OPTIMAL_SOLUTION,
+  time: 1.442857155983802, unifiedVariables: 0, userDecisions: 0}

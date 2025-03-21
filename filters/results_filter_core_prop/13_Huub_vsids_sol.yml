@@ -3,12 +3,12 @@
   model: ../filters/filter.mzn
   problem: ''
   solution:
-    objective: 16
-    r: [2, 1, 1, 1, 2, 1, 2, 3, 1, 1, 1, 1, 1, 1, 3, 3, 2, 1, 1, 1, 2, 1, 3, 2, 1,
+    objective: 11
+    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
       1, 1, 1]
-    t: [4, 9, 2, 7, 2, 0, 0, 0, 11, 10, 4, 2, 5, 3, 5, 7, 6, 5, 9, 8, 11, 11, 10,
-      9, 13, 12, 15, 14]
+    t: [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 6, 6, 7, 7, 7, 7, 9,
+      9, 10, 10]
   status: SATISFIED
-  time: 0.226
+  time: 0.28
 - {configuration: Huub_vsids, data_file: ../filters/ar_1_3.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}

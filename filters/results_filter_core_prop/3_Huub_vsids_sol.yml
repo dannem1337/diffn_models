@@ -4,9 +4,9 @@
   problem: ''
   solution:
     objective: 4
-    r: [3, 2, 2, 1, 2, 1, 1, 1, 2, 2, 2]
-    t: [0, 0, 1, 0, 0, 1, 2, 3, 1, 2, 3]
+    r: [1, 1, 1, 1, 2, 1, 1, 2, 2, 2, 2]
+    t: [0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 3]
   status: SATISFIED
-  time: 0.313
+  time: 0.204
 - {configuration: Huub_vsids, data_file: ../filters/dfq_1_1.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}
