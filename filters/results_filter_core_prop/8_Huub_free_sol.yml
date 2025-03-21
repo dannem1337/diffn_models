@@ -1,0 +1,13 @@
+- configuration: Huub_free
+  data_file: ../filters/fir_1_1.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 19
+    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 2, 6, 8, 10, 12, 14, 16, 18, 1, 4, 2, 6, 3, 8, 4, 10, 5, 12, 7, 14, 9,
+      16]
+  status: SATISFIED
+  time: 0.196
+- {configuration: Huub_free, data_file: ../filters/fir_1_1.dzn, model: ../filters/filter.mzn,
+  problem: '', status: OPTIMAL_SOLUTION}
