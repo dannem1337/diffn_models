@@ -1,16 +1,2 @@
-- configuration: Huub_vsids
-  data_file: ../rectangle-packing/rpp23_false.dzn
-  model: ../rectangle-packing/rect_packing.mzn
-  problem: ''
-  solution:
-    Area: 4810
-    Height: 65
-    Width: 74
-    X: [0, 69, 67, 67, 9, 0, 0, 33, 23, 64, 63, 13, 0, 0, 26, 7, 6, 14, 34, 47, 53,
-      41, 23]
-    Y: [0, 60, 58, 58, 54, 17, 10, 34, 34, 0, 14, 0, 26, 0, 12, 18, 48, 0, 0, 45,
-      27, 43, 20]
-  status: SATISFIED
-  time: 1.301
 - {configuration: Huub_vsids, data_file: ../rectangle-packing/rpp23_false.dzn, model: ../rectangle-packing/rect_packing.mzn,
-  problem: '', status: SATISFIED}
+  problem: '', status: UNSATISFIABLE}

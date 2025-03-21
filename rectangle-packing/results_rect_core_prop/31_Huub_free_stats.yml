@@ -1,8 +1,8 @@
 {blockType: complete, configuration: Huub_free, data_file: ../rectangle-packing/data_square/rpp23_true.dzn,
   eliminatedImplications: 46, evaluatedHalfReifiedConstraints: 92, evaluatedReifiedConstraints: 12834,
-  extractedViews: 19803, failures: 19210, flatBoolConstraints: 6049, flatBoolVars: 18837,
-  flatIntConstraints: 20305, flatIntVars: 7086, flatTime: 0.68193, initTime: 0.185819,
+  extractedViews: 19803, failures: 191656, flatBoolConstraints: 6049, flatBoolVars: 18837,
+  flatIntConstraints: 20305, flatIntVars: 7086, flatTime: 0.705795, initTime: 0.186171,
   intVariables: 111, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
-  nSolutions: 1, oracleDecisions: 11879, paths: 0, peakDepth: 1123, problem: '', propagations: 1178890,
-  propagators: 532, restarts: 355, solveTime: 2.975703, status: SATISFIED, time: 4.258445827988908,
-  unifiedVariables: 0, userDecisions: 11242}
+  nSolutions: 0, oracleDecisions: 118045, paths: 0, peakDepth: 705, problem: '', propagations: 13437873,
+  propagators: 532, restarts: 7261, solveTime: 38.7376, status: UNSATISFIABLE, time: 40.12028374400688,
+  unifiedVariables: 0, userDecisions: 136568}

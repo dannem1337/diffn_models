@@ -1,16 +1,2 @@
-- configuration: Huub_free
-  data_file: ../rectangle-packing/data_square/rpp24_true.dzn
-  model: ../rectangle-packing/rect_packing.mzn
-  problem: ''
-  solution:
-    Area: 5202
-    Height: 51
-    Width: 102
-    X: [4, 7, 4, 0, 82, 39, 32, 24, 93, 92, 57, 45, 79, 65, 87, 86, 68, 64, 45, 45,
-      24, 23, 0, 0]
-    Y: [5, 21, 8, 5, 0, 45, 23, 0, 0, 0, 0, 39, 38, 15, 0, 35, 21, 33, 9, 23, 0, 29,
-      0, 11]
-  status: SATISFIED
-  time: 2.966
 - {configuration: Huub_free, data_file: ../rectangle-packing/data_square/rpp24_true.dzn,
-  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: UNSATISFIABLE}
