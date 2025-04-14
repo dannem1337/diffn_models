@@ -1,0 +1,15 @@
+- configuration: Huub_vsids
+  data_file: ../filters/dct_1_3.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 30
+    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2,
+      1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    t: [1, 0, 7, 3, 4, 4, 4, 8, 2, 9, 14, 15, 12, 11, 10, 16, 2, 19, 3, 1, 23, 11,
+      9, 21, 10, 7, 5, 16, 15, 18, 17, 13, 6, 17, 5, 13, 26, 27, 21, 22, 28, 25, 29,
+      24, 23, 18, 20, 19]
+  status: SATISFIED
+  time: 0.415
+- {configuration: Huub_vsids, data_file: ../filters/dct_1_3.dzn, model: ../filters/filter.mzn,
+  problem: '', status: OPTIMAL_SOLUTION}
