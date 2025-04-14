@@ -1,0 +1,7 @@
+{blockType: complete, configuration: Huub_user, data_file: ../container-loading/cl06.dzn,
+  evaluatedReifiedConstraints: 2688, extractedViews: 600, failures: 96898, flatBoolConstraints: 960,
+  flatBoolVars: 1728, flatIntConstraints: 1758, flatIntVars: 1205, flatTime: 0.15805,
+  initTime: 0.038376, intVariables: 605, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 32, objective: 10230, oracleDecisions: 172862, paths: 0, peakDepth: 1959,
+  problem: '', propagations: 6693121, propagators: 2118, restarts: 0, solveTime: 1199.868336,
+  status: SATISFIED, time: 1200.3273593508638, unifiedVariables: 0, userDecisions: 0}

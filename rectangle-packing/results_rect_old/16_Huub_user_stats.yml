@@ -1,7 +1,0 @@
-{blockType: complete, configuration: Huub_user, data_file: ../filters/ewf_1_1.dzn,
-  evaluatedHalfReifiedConstraints: 672, extractedViews: 8, failures: 3666, flatBoolConstraints: 336,
-  flatBoolVars: 672, flatIntConstraints: 727, flatIntVars: 43, flatTime: 0.224745,
-  initTime: 0.01539, intVariables: 35, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 1, objective: 28, oracleDecisions: 672, paths: 0, peakDepth: 707, problem: filters,
-  propagations: 513139, propagators: 719, restarts: 0, solveTime: 0.142978, status: OPTIMAL_SOLUTION,
-  time: 0.8757238779217005, unifiedVariables: 0, userDecisions: 3797}

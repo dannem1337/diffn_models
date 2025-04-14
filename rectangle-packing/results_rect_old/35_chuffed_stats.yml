@@ -1,8 +1,0 @@
-{backjumps: 135910, baseMem: 0.0, boolVariables: 18124, configuration: chuffed, data_file: ../rectangle-packing/data_square/rpp23_false.dzn,
-  eliminatedImplications: 44, evaluatedHalfReifiedConstraints: 88, evaluatedReifiedConstraints: 1012,
-  failures: 3185175, flatBoolConstraints: 407, flatBoolVars: 1144, flatIntConstraints: 1184,
-  flatIntVars: 115, flatTime: 0.120975, initTime: 0.03, intVars: 138, method: satisfy,
-  model: ../rectangle-packing/rect_packing.mzn, nSolutions: 1, nodes: 3321103, nogoods: 3185175,
-  paths: 0, peakDepth: 21, peakMem: 0.0, problem: '', propagations: 1416483095, propagators: 2143,
-  randomSeed: 825776299, restarts: 0, solveTime: 445.346, status: SATISFIED, time: 445.7570387646556,
-  trailMem: 0.05, variables: 18264}
