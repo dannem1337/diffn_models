@@ -1,0 +1,6 @@
+{blockType: init, configuration: Huub_user_decomp, data_file: ../carpet-cutting/mzn_rnd_test.14.dzn,
+  evaluatedHalfReifiedConstraints: 2276, evaluatedReifiedConstraints: 273928, extractedViews: 343270,
+  flatBoolConstraints: 126042, flatBoolVars: 401546, flatIntConstraints: 508600, flatIntVars: 227513,
+  flatTime: 15.938, initTime: 11.560739, intVariables: 62106, method: minimize, model: ../carpet-cutting/cc_base-fixed.mzn,
+  nSolutions: 0, paths: 0, problem: '', propagators: 131733, status: UNKNOWN, time: 1209.647605156526,
+  unifiedVariables: 0}
