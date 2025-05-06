@@ -1,0 +1,213 @@
+- configuration: Huub_user_no_gen_bounds
+  data_file: ../products-and-shelves/ps-100-18.dzn
+  model: ../products-and-shelves/product-and-shelves.mzn
+  problem: ''
+  solution:
+    item_placement:
+    - [0, 0, 3]
+    - [0, 5, 0]
+    - [0, 5, 3]
+    - [0, 3, 0]
+    - [0, 3, 3]
+    - [0, 5, 0]
+    - [0, 5, 3]
+    - [7, 0, 3]
+    - [0, 1, 1]
+    - [0, 1, 4]
+    - [7, 0, 1]
+    - [7, 0, 4]
+    - [7, 2, 1]
+    - [7, 0, 0]
+    - [7, 0, 3]
+    - [7, 2, 0]
+    - [7, 2, 3]
+    - [7, 4, 3]
+    - [0, 3, 0]
+    - [0, 5, 0]
+    - [1, 1, 0]
+    - [2, 0, 4]
+    - [3, 2, 3]
+    - [6, 2, 4]
+    - [6, 4, 1]
+    - [7, 0, 0]
+    - [7, 0, 3]
+    - [7, 2, 1]
+    - [1, 4, 3]
+    - [1, 5, 0]
+    - [2, 0, 2]
+    - [2, 2, 3]
+    - [0, 2, 3]
+    - [0, 5, 0]
+    - [0, 5, 3]
+    - [0, 5, 1]
+    - [0, 5, 4]
+    - [7, 0, 0]
+    - [0, 4, 0]
+    - [1, 0, 0]
+    - [1, 0, 3]
+    - [1, 2, 0]
+    - [1, 2, 3]
+    - [1, 4, 4]
+    - [1, 5, 0]
+    - [1, 2, 0]
+    - [8, 0, 0]
+    - [8, 3, 0]
+    - [1, 0, 0]
+    - [8, 0, 0]
+    - [8, 4, 0]
+    - [0, 1, 0]
+    - [1, 4, 0]
+    - [8, 2, 0]
+    - [1, 4, 0]
+    - [8, 1, 0]
+    - [8, 4, 0]
+    - [0, 1, 0]
+    - [1, 4, 0]
+    - [8, 4, 0]
+    - [8, 4, 0]
+    - [0, 1, 0]
+    - [0, 0, 0]
+    - [0, 3, 0]
+    - [7, 0, 0]
+    - [7, 3, 0]
+    - [0, 0, 0]
+    - [0, 0, 0]
+    - [0, 0, 0]
+    - [0, 1, 0]
+    - [0, 4, 0]
+    - [7, 3, 0]
+    - [8, 0, 0]
+    - [0, 1, 0]
+    - [0, 4, 0]
+    - [7, 3, 0]
+    - [8, 0, 0]
+    - [0, 4, 0]
+    - [1, 1, 0]
+    - [8, 0, 0]
+    - [8, 3, 0]
+    - [0, 4, 0]
+    - [1, 1, 0]
+    - [7, 4, 0]
+    - [8, 1, 0]
+    - [0, 0, 0]
+    - [0, 3, 0]
+    - [7, 4, 0]
+    - [8, 1, 0]
+    - [0, 0, 0]
+    - [0, 3, 0]
+    - [7, 1, 0]
+    - [0, 1, 0]
+    - [1, 4, 0]
+    - [7, 1, 0]
+    - [8, 4, 0]
+    - [1, 1, 0]
+    - [1, 4, 0]
+    - [8, 0, 0]
+    - [8, 3, 0]
+    item_shelving:
+    - !ConstrEnum {argument: 1, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 3, constructor: S}
+    - !ConstrEnum {argument: 4, constructor: S}
+    - !ConstrEnum {argument: 4, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
+    - !ConstrEnum {argument: 6, constructor: S}
+    - !ConstrEnum {argument: 6, constructor: S}
+    - !ConstrEnum {argument: 6, constructor: S}
+    - !ConstrEnum {argument: 6, constructor: S}
+    - !ConstrEnum {argument: 6, constructor: S}
+    - !ConstrEnum {argument: 7, constructor: S}
+    - !ConstrEnum {argument: 7, constructor: S}
+    - !ConstrEnum {argument: 7, constructor: S}
+    - !ConstrEnum {argument: 7, constructor: S}
+    - !ConstrEnum {argument: 7, constructor: S}
+    - !ConstrEnum {argument: 8, constructor: S}
+    - !ConstrEnum {argument: 8, constructor: S}
+    - !ConstrEnum {argument: 8, constructor: S}
+    - !ConstrEnum {argument: 8, constructor: S}
+    - !ConstrEnum {argument: 8, constructor: S}
+    - !ConstrEnum {argument: 9, constructor: S}
+    - !ConstrEnum {argument: 9, constructor: S}
+    - !ConstrEnum {argument: 9, constructor: S}
+    - !ConstrEnum {argument: 9, constructor: S}
+    - !ConstrEnum {argument: 10, constructor: S}
+    - !ConstrEnum {argument: 10, constructor: S}
+    - !ConstrEnum {argument: 10, constructor: S}
+    - !ConstrEnum {argument: 11, constructor: S}
+    - !ConstrEnum {argument: 11, constructor: S}
+    - !ConstrEnum {argument: 11, constructor: S}
+    - !ConstrEnum {argument: 12, constructor: S}
+    - !ConstrEnum {argument: 12, constructor: S}
+    - !ConstrEnum {argument: 12, constructor: S}
+    - !ConstrEnum {argument: 12, constructor: S}
+    - !ConstrEnum {argument: 12, constructor: S}
+    - !ConstrEnum {argument: 12, constructor: S}
+    - !ConstrEnum {argument: 12, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 3, constructor: S}
+    - !ConstrEnum {argument: 3, constructor: S}
+    - !ConstrEnum {argument: 3, constructor: S}
+    - !ConstrEnum {argument: 4, constructor: S}
+    - !ConstrEnum {argument: 4, constructor: S}
+    - !ConstrEnum {argument: 4, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
+    - !ConstrEnum {argument: 7, constructor: S}
+    - !ConstrEnum {argument: 13, constructor: S}
+    - !ConstrEnum {argument: 14, constructor: S}
+    - !ConstrEnum {argument: 14, constructor: S}
+    - !ConstrEnum {argument: 14, constructor: S}
+    - !ConstrEnum {argument: 14, constructor: S}
+    - !ConstrEnum {argument: 15, constructor: S}
+    - !ConstrEnum {argument: 16, constructor: S}
+    - !ConstrEnum {argument: 17, constructor: S}
+    - !ConstrEnum {argument: 18, constructor: S}
+    - !ConstrEnum {argument: 18, constructor: S}
+    - !ConstrEnum {argument: 18, constructor: S}
+    - !ConstrEnum {argument: 18, constructor: S}
+    - !ConstrEnum {argument: 19, constructor: S}
+    - !ConstrEnum {argument: 19, constructor: S}
+    - !ConstrEnum {argument: 19, constructor: S}
+    - !ConstrEnum {argument: 19, constructor: S}
+    - !ConstrEnum {argument: 20, constructor: S}
+    - !ConstrEnum {argument: 20, constructor: S}
+    - !ConstrEnum {argument: 20, constructor: S}
+    - !ConstrEnum {argument: 20, constructor: S}
+    - !ConstrEnum {argument: 21, constructor: S}
+    - !ConstrEnum {argument: 21, constructor: S}
+    - !ConstrEnum {argument: 21, constructor: S}
+    - !ConstrEnum {argument: 21, constructor: S}
+    - !ConstrEnum {argument: 22, constructor: S}
+    - !ConstrEnum {argument: 22, constructor: S}
+    - !ConstrEnum {argument: 22, constructor: S}
+    - !ConstrEnum {argument: 22, constructor: S}
+    - !ConstrEnum {argument: 23, constructor: S}
+    - !ConstrEnum {argument: 23, constructor: S}
+    - !ConstrEnum {argument: 23, constructor: S}
+    - !ConstrEnum {argument: 24, constructor: S}
+    - !ConstrEnum {argument: 24, constructor: S}
+    - !ConstrEnum {argument: 24, constructor: S}
+    - !ConstrEnum {argument: 24, constructor: S}
+    - !ConstrEnum {argument: 25, constructor: S}
+    - !ConstrEnum {argument: 25, constructor: S}
+    - !ConstrEnum {argument: 25, constructor: S}
+    - !ConstrEnum {argument: 25, constructor: S}
+    last_loaded_shelf: !ConstrEnum {argument: 25, constructor: S}
+    objective: !ConstrEnum {argument: 25, constructor: S}
+  status: SATISFIED
+  time: 846.231
+- {configuration: Huub_user_no_gen_bounds, data_file: ../products-and-shelves/ps-100-18.dzn,
+  model: ../products-and-shelves/product-and-shelves.mzn, problem: '', status: SATISFIED}
