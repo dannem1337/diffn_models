@@ -1,0 +1,8 @@
+{blockType: complete, configuration: Huub_free_decomp, data_file: ../carpet-cutting/mzn_rnd_test.02.dzn,
+  evaluatedHalfReifiedConstraints: 114, evaluatedReifiedConstraints: 45800, extractedViews: 45800,
+  failures: 11, flatBoolConstraints: 18110, flatBoolVars: 63956, flatIntConstraints: 104804,
+  flatIntVars: 55441, flatTime: 2.94883, initTime: 3.454323, intVariables: 27717,
+  method: minimize, model: ../carpet-cutting/cc_base-fixed.mzn, nSolutions: 1, objective: 815,
+  oracleDecisions: 57818, paths: 0, peakDepth: 57838, problem: '', propagations: 270329,
+  propagators: 61776, restarts: 0, solveTime: 22.061526, status: OPTIMAL_SOLUTION,
+  time: 32.80550133436918, unifiedVariables: 0, userDecisions: 30}

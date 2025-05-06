@@ -1,0 +1,5 @@
+{configuration: gecode, data_file: ../filters/ewf_2_2.dzn, failures: 49, flatIntConstraints: 57,
+  flatIntVars: 77, flatTime: 0.231425, initTime: 0.013608, method: minimize, model: ../filters/filter.mzn,
+  nSolutions: 3, nodes: 171, objective: 18, paths: 0, peakDepth: 60, problem: '',
+  propagations: 1522, propagators: 61, restarts: 0, solutions: 3, solveTime: 0.018789,
+  status: OPTIMAL_SOLUTION, time: 0.8588176537305117, variables: 77}

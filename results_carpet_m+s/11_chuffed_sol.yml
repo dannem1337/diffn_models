@@ -1,0 +1,135 @@
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1725, objective: 1725}
+  status: SATISFIED
+  time: 0.227
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1638, objective: 1638}
+  status: SATISFIED
+  time: 0.231
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1617, objective: 1617}
+  status: SATISFIED
+  time: 0.237
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1530, objective: 1530}
+  status: SATISFIED
+  time: 0.239
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1451, objective: 1451}
+  status: SATISFIED
+  time: 0.241
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1433, objective: 1433}
+  status: SATISFIED
+  time: 0.243
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1430, objective: 1430}
+  status: SATISFIED
+  time: 0.244
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1381, objective: 1381}
+  status: SATISFIED
+  time: 0.245
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1343, objective: 1343}
+  status: SATISFIED
+  time: 0.246
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1300, objective: 1300}
+  status: SATISFIED
+  time: 0.248
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1262, objective: 1262}
+  status: SATISFIED
+  time: 0.249
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1246, objective: 1246}
+  status: SATISFIED
+  time: 0.25
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1179, objective: 1179}
+  status: SATISFIED
+  time: 0.254
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1127, objective: 1127}
+  status: SATISFIED
+  time: 0.262
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1113, objective: 1113}
+  status: SATISFIED
+  time: 0.266
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1030, objective: 1030}
+  status: SATISFIED
+  time: 0.267
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 992, objective: 992}
+  status: SATISFIED
+  time: 0.27
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 973, objective: 973}
+  status: SATISFIED
+  time: 0.281
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.11.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 963, objective: 963}
+  status: SATISFIED
+  time: 0.283
+- {configuration: chuffed, data_file: ../carpet-cutting/mzn_rnd_test.11.dzn, model: ../carpet-cutting/cc_base-fixed.mzn,
+  problem: '', status: OPTIMAL_SOLUTION, time: 1.904}

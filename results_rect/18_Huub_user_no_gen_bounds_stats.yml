@@ -1,0 +1,7 @@
+{configuration: Huub_user_no_gen_bounds, data_file: ../rectangle-packing/data_square/rpp27_false.dzn,
+  eliminatedImplications: 52, error: 'MiniZinc stopped with a non-zero exit code,
+    but did not output an error message. ', evaluatedHalfReifiedConstraints: 104,
+  evaluatedReifiedConstraints: 19500, flatBoolConstraints: 9204, flatBoolVars: 28652,
+  flatIntConstraints: 30636, flatIntVars: 10643, flatTime: 1.04623, method: satisfy,
+  model: ../rectangle-packing/rect_packing.mzn, nSolutions: 0, paths: 0, problem: '',
+  status: ERROR, time: 1.7817306416109204}

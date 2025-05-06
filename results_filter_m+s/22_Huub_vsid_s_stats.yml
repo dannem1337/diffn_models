@@ -1,0 +1,7 @@
+{blockType: complete, configuration: Huub_vsid_s, data_file: ../filters/ewf_4_3.dzn,
+  evaluatedHalfReifiedConstraints: 1344, extractedViews: 8, failures: 1325, flatBoolConstraints: 336,
+  flatBoolVars: 1344, flatIntConstraints: 1399, flatIntVars: 77, flatTime: 0.286885,
+  initTime: 0.021225, intVariables: 69, method: minimize, model: ../filters/filter.mzn,
+  nSolutions: 85, objective: 17, oracleDecisions: 152056, paths: 0, peakDepth: 1801,
+  problem: '', propagations: 1238541, propagators: 1391, restarts: 0, solveTime: 0.46545,
+  status: OPTIMAL_SOLUTION, time: 1.244074103422463, unifiedVariables: 0, userDecisions: 0}

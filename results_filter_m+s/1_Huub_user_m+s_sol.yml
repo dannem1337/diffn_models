@@ -1,0 +1,15 @@
+- configuration: Huub_user_m+s
+  data_file: ../filters/dct_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 32
+    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 2, 1, 2, 2,
+      1, 2, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 1, 4, 2, 5, 6, 3, 9, 12, 13, 7, 8, 10, 11, 15, 14, 1, 1, 13, 3, 3, 16,
+      7, 7, 14, 5, 5, 9, 11, 9, 15, 12, 16, 18, 17, 19, 20, 21, 22, 23, 24, 25, 26,
+      27, 28, 29, 30, 31]
+  status: SATISFIED
+  time: 0.347
+- {configuration: Huub_user_m+s, data_file: ../filters/dct_1_2.dzn, model: ../filters/filter.mzn,
+  problem: '', status: OPTIMAL_SOLUTION}

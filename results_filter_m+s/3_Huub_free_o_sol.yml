@@ -1,0 +1,12 @@
+- configuration: Huub_free_o
+  data_file: ../filters/dfq_1_1.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 4
+    r: [1, 2, 3, 1, 1, 2, 3, 1, 1, 2, 1]
+    t: [0, 0, 0, 1, 0, 1, 1, 2, 1, 2, 3]
+  status: SATISFIED
+  time: 0.334
+- {configuration: Huub_free_o, data_file: ../filters/dfq_1_1.dzn, model: ../filters/filter.mzn,
+  problem: '', status: OPTIMAL_SOLUTION}

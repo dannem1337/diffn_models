@@ -1,0 +1,6 @@
+{boolVariables: 660, configuration: cp-sat, data_file: ../carpet-cutting/mzn_rnd_test.07.dzn,
+  evaluatedHalfReifiedConstraints: 12, evaluatedReifiedConstraints: 62, failures: 1023,
+  flatBoolConstraints: 41, flatBoolVars: 53, flatIntConstraints: 191, flatIntVars: 121,
+  flatTime: 0.29732, method: minimize, model: ../carpet-cutting/cc_base-fixed.mzn,
+  nSolutions: 10, objective: 2842, objectiveBound: 2370, paths: 0, problem: '', propagations: 121494,
+  solveTime: 0.203144, status: SATISFIED, time: 1201.2320281947032}
