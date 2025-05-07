@@ -1,0 +1,6 @@
+{blockType: complete, configuration: Huub_free_m+o, data_file: ../filters/dct_2_3.dzn,
+  extractedViews: 8, failures: 664403, flatIntConstraints: 75, flatIntVars: 105, flatTime: 0.173455,
+  initTime: 0.007526, intVariables: 65, method: minimize, model: ../filters/filter.mzn,
+  nSolutions: 3, objective: 16, oracleDecisions: 465727, paths: 0, peakDepth: 183,
+  problem: '', propagations: 10103875, propagators: 67, restarts: 21691, solveTime: 91.377092,
+  status: OPTIMAL_SOLUTION, time: 91.85426476504654, unifiedVariables: 0, userDecisions: 1036025}
