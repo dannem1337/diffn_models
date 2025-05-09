@@ -9,6 +9,6 @@
     X: [0, 33, 10, 13, 12, 12, 10, 27, 18, 0, 35, 0, 33, 17, 31, 17, 0]
     Y: [0, 13, 29, 28, 23, 17, 32, 16, 16, 29, 13, 17, 0, 25, 24, 0, 0]
   status: SATISFIED
-  time: 0.619
+  time: 0.615
 - {configuration: Huub_user_diffn, data_file: ../rectangle-packing/data_square/rpp17_false.dzn,
   model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

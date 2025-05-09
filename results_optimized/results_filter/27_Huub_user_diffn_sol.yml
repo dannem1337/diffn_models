@@ -28,12 +28,12 @@
   problem: ''
   solution:
     objective: 19
-    r: [1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 1, 1, 1, 2, 2, 1, 1,
+    r: [1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 1, 1, 1, 2, 1, 2, 1,
       1, 1, 1]
-    t: [0, 0, 6, 6, 4, 4, 2, 2, 2, 8, 6, 4, 7, 5, 10, 10, 8, 8, 12, 10, 14, 15, 13,
-      12, 17, 15, 18, 16]
+    t: [0, 0, 6, 6, 4, 4, 2, 2, 2, 8, 6, 4, 7, 5, 8, 8, 10, 10, 10, 12, 14, 15, 12,
+      13, 17, 15, 18, 16]
   status: SATISFIED
-  time: 0.23
+  time: 0.228
 - configuration: Huub_user_diffn
   data_file: ../filters/ar_1_2.dzn
   model: ../filters/filter.mzn
@@ -42,9 +42,9 @@
     objective: 18
     r: [1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 2, 1, 2, 1,
       1, 1, 1]
-    t: [0, 0, 10, 10, 4, 4, 2, 2, 2, 12, 6, 4, 7, 5, 6, 8, 8, 6, 10, 11, 14, 14, 12,
+    t: [0, 0, 10, 10, 4, 4, 2, 2, 2, 12, 6, 4, 7, 5, 6, 8, 8, 6, 11, 10, 14, 14, 12,
       12, 16, 14, 17, 15]
   status: SATISFIED
-  time: 0.238
+  time: 0.235
 - {configuration: Huub_user_diffn, data_file: ../filters/ar_1_2.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}
