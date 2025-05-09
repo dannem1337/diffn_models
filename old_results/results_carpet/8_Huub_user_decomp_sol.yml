@@ -1,0 +1,9 @@
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.02.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 815, objective: 815}
+  status: SATISFIED
+  time: 29.521
+- {configuration: Huub_user_decomp, data_file: ../carpet-cutting/mzn_rnd_test.02.dzn,
+  model: ../carpet-cutting/cc_base-fixed.mzn, problem: '', status: OPTIMAL_SOLUTION}

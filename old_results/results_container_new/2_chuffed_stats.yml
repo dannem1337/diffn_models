@@ -1,0 +1,8 @@
+{backjumps: 972470, baseMem: 0.0, boolVariables: 81998, configuration: chuffed, data_file: ../container-loading/cl11.dzn,
+  evaluatedReifiedConstraints: 30358, failures: 2430934, flatBoolConstraints: 5420,
+  flatBoolVars: 30264, flatIntConstraints: 30769, flatIntVars: 899, flatTime: 1.76106,
+  initTime: 0.414, intVars: 899, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 39, nodes: 3422353, nogoods: 2430934, objective: 6240, optTime: 199.543,
+  paths: 0, peakDepth: 646, peakMem: 0.0, problem: '', propagations: 4723924273, propagators: 61146,
+  randomSeed: -1679086100, restarts: 39, solveTime: 1198.236, status: SATISFIED, time: 1201.1613120194525,
+  trailMem: 0.63, variables: 82899}

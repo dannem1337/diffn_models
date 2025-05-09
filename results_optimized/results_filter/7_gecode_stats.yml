@@ -1,0 +1,5 @@
+{configuration: gecode, data_file: ../filters/ar_1_1.dzn, failures: 4, flatIntConstraints: 37,
+  flatIntVars: 33, flatTime: 0.196069, initTime: 0.015399, method: minimize, model: ../filters/filter.mzn,
+  nSolutions: 1, nodes: 29, objective: 34, paths: 0, peakDepth: 28, problem: '', propagations: 562,
+  propagators: 39, restarts: 0, solutions: 1, solveTime: 0.025995, status: OPTIMAL_SOLUTION,
+  time: 1.0552256694063544, variables: 89}

@@ -1,0 +1,16 @@
+- configuration: Huub_free_diffn
+  data_file: ../rectangle-packing/data_square/rpp29_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 9555
+    Height: 65
+    Width: 147
+    X: [0, 0, 144, 69, 105, 69, 110, 97, 58, 98, 27, 108, 120, 133, 92, 22, 75, 0,
+      107, 75, 126, 0, 0, 51, 95, 25, 120, 67, 38]
+    Y: [0, 18, 14, 37, 16, 31, 14, 11, 0, 0, 11, 0, 0, 0, 50, 22, 48, 0, 46, 28, 44,
+      20, 42, 41, 21, 39, 17, 0, 10]
+  status: SATISFIED
+  time: 59.613
+- {configuration: Huub_free_diffn, data_file: ../rectangle-packing/data_square/rpp29_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

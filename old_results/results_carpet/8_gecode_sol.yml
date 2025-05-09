@@ -1,0 +1,58 @@
+- configuration: gecode
+  data_file: ../carpet-cutting/mzn_rnd_test.02.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1373, objective: 1373}
+  status: SATISFIED
+  time: 0.395
+- configuration: gecode
+  data_file: ../carpet-cutting/mzn_rnd_test.02.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1183, objective: 1183}
+  status: SATISFIED
+  time: 0.403
+- configuration: gecode
+  data_file: ../carpet-cutting/mzn_rnd_test.02.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1063, objective: 1063}
+  status: SATISFIED
+  time: 0.407
+- configuration: gecode
+  data_file: ../carpet-cutting/mzn_rnd_test.02.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1055, objective: 1055}
+  status: SATISFIED
+  time: 0.409
+- configuration: gecode
+  data_file: ../carpet-cutting/mzn_rnd_test.02.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1000, objective: 1000}
+  status: SATISFIED
+  time: 0.416
+- configuration: gecode
+  data_file: ../carpet-cutting/mzn_rnd_test.02.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 978, objective: 978}
+  status: SATISFIED
+  time: 3.266
+- configuration: gecode
+  data_file: ../carpet-cutting/mzn_rnd_test.02.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 922, objective: 922}
+  status: SATISFIED
+  time: 3.269
+- configuration: gecode
+  data_file: ../carpet-cutting/mzn_rnd_test.02.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 919, objective: 919}
+  status: SATISFIED
+  time: 10.558
+- {configuration: gecode, data_file: ../carpet-cutting/mzn_rnd_test.02.dzn, model: ../carpet-cutting/cc_base-fixed.mzn,
+  problem: '', status: SATISFIED}

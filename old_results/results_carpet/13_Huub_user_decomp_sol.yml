@@ -1,0 +1,93 @@
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1982, objective: 1982}
+  status: SATISFIED
+  time: 59.344
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1932, objective: 1932}
+  status: SATISFIED
+  time: 62.844
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1860, objective: 1860}
+  status: SATISFIED
+  time: 67.853
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1736, objective: 1736}
+  status: SATISFIED
+  time: 74.667
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1664, objective: 1664}
+  status: SATISFIED
+  time: 82.544
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1647, objective: 1647}
+  status: SATISFIED
+  time: 95.96
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1605, objective: 1605}
+  status: SATISFIED
+  time: 102.572
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1533, objective: 1533}
+  status: SATISFIED
+  time: 107.774
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1496, objective: 1496}
+  status: SATISFIED
+  time: 127.551
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1437, objective: 1437}
+  status: SATISFIED
+  time: 137.172
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1365, objective: 1365}
+  status: SATISFIED
+  time: 140.792
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1355, objective: 1355}
+  status: SATISFIED
+  time: 163.244
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.05.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1320, objective: 1320}
+  status: SATISFIED
+  time: 166.668
+- {configuration: Huub_user_decomp, data_file: ../carpet-cutting/mzn_rnd_test.05.dzn,
+  model: ../carpet-cutting/cc_base-fixed.mzn, problem: '', status: SATISFIED}

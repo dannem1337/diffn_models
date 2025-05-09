@@ -1,0 +1,24 @@
+blockType: init
+configuration: Huub_free_basic
+data_file: ../products-and-shelves/ps-100-18.dzn
+eliminatedImplications: 5000
+evaluatedHalfReifiedConstraints: 1485000
+evaluatedReifiedConstraints: 103600
+extractedViews: 35000
+flatBoolConstraints: 297000
+flatBoolVars: 1569100
+flatIntConstraints: 1564697
+flatIntVars: 30200
+flatTime: 138.609
+initTime: 26.407068
+intVariables: 30197
+method: minimize
+model: ../products-and-shelves/product-and-shelves.mzn
+nSolutions: 22
+objective: !ConstrEnum {argument: 17, constructor: S}
+paths: 0
+problem: ''
+propagators: 1554196
+status: SATISFIED
+time: 1243.163537367247
+unifiedVariables: 0

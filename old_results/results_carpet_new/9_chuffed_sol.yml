@@ -1,0 +1,128 @@
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 6080, objective: 6080}
+  status: SATISFIED
+  time: 0.648
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 5680, objective: 5680}
+  status: SATISFIED
+  time: 0.666
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 5542, objective: 5542}
+  status: SATISFIED
+  time: 0.675
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 5279, objective: 5279}
+  status: SATISFIED
+  time: 0.687
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 5141, objective: 5141}
+  status: SATISFIED
+  time: 0.707
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 5102, objective: 5102}
+  status: SATISFIED
+  time: 0.793
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 5097, objective: 5097}
+  status: SATISFIED
+  time: 0.829
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 5058, objective: 5058}
+  status: SATISFIED
+  time: 0.839
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4969, objective: 4969}
+  status: SATISFIED
+  time: 0.891
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4955, objective: 4955}
+  status: SATISFIED
+  time: 0.918
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4949, objective: 4949}
+  status: SATISFIED
+  time: 0.932
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4865, objective: 4865}
+  status: SATISFIED
+  time: 0.987
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4817, objective: 4817}
+  status: SATISFIED
+  time: 1.209
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4811, objective: 4811}
+  status: SATISFIED
+  time: 1.226
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4766, objective: 4766}
+  status: SATISFIED
+  time: 1.373
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4727, objective: 4727}
+  status: SATISFIED
+  time: 1.427
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4696, objective: 4696}
+  status: SATISFIED
+  time: 1.559
+- configuration: chuffed
+  data_file: ../carpet-cutting/mzn_rnd_test.10.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 4657, objective: 4657}
+  status: SATISFIED
+  time: 1.683
+- {configuration: chuffed, data_file: ../carpet-cutting/mzn_rnd_test.10.dzn, model: ../carpet-cutting/cc_base-fixed.mzn,
+  problem: '', status: SATISFIED, time: 1199.7}

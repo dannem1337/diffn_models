@@ -1,0 +1,8 @@
+{blockType: complete, configuration: Huub_user_s+o, data_file: ../products-and-shelves/ps-100-18.dzn,
+  eliminatedImplications: 5000, evaluatedReifiedConstraints: 103600, extractedViews: 35000,
+  failures: 115191, flatBoolConstraints: 49500, flatBoolVars: 84100, flatIntConstraints: 79747,
+  flatIntVars: 30200, flatTime: 6.02557, initTime: 1.303419, intVariables: 30197,
+  method: minimize, model: ../products-and-shelves/product-and-shelves.mzn, nSolutions: 0,
+  oracleDecisions: 214931, paths: 0, peakDepth: 14797, problem: '', propagations: 444124163,
+  propagators: 69246, restarts: 0, solveTime: 1192.740539, status: UNKNOWN, time: 1202.1568110249937,
+  unifiedVariables: 0, userDecisions: 0}

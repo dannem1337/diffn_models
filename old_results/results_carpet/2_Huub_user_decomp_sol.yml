@@ -1,0 +1,16 @@
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.07.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 2432, objective: 2432}
+  status: SATISFIED
+  time: 35.763
+- configuration: Huub_user_decomp
+  data_file: ../carpet-cutting/mzn_rnd_test.07.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 2370, objective: 2370}
+  status: SATISFIED
+  time: 42.27
+- {configuration: Huub_user_decomp, data_file: ../carpet-cutting/mzn_rnd_test.07.dzn,
+  model: ../carpet-cutting/cc_base-fixed.mzn, problem: '', status: OPTIMAL_SOLUTION}

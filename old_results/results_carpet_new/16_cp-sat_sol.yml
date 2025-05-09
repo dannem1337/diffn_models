@@ -1,0 +1,177 @@
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1227, objective: 1227}
+  status: SATISFIED
+  time: 0.359
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1171, objective: 1171}
+  status: SATISFIED
+  time: 0.363
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1100, objective: 1100}
+  status: SATISFIED
+  time: 0.366
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1044, objective: 1044}
+  status: SATISFIED
+  time: 0.367
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1035, objective: 1035}
+  status: SATISFIED
+  time: 0.371
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 1014, objective: 1014}
+  status: SATISFIED
+  time: 0.372
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 979, objective: 979}
+  status: SATISFIED
+  time: 0.374
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 958, objective: 958}
+  status: SATISFIED
+  time: 0.376
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 893, objective: 893}
+  status: SATISFIED
+  time: 0.379
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 887, objective: 887}
+  status: SATISFIED
+  time: 0.38
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 853, objective: 853}
+  status: SATISFIED
+  time: 0.382
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 831, objective: 831}
+  status: SATISFIED
+  time: 0.383
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 822, objective: 822}
+  status: SATISFIED
+  time: 0.387
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 791, objective: 791}
+  status: SATISFIED
+  time: 0.389
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 766, objective: 766}
+  status: SATISFIED
+  time: 0.392
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 759, objective: 759}
+  status: SATISFIED
+  time: 0.396
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 750, objective: 750}
+  status: SATISFIED
+  time: 0.398
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 706, objective: 706}
+  status: SATISFIED
+  time: 0.399
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 694, objective: 694}
+  status: SATISFIED
+  time: 0.401
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 678, objective: 678}
+  status: SATISFIED
+  time: 0.404
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 641, objective: 641}
+  status: SATISFIED
+  time: 0.405
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 636, objective: 636}
+  status: SATISFIED
+  time: 0.43
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 634, objective: 634}
+  status: SATISFIED
+  time: 0.452
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 622, objective: 622}
+  status: SATISFIED
+  time: 0.541
+- configuration: cp-sat
+  data_file: ../carpet-cutting/mzn_rnd_test.01.dzn
+  model: ../carpet-cutting/cc_base-fixed.mzn
+  problem: ''
+  solution: {RollLen: 621, objective: 621}
+  status: SATISFIED
+  time: 0.552
+- {configuration: cp-sat, data_file: ../carpet-cutting/mzn_rnd_test.01.dzn, model: ../carpet-cutting/cc_base-fixed.mzn,
+  problem: '', status: OPTIMAL_SOLUTION}

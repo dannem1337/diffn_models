@@ -1,0 +1,17 @@
+configuration: chuffed
+data_file: ../products-and-shelves/ps-75-15.dzn
+eliminatedImplications: 2250
+evaluatedReifiedConstraints: 528900
+flatBoolConstraints: 104250
+flatBoolVars: 529200
+flatIntConstraints: 531890
+flatIntVars: 13649
+flatTime: 45.6582
+method: minimize
+model: ../products-and-shelves/product-and-shelves.mzn
+nSolutions: 13
+objective: !ConstrEnum {argument: 18, constructor: S}
+paths: 0
+problem: ''
+status: SATISFIED
+time: 1211.4322935137898

@@ -1,0 +1,23 @@
+boolVariables: 523103
+configuration: cp-sat
+data_file: ../products-and-shelves/ps-75-12.dzn
+eliminatedImplications: 2250
+evaluatedHalfReifiedConstraints: 499500
+evaluatedReifiedConstraints: 30450
+failures: 6553
+flatBoolConstraints: 105000
+flatBoolVars: 530100
+flatIntConstraints: 532719
+flatIntVars: 13650
+flatTime: 45.5157
+method: minimize
+model: ../products-and-shelves/product-and-shelves.mzn
+nSolutions: 2
+objective: !ConstrEnum {argument: 29, constructor: S}
+objectiveBound: 5
+paths: 0
+problem: ''
+propagations: 54876793
+solveTime: 855.697
+status: SATISFIED
+time: 1209.976581402123

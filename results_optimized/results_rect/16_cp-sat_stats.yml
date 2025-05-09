@@ -1,0 +1,5 @@
+{configuration: cp-sat, data_file: ../rectangle-packing/data_square/rpp28_false.dzn,
+  eliminatedImplications: 108, evaluatedHalfReifiedConstraints: 216, flatBoolConstraints: 162,
+  flatBoolVars: 216, flatIntConstraints: 321, flatIntVars: 145, flatTime: 0.09798,
+  method: satisfy, model: ../rectangle-packing/rect_packing.mzn, nSolutions: 0, paths: 0,
+  problem: '', status: UNKNOWN, time: 1200.3132089124992}

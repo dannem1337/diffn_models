@@ -1,0 +1,7 @@
+container_size = [8, 4, 4];
+Box = B(1..1);
+no_boxes = [4];
+box_size =
+[|       Length: Width: Height:
+ | B(1):      2,     2,      2
+ |];
