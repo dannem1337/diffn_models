@@ -1,0 +1,14 @@
+- configuration: Huub_free_m+s
+  data_file: ../rectangle-packing/data_square/rpp19_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 2744
+    Height: 49
+    Width: 56
+    X: [0, 54, 40, 37, 46, 31, 0, 0, 31, 46, 35, 23, 43, 17, 8, 0, 0, 38, 18]
+    Y: [0, 16, 46, 36, 10, 34, 0, 7, 40, 0, 0, 0, 36, 35, 0, 16, 32, 18, 15]
+  status: SATISFIED
+  time: 2.402
+- {configuration: Huub_free_m+s, data_file: ../rectangle-packing/data_square/rpp19_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}
