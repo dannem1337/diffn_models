@@ -1,0 +1,67 @@
+- configuration: Huub_user_diffn
+  data_file: ../filters/dct_2_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 22
+    r: [1, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 2, 1, 1, 2, 1, 1, 1, 2,
+      1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 2, 1, 1, 2, 2, 1, 2, 1, 2, 1, 2, 1, 2]
+    t: [0, 0, 2, 4, 5, 4, 1, 1, 2, 5, 7, 6, 3, 3, 6, 7, 1, 1, 11, 3, 3, 15, 7, 13,
+      7, 9, 11, 13, 5, 9, 15, 5, 13, 19, 14, 19, 18, 16, 18, 13, 21, 21, 20, 20, 15,
+      15, 17, 17]
+  status: SATISFIED
+  time: 1.343
+- configuration: Huub_user_diffn
+  data_file: ../filters/dct_2_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 21
+    r: [1, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 2, 1, 1, 2, 1, 1, 1, 2,
+      1, 2, 2, 1, 2, 2, 2, 1, 1, 2, 2, 1, 1, 1, 2, 1, 2, 1, 2, 2, 2, 1, 2]
+    t: [0, 0, 2, 4, 5, 4, 1, 1, 2, 5, 7, 6, 3, 3, 6, 7, 1, 1, 15, 3, 3, 11, 7, 13,
+      7, 9, 11, 13, 5, 9, 15, 5, 19, 14, 19, 14, 13, 16, 15, 13, 20, 20, 17, 17, 15,
+      16, 18, 18]
+  status: SATISFIED
+  time: 2.416
+- configuration: Huub_user_diffn
+  data_file: ../filters/dct_2_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 20
+    r: [1, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 2, 1, 1, 2, 1, 1, 1, 2,
+      2, 1, 2, 1, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 1, 2, 2, 1, 2]
+    t: [0, 0, 2, 4, 5, 4, 1, 1, 2, 5, 7, 6, 3, 3, 6, 7, 1, 1, 15, 3, 3, 9, 7, 13,
+      7, 15, 11, 13, 5, 9, 11, 5, 18, 17, 17, 11, 12, 16, 11, 14, 19, 18, 19, 15,
+      16, 15, 13, 13]
+  status: SATISFIED
+  time: 3.609
+- configuration: Huub_user_diffn
+  data_file: ../filters/dct_2_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 19
+    r: [1, 2, 1, 1, 1, 2, 1, 2, 2, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 1, 1, 1,
+      2, 2, 2, 1, 2, 2, 2, 1, 1, 2, 2, 1, 1, 2, 2, 1, 2, 1, 2, 1, 2, 1, 2]
+    t: [0, 0, 2, 5, 4, 4, 1, 1, 2, 7, 6, 5, 3, 3, 8, 6, 1, 1, 9, 3, 3, 11, 13, 7,
+      15, 13, 15, 11, 5, 7, 9, 5, 11, 15, 11, 15, 14, 17, 14, 17, 16, 16, 18, 18,
+      13, 13, 12, 12]
+  status: SATISFIED
+  time: 4.409
+- configuration: Huub_user_diffn
+  data_file: ../filters/dct_2_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 18
+    r: [1, 2, 1, 1, 1, 2, 1, 2, 2, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 2, 1, 1,
+      2, 2, 2, 1, 1, 2, 2, 1, 1, 2, 1, 1, 1, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2]
+    t: [0, 0, 2, 5, 4, 4, 1, 1, 2, 7, 6, 5, 3, 3, 8, 6, 1, 1, 7, 3, 3, 9, 9, 13, 11,
+      11, 7, 13, 5, 15, 15, 5, 9, 13, 9, 11, 12, 15, 11, 13, 14, 12, 16, 14, 16, 15,
+      17, 17]
+  status: SATISFIED
+  time: 5.314
+- {configuration: Huub_user_diffn, data_file: ../filters/dct_2_2.dzn, model: ../filters/filter.mzn,
+  problem: '', status: SATISFIED}
