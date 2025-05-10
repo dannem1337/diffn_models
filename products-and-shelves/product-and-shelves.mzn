@@ -111,10 +111,10 @@ solve minimize last_loaded_shelf;
 
 % Output
 % Real placement
-array[Item] of any: item_placement ::output_only ::output = [
-	(p[Length], p[Width], p[Height])
-	| it in Item, p = fix(item_shelve_placement[it, fix(item_shelving[it]), ..])
-];
+% array[Item] of any: item_placement ::output_only ::output = [
+% 	(p[Length], p[Width], p[Height])
+% 	| it in Item, p = fix(item_shelve_placement[it, fix(item_shelving[it]), ..])
+% ];
 
 % Output code to check the placement on all (potentially unused shelves)
 % function int: enum2int($$E: e) = e;
