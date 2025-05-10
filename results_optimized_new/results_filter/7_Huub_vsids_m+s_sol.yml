@@ -1,0 +1,14 @@
+- configuration: Huub_vsids_m+s
+  data_file: ../filters/ar_1_1.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 34
+    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1]
+    t: [14, 16, 18, 30, 6, 4, 2, 0, 22, 32, 10, 6, 11, 7, 10, 20, 12, 8, 23, 14, 26,
+      28, 24, 22, 30, 26, 31, 33]
+  status: SATISFIED
+  time: 0.226
+- {configuration: Huub_vsids_m+s, data_file: ../filters/ar_1_1.dzn, model: ../filters/filter.mzn,
+  problem: '', status: OPTIMAL_SOLUTION}

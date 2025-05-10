@@ -1,0 +1,26 @@
+- configuration: Huub_vsids_m+o
+  data_file: ../filters/ewf_1_1.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 29
+    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 3, 1, 2, 4, 5, 7, 7, 9, 8, 19, 10, 9, 20, 11, 11, 13, 12, 23, 15, 14, 13,
+      24, 16, 15, 25, 19, 17, 25, 18, 27, 21, 28, 22]
+  status: SATISFIED
+  time: 0.245
+- configuration: Huub_vsids_m+o
+  data_file: ../filters/ewf_1_1.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 28
+    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 3, 1, 2, 4, 5, 7, 7, 9, 8, 20, 10, 9, 24, 11, 11, 13, 12, 19, 15, 14, 13,
+      23, 16, 15, 24, 19, 17, 25, 18, 26, 21, 27, 22]
+  status: SATISFIED
+  time: 0.251
+- {configuration: Huub_vsids_m+o, data_file: ../filters/ewf_1_1.dzn, model: ../filters/filter.mzn,
+  problem: '', status: OPTIMAL_SOLUTION}

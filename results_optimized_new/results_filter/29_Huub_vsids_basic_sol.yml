@@ -1,0 +1,50 @@
+- configuration: Huub_vsids_basic
+  data_file: ../filters/dct_4_4.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 13
+    r: [3, 1, 4, 3, 4, 2, 3, 4, 1, 3, 2, 2, 2, 1, 1, 1, 4, 2, 3, 4, 2, 2, 3, 1, 1,
+      2, 2, 4, 4, 4, 3, 1, 4, 3, 1, 2, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 0, 2, 2, 0, 0, 1, 1, 1, 3, 2, 1, 3, 2, 4, 3, 7, 1, 2, 1, 9, 5, 6, 8, 6,
+      7, 3, 3, 5, 9, 4, 4, 9, 9, 5, 8, 11, 11, 7, 9, 10, 9, 12, 10, 7, 8, 11, 6]
+  status: SATISFIED
+  time: 0.221
+- configuration: Huub_vsids_basic
+  data_file: ../filters/dct_4_4.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 12
+    r: [3, 1, 4, 3, 4, 2, 3, 4, 1, 3, 2, 2, 2, 1, 1, 1, 4, 2, 3, 4, 3, 2, 3, 1, 1,
+      2, 2, 4, 4, 4, 3, 1, 4, 3, 1, 2, 4, 3, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1]
+    t: [0, 0, 2, 2, 0, 0, 1, 1, 1, 3, 2, 1, 3, 2, 4, 3, 7, 1, 2, 1, 8, 5, 6, 8, 6,
+      3, 7, 3, 5, 9, 4, 4, 9, 9, 5, 8, 10, 10, 7, 9, 10, 9, 11, 10, 7, 8, 11, 6]
+  status: SATISFIED
+  time: 0.229
+- configuration: Huub_vsids_basic
+  data_file: ../filters/dct_4_4.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 11
+    r: [4, 3, 3, 2, 2, 1, 1, 3, 4, 2, 2, 2, 4, 1, 1, 1, 4, 1, 3, 4, 1, 4, 2, 3, 2,
+      2, 2, 3, 4, 1, 3, 1, 4, 3, 1, 3, 4, 3, 1, 2, 3, 2, 2, 1, 4, 1, 2, 1]
+    t: [0, 0, 2, 0, 1, 1, 0, 1, 1, 3, 4, 2, 2, 2, 4, 3, 7, 2, 2, 1, 6, 5, 3, 6, 5,
+      7, 1, 8, 3, 8, 4, 4, 9, 9, 7, 7, 8, 8, 8, 7, 10, 8, 9, 9, 10, 10, 10, 6]
+  status: SATISFIED
+  time: 0.296
+- configuration: Huub_vsids_basic
+  data_file: ../filters/dct_4_4.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 10
+    r: [2, 4, 1, 3, 1, 2, 1, 3, 4, 3, 2, 2, 4, 1, 4, 1, 3, 4, 1, 3, 1, 3, 2, 4, 2,
+      2, 1, 2, 1, 3, 4, 4, 4, 3, 4, 3, 4, 1, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3]
+    t: [0, 0, 0, 0, 1, 1, 2, 2, 1, 1, 3, 2, 3, 3, 2, 4, 1, 3, 3, 5, 1, 3, 1, 1, 5,
+      3, 5, 7, 7, 7, 5, 7, 6, 6, 7, 5, 5, 7, 6, 7, 7, 8, 8, 8, 9, 9, 9, 9]
+  status: SATISFIED
+  time: 0.336
+- {configuration: Huub_vsids_basic, data_file: ../filters/dct_4_4.dzn, model: ../filters/filter.mzn,
+  problem: '', status: OPTIMAL_SOLUTION}

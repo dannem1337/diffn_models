@@ -1,0 +1,14 @@
+- configuration: Huub_vsids_m+o
+  data_file: ../filters/ewf_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 28
+    r: [1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2,
+      1, 2, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 3, 1, 2, 4, 5, 5, 7, 8, 11, 10, 9, 12, 23, 10, 14, 12, 22, 15, 13, 18,
+      23, 16, 17, 20, 17, 18, 25, 24, 26, 19, 20, 21, 27]
+  status: SATISFIED
+  time: 0.21
+- {configuration: Huub_vsids_m+o, data_file: ../filters/ewf_1_2.dzn, model: ../filters/filter.mzn,
+  problem: '', status: OPTIMAL_SOLUTION}

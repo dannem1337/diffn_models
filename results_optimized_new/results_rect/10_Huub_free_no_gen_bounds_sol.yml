@@ -1,0 +1,16 @@
+- configuration: Huub_free_no_gen_bounds
+  data_file: ../rectangle-packing/data_square/rpp30_true.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 10676
+    Height: 68
+    Width: 157
+    X: [134, 150, 0, 74, 152, 68, 74, 64, 85, 136, 146, 118, 101, 42, 81, 26, 96,
+      0, 113, 81, 0, 79, 56, 27, 132, 0, 130, 23, 101, 51]
+    Y: [0, 39, 18, 10, 36, 0, 0, 6, 17, 0, 0, 56, 55, 54, 0, 52, 0, 0, 0, 26, 21,
+      46, 45, 28, 11, 42, 41, 0, 26, 14]
+  status: SATISFIED
+  time: 255.762
+- {configuration: Huub_free_no_gen_bounds, data_file: ../rectangle-packing/data_square/rpp30_true.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

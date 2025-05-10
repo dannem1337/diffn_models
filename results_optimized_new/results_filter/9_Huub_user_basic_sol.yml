@@ -1,0 +1,38 @@
+- configuration: Huub_user_basic
+  data_file: ../filters/dct_3_4.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 13
+    r: [1, 2, 3, 1, 2, 1, 2, 3, 3, 1, 1, 2, 2, 3, 3, 1, 1, 2, 1, 3, 4, 1, 2, 3, 1,
+      4, 2, 2, 3, 3, 4, 4, 2, 1, 3, 2, 1, 1, 2, 2, 1, 2, 3, 3, 1, 2, 3, 3]
+    t: [0, 0, 0, 2, 2, 1, 1, 1, 2, 3, 4, 4, 3, 3, 4, 5, 1, 1, 3, 1, 1, 7, 3, 3, 5,
+      3, 5, 7, 5, 7, 7, 5, 5, 11, 5, 11, 10, 7, 10, 7, 12, 12, 11, 12, 9, 9, 9, 10]
+  status: SATISFIED
+  time: 0.294
+- configuration: Huub_user_basic
+  data_file: ../filters/dct_3_4.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 12
+    r: [1, 2, 3, 1, 2, 1, 2, 3, 3, 1, 1, 2, 2, 3, 3, 1, 1, 2, 1, 3, 4, 1, 2, 3, 1,
+      4, 2, 2, 3, 3, 4, 4, 2, 1, 3, 2, 3, 1, 1, 2, 2, 3, 1, 2, 1, 2, 3, 3]
+    t: [0, 0, 0, 2, 2, 1, 1, 1, 2, 3, 4, 4, 3, 3, 4, 5, 1, 1, 3, 1, 1, 5, 3, 3, 7,
+      3, 5, 7, 5, 7, 7, 5, 5, 7, 5, 7, 7, 10, 8, 10, 8, 8, 11, 11, 9, 9, 10, 9]
+  status: SATISFIED
+  time: 0.592
+- configuration: Huub_user_basic
+  data_file: ../filters/dct_3_4.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 11
+    r: [1, 2, 3, 1, 2, 1, 2, 3, 3, 1, 2, 1, 2, 3, 3, 1, 1, 2, 1, 3, 4, 1, 1, 2, 3,
+      2, 4, 4, 2, 3, 4, 3, 2, 1, 3, 1, 2, 1, 3, 2, 1, 1, 2, 3, 2, 2, 3, 3]
+    t: [0, 0, 0, 2, 2, 1, 1, 1, 2, 3, 3, 4, 4, 3, 4, 5, 1, 1, 3, 1, 1, 5, 7, 3, 4,
+      5, 3, 5, 7, 6, 7, 8, 5, 7, 5, 9, 7, 6, 7, 6, 8, 10, 8, 8, 9, 10, 9, 10]
+  status: SATISFIED
+  time: 31.961
+- {configuration: Huub_user_basic, data_file: ../filters/dct_3_4.dzn, model: ../filters/filter.mzn,
+  problem: '', status: SATISFIED}
