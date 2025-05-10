@@ -15,7 +15,7 @@ schedule(
         Configuration(name="Huub_vsids_basic", solver=minizinc.Solver.load(pathlib.Path('./huub_basic/share/minizinc/solvers/huub.msc')), other_flags={"--vsids-only": True, "--restart": True}),
         Configuration(name="Huub_free_basic", solver=minizinc.Solver.load(pathlib.Path('./huub_basic/share/minizinc/solvers/huub.msc')), free_search=True ),
         Configuration(name="Huub_vsids_no_gen_bounds", solver=minizinc.Solver.load(pathlib.Path('./huub_no_gen_bounds/share/minizinc/solvers/huub.msc')), other_flags={"--vsids-only": True, "--restart": True}),
-        Configuration(name="Huub_free_no_gen_bounds", solver=minizinc.Solver.load(pathlib.Path('./share/minizinc/solvers/huub_no_gen_bounds.msc')), free_search=True ),
+        Configuration(name="Huub_free_no_gen_bounds", solver=minizinc.Solver.load(pathlib.Path('./huub_no_gen_bounds/share/minizinc/solvers/huub_no_gen_bounds.msc')), free_search=True ),
         Configuration(name="Huub_vsids_m+s", solver=minizinc.Solver.load(pathlib.Path('./huub_m+s/share/minizinc/solvers/huub.msc')), other_flags={"--vsids-only": True, "--restart": True}),
         Configuration(name="Huub_free_m+s", solver=minizinc.Solver.load(pathlib.Path('./huub_m+s/share/minizinc/solvers/huub.msc')), free_search=True ),
         Configuration(name="Huub_vsids_m+o", solver=minizinc.Solver.load(pathlib.Path('./huub_m+o/share/minizinc/solvers/huub.msc')), other_flags={"--vsids-only": True, "--restart": True}),
