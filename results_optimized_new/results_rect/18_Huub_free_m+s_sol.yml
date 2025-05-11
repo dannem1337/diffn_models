@@ -4,13 +4,13 @@
   problem: ''
   solution:
     Area: 7700
-    Height: 50
-    Width: 154
-    X: [0, 22, 25, 113, 108, 117, 55, 98, 87, 98, 17, 96, 30, 84, 28, 27, 0, 136,
-      43, 93, 108, 62, 113, 43, 129, 67, 0]
-    Y: [0, 27, 29, 23, 24, 21, 19, 0, 14, 8, 34, 18, 0, 0, 29, 13, 27, 25, 0, 30,
-      0, 0, 27, 26, 0, 24, 0]
+    Height: 70
+    Width: 110
+    X: [0, 88, 87, 83, 47, 0, 0, 26, 82, 87, 47, 22, 34, 79, 52, 53, 93, 69, 91, 67,
+      7, 0, 87, 28, 53, 27, 0]
+    Y: [0, 32, 34, 63, 50, 27, 33, 50, 15, 60, 59, 58, 50, 0, 44, 25, 0, 25, 18, 43,
+      27, 48, 37, 26, 0, 0, 0]
   status: SATISFIED
-  time: 11.215
+  time: 27.291
 - {configuration: Huub_free_m+s, data_file: ../rectangle-packing/data_square/rpp27_false.dzn,
   model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

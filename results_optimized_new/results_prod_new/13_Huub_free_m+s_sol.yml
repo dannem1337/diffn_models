@@ -6,33 +6,33 @@
     item_shelving:
     - !ConstrEnum {argument: 1, constructor: S}
     - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
     - !ConstrEnum {argument: 3, constructor: S}
-    - !ConstrEnum {argument: 4, constructor: S}
-    - !ConstrEnum {argument: 5, constructor: S}
-    - !ConstrEnum {argument: 4, constructor: S}
-    - !ConstrEnum {argument: 4, constructor: S}
-    - !ConstrEnum {argument: 4, constructor: S}
-    - !ConstrEnum {argument: 6, constructor: S}
-    - !ConstrEnum {argument: 6, constructor: S}
-    - !ConstrEnum {argument: 1, constructor: S}
     - !ConstrEnum {argument: 3, constructor: S}
-    - !ConstrEnum {argument: 7, constructor: S}
-    - !ConstrEnum {argument: 8, constructor: S}
-    - !ConstrEnum {argument: 9, constructor: S}
     - !ConstrEnum {argument: 3, constructor: S}
-    - !ConstrEnum {argument: 4, constructor: S}
-    - !ConstrEnum {argument: 6, constructor: S}
-    - !ConstrEnum {argument: 7, constructor: S}
-    - !ConstrEnum {argument: 8, constructor: S}
+    - !ConstrEnum {argument: 3, constructor: S}
     - !ConstrEnum {argument: 1, constructor: S}
     - !ConstrEnum {argument: 4, constructor: S}
     - !ConstrEnum {argument: 5, constructor: S}
+    - !ConstrEnum {argument: 6, constructor: S}
+    - !ConstrEnum {argument: 7, constructor: S}
+    - !ConstrEnum {argument: 4, constructor: S}
+    - !ConstrEnum {argument: 6, constructor: S}
+    - !ConstrEnum {argument: 8, constructor: S}
     - !ConstrEnum {argument: 9, constructor: S}
+    - !ConstrEnum {argument: 9, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
+    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 3, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
     - !ConstrEnum {argument: 10, constructor: S}
     last_loaded_shelf: !ConstrEnum {argument: 10, constructor: S}
     objective: !ConstrEnum {argument: 10, constructor: S}
   status: SATISFIED
-  time: 0.555
+  time: 0.621
 - configuration: Huub_free_m+s
   data_file: ../products-and-shelves/ps-25-04.dzn
   model: ../products-and-shelves/product-and-shelves.mzn
@@ -42,31 +42,31 @@
     - !ConstrEnum {argument: 1, constructor: S}
     - !ConstrEnum {argument: 2, constructor: S}
     - !ConstrEnum {argument: 3, constructor: S}
-    - !ConstrEnum {argument: 3, constructor: S}
-    - !ConstrEnum {argument: 3, constructor: S}
-    - !ConstrEnum {argument: 2, constructor: S}
-    - !ConstrEnum {argument: 2, constructor: S}
-    - !ConstrEnum {argument: 2, constructor: S}
     - !ConstrEnum {argument: 4, constructor: S}
+    - !ConstrEnum {argument: 4, constructor: S}
+    - !ConstrEnum {argument: 3, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
+    - !ConstrEnum {argument: 5, constructor: S}
     - !ConstrEnum {argument: 5, constructor: S}
     - !ConstrEnum {argument: 1, constructor: S}
-    - !ConstrEnum {argument: 3, constructor: S}
+    - !ConstrEnum {argument: 4, constructor: S}
     - !ConstrEnum {argument: 6, constructor: S}
     - !ConstrEnum {argument: 7, constructor: S}
     - !ConstrEnum {argument: 8, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
     - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 3, constructor: S}
+    - !ConstrEnum {argument: 9, constructor: S}
+    - !ConstrEnum {argument: 9, constructor: S}
+    - !ConstrEnum {argument: 4, constructor: S}
     - !ConstrEnum {argument: 5, constructor: S}
     - !ConstrEnum {argument: 6, constructor: S}
-    - !ConstrEnum {argument: 9, constructor: S}
-    - !ConstrEnum {argument: 9, constructor: S}
-    - !ConstrEnum {argument: 1, constructor: S}
-    - !ConstrEnum {argument: 3, constructor: S}
-    - !ConstrEnum {argument: 4, constructor: S}
     - !ConstrEnum {argument: 7, constructor: S}
     - !ConstrEnum {argument: 8, constructor: S}
     last_loaded_shelf: !ConstrEnum {argument: 9, constructor: S}
     objective: !ConstrEnum {argument: 9, constructor: S}
   status: SATISFIED
-  time: 0.908
+  time: 1.072
 - {configuration: Huub_free_m+s, data_file: ../products-and-shelves/ps-25-04.dzn,
   model: ../products-and-shelves/product-and-shelves.mzn, problem: '', status: OPTIMAL_SOLUTION}

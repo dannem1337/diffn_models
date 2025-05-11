@@ -3,14 +3,14 @@
   model: ../rectangle-packing/rect_packing.mzn
   problem: ''
   solution:
-    Area: 5508
-    Height: 68
-    Width: 81
-    X: [0, 76, 78, 62, 62, 65, 66, 73, 0, 71, 9, 69, 68, 67, 54, 38, 0, 0, 0, 18,
-      41, 19, 44, 20]
-    Y: [0, 66, 65, 0, 45, 58, 0, 0, 18, 53, 20, 10, 22, 39, 7, 6, 51, 0, 31, 0, 47,
-      46, 22, 22]
+    Area: 5550
+    Height: 74
+    Width: 75
+    X: [0, 28, 56, 64, 47, 0, 68, 44, 24, 65, 64, 52, 52, 38, 40, 31, 21, 22, 33,
+      55, 0, 0, 52, 0]
+    Y: [0, 0, 14, 14, 0, 25, 11, 51, 18, 0, 18, 17, 0, 60, 36, 0, 57, 37, 16, 31,
+      53, 31, 51, 0]
   status: SATISFIED
-  time: 107.117
+  time: 187.367
 - {configuration: Huub_free_m+s, data_file: ../rectangle-packing/data_square/rpp24_false.dzn,
   model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}
