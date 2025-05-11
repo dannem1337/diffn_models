@@ -4,56 +4,12 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 
-# matplotlib.use('pgf')
-
-# Provided CSV data
-# data = "results_optimized/results_container_user.csv"
-# #data = "results_optimized/results_container_free.csv"
-#
-# # Read CSV into DataFrame
-# df = pd.read_csv(data)
-#
-#
-# # Filter for only rows with OPTIMAL_SOLUTION
-# df_opt = df[df["status"] == "SATISFIED"]
-#
-# # Create cactus plot comparing configurations
-# plt.figure(figsize=(10, 6))
-#
-# # Clean the data_file column to just the filename (e.g., 'cl01')
-# df_opt["data_file"] = df_opt["data_file"].apply(
-#     lambda x: x.split("/")[-1].split(".")[0]
-# )
-#
-#
-# # Sort by the numeric part of the data_file name
-# df_opt["file_num"] = df_opt["data_file"].str.extract(r'cl(\d+)').astype(int)
-# df_opt = df_opt.sort_values("file_num")
-# df_opt = df_opt.drop(columns="file_num")
-#
-# for config, group in df_opt[df_opt["configuration"].str.match(r"Huub.*|chuffed|gecode|cp-sat")].groupby("configuration"):
-#     df_subset = df_opt[df_opt["configuration"] == config]
-#     plt.plot(df_subset["data_file"], df_subset["objective"], label=config)
-#
-# # Formatting
-# plt.xlabel("Data File")
-# plt.ylabel("Objective")
-# plt.title("Container Loading (Free)")
-# plt.xticks(rotation=45)
-# plt.legend()
-# plt.tight_layout()
-# plt.grid(True)
-#
-# # Show the plot
-# #plt.savefig("container.pgf", format='pgf')
-# # plt.savefig("container.png")
-
 
 import pandas as pd
 
 # Read CSV
 # Read CSV
-df = pd.read_csv("results_optimized/results_container.csv")
+df = pd.read_csv("results_optimized_new/results_container.csv")
 
 # Filter for optimal solutions
 df_opt = df[df["status"] == "SATISFIED"].copy()
@@ -124,7 +80,7 @@ df_opt["data_file"] = df_opt["data_file"].apply(lambda x: x.split("/")[-1].split
 
 # Filter only relevant configurations
 df_filtered = df_opt[
-    df_opt["configuration"].str.startswith("Huub_user") |
+    df_opt["configuration"].str.startswith("Huub_vsids") |
     df_opt["configuration"].str.contains(r"(chuffed|gecode|cp[-_]?sat)", flags=re.IGNORECASE, regex=True)
 ]
 
