@@ -1,0 +1,16 @@
+- configuration: Huub_vsids_m+s
+  data_file: ../rectangle-packing/data_square/rpp28_true.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 8649
+    Height: 93
+    Width: 93
+    X: [0, 0, 7, 10, 14, 57, 86, 55, 54, 25, 63, 13, 0, 35, 54, 53, 49, 45, 74, 66,
+      0, 63, 21, 69, 0, 0, 27, 25]
+    Y: [27, 25, 25, 25, 25, 87, 44, 77, 67, 56, 31, 51, 53, 51, 0, 15, 49, 31, 24,
+      43, 30, 71, 28, 0, 0, 67, 66, 0]
+  status: SATISFIED
+  time: 2.083
+- {configuration: Huub_vsids_m+s, data_file: ../rectangle-packing/data_square/rpp28_true.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

@@ -1,0 +1,8 @@
+{blockType: complete, configuration: Huub_vsids_m+o, data_file: ../rectangle-packing/data_square/rpp16_true.dzn,
+  eliminatedImplications: 32, evaluatedHalfReifiedConstraints: 64, evaluatedReifiedConstraints: 4512,
+  extractedViews: 7040, failures: 832, flatBoolConstraints: 2112, flatBoolVars: 6592,
+  flatIntConstraints: 7334, flatIntVars: 2603, flatTime: 0.296788, initTime: 0.072704,
+  intVariables: 69, method: satisfy, model: ../rectangle-packing/rect_packing.mzn,
+  nSolutions: 1, oracleDecisions: 3173, paths: 0, peakDepth: 2130, problem: '', propagations: 42841,
+  propagators: 282, restarts: 0, solveTime: 0.096855, status: SATISFIED, time: 0.7311482829973102,
+  unifiedVariables: 0, userDecisions: 0}

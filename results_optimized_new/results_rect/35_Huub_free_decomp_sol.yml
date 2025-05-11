@@ -1,0 +1,16 @@
+- configuration: Huub_free_decomp
+  data_file: ../rectangle-packing/data_square/rpp26_false.dzn
+  model: ../rectangle-packing/rect_packing.mzn
+  problem: ''
+  solution:
+    Area: 6962
+    Height: 59
+    Width: 118
+    X: [0, 116, 115, 114, 0, 42, 41, 37, 96, 86, 107, 74, 105, 60, 45, 0, 64, 0, 45,
+      0, 20, 48, 70, 81, 93, 19]
+    Y: [0, 19, 16, 12, 16, 43, 52, 0, 25, 24, 0, 24, 21, 22, 22, 0, 0, 21, 0, 39,
+      38, 37, 36, 0, 34, 12]
+  status: SATISFIED
+  time: 4.275
+- {configuration: Huub_free_decomp, data_file: ../rectangle-packing/data_square/rpp26_false.dzn,
+  model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}
