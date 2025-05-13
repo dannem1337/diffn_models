@@ -257,7 +257,7 @@
     - [53, 0, 2]
     used_size: [87, 42, 21]
   status: SATISFIED
-  time: 893.761
+  time: 888.092
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -517,7 +517,7 @@
     - [53, 0, 2]
     used_size: [86, 42, 21]
   status: SATISFIED
-  time: 906.643
+  time: 900.789
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -777,7 +777,7 @@
     - [53, 0, 2]
     used_size: [85, 42, 21]
   status: SATISFIED
-  time: 919.859
+  time: 913.842
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -1037,7 +1037,7 @@
     - [53, 0, 2]
     used_size: [84, 42, 21]
   status: SATISFIED
-  time: 931.051
+  time: 924.817
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -1297,7 +1297,7 @@
     - [53, 0, 2]
     used_size: [84, 42, 20]
   status: SATISFIED
-  time: 943.645
+  time: 937.195
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -1557,7 +1557,7 @@
     - [53, 0, 2]
     used_size: [84, 42, 19]
   status: SATISFIED
-  time: 961.811
+  time: 955.097
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -1817,7 +1817,7 @@
     - [53, 0, 2]
     used_size: [84, 42, 18]
   status: SATISFIED
-  time: 973.719
+  time: 966.863
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -2077,7 +2077,7 @@
     - [53, 0, 2]
     used_size: [84, 42, 17]
   status: SATISFIED
-  time: 1004.376
+  time: 997.069
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -2337,7 +2337,7 @@
     - [53, 0, 2]
     used_size: [83, 42, 17]
   status: SATISFIED
-  time: 1018.329
+  time: 1010.856
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -2597,7 +2597,7 @@
     - [53, 0, 2]
     used_size: [83, 42, 16]
   status: SATISFIED
-  time: 1031.633
+  time: 1023.93
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -2857,7 +2857,7 @@
     - [53, 0, 2]
     used_size: [83, 42, 15]
   status: SATISFIED
-  time: 1048.047
+  time: 1040.052
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -3117,7 +3117,7 @@
     - [53, 0, 2]
     used_size: [82, 42, 15]
   status: SATISFIED
-  time: 1071.792
+  time: 1063.456
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -3377,7 +3377,7 @@
     - [53, 0, 2]
     used_size: [82, 42, 14]
   status: SATISFIED
-  time: 1089.663
+  time: 1081.058
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -3637,7 +3637,7 @@
     - [53, 0, 2]
     used_size: [81, 37, 16]
   status: SATISFIED
-  time: 1128.041
+  time: 1118.119
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -3897,7 +3897,7 @@
     - [53, 0, 2]
     used_size: [81, 36, 16]
   status: SATISFIED
-  time: 1146.61
+  time: 1136.486
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -4157,7 +4157,7 @@
     - [53, 0, 2]
     used_size: [81, 36, 15]
   status: SATISFIED
-  time: 1158.656
+  time: 1148.388
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -4417,7 +4417,7 @@
     - [53, 0, 2]
     used_size: [81, 36, 14]
   status: SATISFIED
-  time: 1170.591
+  time: 1160.096
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl15.dzn
   model: ../container-loading/container-loading.mzn
@@ -4677,6 +4677,266 @@
     - [53, 0, 2]
     used_size: [81, 36, 13]
   status: SATISFIED
-  time: 1182.526
+  time: 1171.826
+- configuration: Huub_free_no_gen_bounds
+  data_file: ../container-loading/cl15.dzn
+  model: ../container-loading/container-loading.mzn
+  problem: ''
+  solution:
+    objective: 34992
+    start_pos:
+    - [22, 0, 1]
+    - [48, 9, 2]
+    - [52, 26, 0]
+    - [53, 14, 0]
+    - [63, 2, 7]
+    - [63, 3, 0]
+    - [63, 21, 3]
+    - [63, 26, 4]
+    - [63, 26, 6]
+    - [63, 26, 8]
+    - [63, 26, 10]
+    - [63, 31, 8]
+    - [63, 31, 10]
+    - [64, 31, 4]
+    - [65, 0, 2]
+    - [66, 28, 2]
+    - [69, 8, 0]
+    - [70, 15, 1]
+    - [71, 15, 3]
+    - [71, 19, 6]
+    - [72, 9, 8]
+    - [0, 5, 4]
+    - [6, 17, 6]
+    - [14, 0, 3]
+    - [15, 5, 3]
+    - [19, 22, 1]
+    - [19, 22, 7]
+    - [20, 1, 3]
+    - [26, 10, 0]
+    - [28, 15, 2]
+    - [29, 5, 0]
+    - [29, 5, 7]
+    - [30, 0, 7]
+    - [30, 10, 5]
+    - [30, 23, 4]
+    - [30, 28, 5]
+    - [31, 10, 0]
+    - [31, 18, 7]
+    - [31, 28, 0]
+    - [36, 10, 0]
+    - [36, 10, 5]
+    - [37, 4, 7]
+    - [38, 0, 2]
+    - [39, 15, 2]
+    - [48, 0, 2]
+    - [57, 9, 3]
+    - [58, 3, 0]
+    - [64, 8, 0]
+    - [64, 15, 2]
+    - [69, 5, 2]
+    - [76, 4, 4]
+    - [3, 20, 0]
+    - [7, 18, 0]
+    - [7, 20, 0]
+    - [8, 24, 0]
+    - [8, 26, 0]
+    - [8, 28, 0]
+    - [8, 30, 0]
+    - [12, 28, 0]
+    - [12, 28, 3]
+    - [12, 28, 6]
+    - [12, 28, 9]
+    - [12, 30, 6]
+    - [12, 30, 9]
+    - [14, 32, 0]
+    - [18, 32, 3]
+    - [18, 32, 6]
+    - [18, 32, 9]
+    - [18, 33, 0]
+    - [18, 34, 3]
+    - [18, 34, 6]
+    - [21, 30, 0]
+    - [21, 30, 9]
+    - [22, 18, 0]
+    - [22, 20, 0]
+    - [26, 20, 0]
+    - [34, 7, 0]
+    - [39, 6, 0]
+    - [43, 5, 0]
+    - [0, 17, 0]
+    - [0, 20, 9]
+    - [0, 26, 0]
+    - [0, 29, 3]
+    - [0, 29, 9]
+    - [0, 32, 3]
+    - [0, 33, 6]
+    - [1, 17, 3]
+    - [1, 17, 6]
+    - [1, 20, 6]
+    - [1, 33, 0]
+    - [2, 14, 9]
+    - [2, 20, 3]
+    - [3, 14, 6]
+    - [3, 23, 0]
+    - [17, 13, 2]
+    - [21, 10, 2]
+    - [33, 15, 0]
+    - [34, 4, 0]
+    - [0, 20, 0]
+    - [0, 22, 0]
+    - [0, 24, 0]
+    - [3, 3, 6]
+    - [3, 27, 3]
+    - [3, 27, 9]
+    - [3, 29, 0]
+    - [4, 13, 0]
+    - [4, 15, 0]
+    - [4, 22, 9]
+    - [4, 27, 0]
+    - [4, 31, 0]
+    - [5, 27, 6]
+    - [6, 13, 3]
+    - [6, 15, 9]
+    - [6, 18, 3]
+    - [6, 29, 6]
+    - [6, 31, 6]
+    - [7, 1, 0]
+    - [7, 1, 3]
+    - [7, 3, 4]
+    - [7, 5, 5]
+    - [7, 7, 5]
+    - [7, 33, 3]
+    - [7, 33, 6]
+    - [7, 34, 0]
+    - [8, 26, 3]
+    - [8, 31, 3]
+    - [8, 31, 9]
+    - [8, 32, 0]
+    - [8, 34, 9]
+    - [10, 2, 4]
+    - [11, 0, 6]
+    - [11, 0, 9]
+    - [11, 7, 9]
+    - [12, 3, 0]
+    - [12, 3, 9]
+    - [12, 5, 8]
+    - [15, 4, 0]
+    - [15, 21, 0]
+    - [19, 3, 0]
+    - [0, 15, 4]
+    - [1, 9, 1]
+    - [1, 10, 2]
+    - [2, 10, 0]
+    - [2, 11, 0]
+    - [2, 12, 2]
+    - [3, 12, 0]
+    - [4, 12, 4]
+    - [4, 12, 10]
+    - [32, 12, 10]
+    - [47, 12, 10]
+    - [57, 12, 8]
+    - [57, 13, 10]
+    - [62, 12, 10]
+    - [62, 13, 0]
+    - [62, 13, 2]
+    - [62, 20, 0]
+    - [63, 14, 2]
+    - [63, 20, 2]
+    - [64, 14, 6]
+    - [64, 14, 8]
+    - [64, 25, 0]
+    - [65, 14, 10]
+    - [66, 14, 0]
+    - [66, 14, 4]
+    - [66, 20, 4]
+    - [5, 5, 0]
+    - [22, 5, 0]
+    - [22, 32, 0]
+    - [25, 0, 3]
+    - [35, 0, 0]
+    - [56, 19, 0]
+    - [62, 28, 0]
+    - [68, 21, 0]
+    - [68, 26, 0]
+    - [68, 32, 0]
+    - [72, 25, 9]
+    - [73, 24, 3]
+    - [74, 4, 0]
+    - [74, 4, 2]
+    - [74, 26, 7]
+    - [74, 30, 8]
+    - [74, 30, 10]
+    - [74, 32, 0]
+    - [75, 27, 0]
+    - [75, 27, 5]
+    - [75, 28, 3]
+    - [75, 31, 5]
+    - [75, 32, 3]
+    - [0, 3, 3]
+    - [0, 10, 4]
+    - [0, 10, 5]
+    - [0, 10, 6]
+    - [0, 10, 7]
+    - [0, 10, 8]
+    - [0, 10, 9]
+    - [0, 10, 10]
+    - [0, 10, 11]
+    - [1, 1, 0]
+    - [1, 1, 1]
+    - [1, 5, 1]
+    - [18, 9, 0]
+    - [19, 10, 1]
+    - [31, 0, 1]
+    - [31, 20, 3]
+    - [39, 0, 7]
+    - [39, 0, 11]
+    - [43, 0, 11]
+    - [43, 1, 4]
+    - [45, 1, 0]
+    - [49, 1, 0]
+    - [53, 0, 0]
+    - [53, 4, 0]
+    - [54, 0, 1]
+    - [0, 14, 1]
+    - [0, 26, 3]
+    - [0, 29, 0]
+    - [1, 27, 6]
+    - [2, 17, 9]
+    - [2, 24, 7]
+    - [2, 30, 6]
+    - [3, 3, 9]
+    - [3, 32, 9]
+    - [4, 29, 9]
+    - [4, 32, 3]
+    - [11, 32, 9]
+    - [11, 33, 0]
+    - [16, 29, 9]
+    - [44, 14, 0]
+    - [44, 17, 0]
+    - [47, 17, 1]
+    - [48, 14, 1]
+    - [58, 0, 0]
+    - [61, 0, 0]
+    - [0, 23, 3]
+    - [1, 0, 2]
+    - [5, 6, 8]
+    - [5, 9, 8]
+    - [6, 0, 8]
+    - [6, 3, 8]
+    - [14, 0, 8]
+    - [14, 18, 8]
+    - [15, 7, 8]
+    - [15, 15, 8]
+    - [15, 18, 0]
+    - [20, 5, 8]
+    - [20, 6, 4]
+    - [20, 16, 4]
+    - [21, 15, 0]
+    - [31, 1, 3]
+    - [53, 0, 2]
+    used_size: [81, 36, 12]
+  status: SATISFIED
+  time: 1189.645
 - {configuration: Huub_free_no_gen_bounds, data_file: ../container-loading/cl15.dzn,
   model: ../container-loading/container-loading.mzn, problem: '', status: SATISFIED}

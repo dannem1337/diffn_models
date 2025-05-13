@@ -127,7 +127,7 @@
     - [42, 28, 13]
     used_size: [48, 36, 15]
   status: SATISFIED
-  time: 41.627
+  time: 41.501
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -257,7 +257,7 @@
     - [42, 27, 12]
     used_size: [48, 36, 14]
   status: SATISFIED
-  time: 42.746
+  time: 42.63
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -387,7 +387,7 @@
     - [42, 27, 11]
     used_size: [48, 36, 13]
   status: SATISFIED
-  time: 44.588
+  time: 44.474
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -517,7 +517,7 @@
     - [41, 29, 11]
     used_size: [47, 36, 13]
   status: SATISFIED
-  time: 46.232
+  time: 46.107
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -647,7 +647,7 @@
     - [40, 29, 11]
     used_size: [46, 36, 13]
   status: SATISFIED
-  time: 47.529
+  time: 47.394
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -777,7 +777,7 @@
     - [39, 29, 11]
     used_size: [45, 36, 13]
   status: SATISFIED
-  time: 48.823
+  time: 48.679
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -907,7 +907,7 @@
     - [39, 29, 11]
     used_size: [45, 35, 13]
   status: SATISFIED
-  time: 50.35
+  time: 50.225
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -1037,7 +1037,7 @@
     - [38, 29, 1]
     used_size: [48, 35, 12]
   status: SATISFIED
-  time: 55.434
+  time: 55.292
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -1167,7 +1167,7 @@
     - [38, 29, 9]
     used_size: [48, 34, 12]
   status: SATISFIED
-  time: 56.518
+  time: 56.38
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -1297,7 +1297,7 @@
     - [38, 28, 9]
     used_size: [48, 33, 12]
   status: SATISFIED
-  time: 57.732
+  time: 57.603
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -1427,7 +1427,7 @@
     - [38, 28, 9]
     used_size: [48, 34, 11]
   status: SATISFIED
-  time: 59.035
+  time: 58.922
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -1557,7 +1557,7 @@
     - [38, 27, 3]
     used_size: [47, 34, 11]
   status: SATISFIED
-  time: 60.339
+  time: 60.245
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -1687,7 +1687,7 @@
     - [37, 27, 3]
     used_size: [47, 34, 10]
   status: SATISFIED
-  time: 62.922
+  time: 62.827
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -1817,7 +1817,7 @@
     - [36, 25, 3]
     used_size: [46, 34, 10]
   status: SATISFIED
-  time: 64.146
+  time: 64.047
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -1947,7 +1947,7 @@
     - [36, 25, 3]
     used_size: [47, 33, 10]
   status: SATISFIED
-  time: 65.392
+  time: 65.288
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -2077,7 +2077,7 @@
     - [36, 25, 3]
     used_size: [47, 32, 10]
   status: SATISFIED
-  time: 66.627
+  time: 66.516
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -2207,7 +2207,7 @@
     - [37, 22, 2]
     used_size: [44, 34, 10]
   status: SATISFIED
-  time: 67.876
+  time: 67.754
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -2337,7 +2337,7 @@
     - [37, 22, 2]
     used_size: [45, 33, 10]
   status: SATISFIED
-  time: 69.127
+  time: 68.999
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -2467,7 +2467,7 @@
     - [37, 22, 2]
     used_size: [46, 32, 10]
   status: SATISFIED
-  time: 70.274
+  time: 70.143
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -2597,7 +2597,7 @@
     - [36, 21, 2]
     used_size: [42, 35, 10]
   status: SATISFIED
-  time: 71.571
+  time: 71.442
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -2727,7 +2727,7 @@
     - [36, 13, 2]
     used_size: [48, 34, 9]
   status: SATISFIED
-  time: 74.996
+  time: 74.863
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -2857,7 +2857,7 @@
     - [39, 23, 2]
     used_size: [45, 36, 9]
   status: SATISFIED
-  time: 76.13
+  time: 75.992
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -2987,7 +2987,7 @@
     - [38, 23, 2]
     used_size: [44, 36, 9]
   status: SATISFIED
-  time: 77.245
+  time: 77.101
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -3117,7 +3117,7 @@
     - [38, 23, 2]
     used_size: [44, 35, 9]
   status: SATISFIED
-  time: 78.372
+  time: 78.218
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -3247,7 +3247,7 @@
     - [39, 23, 2]
     used_size: [45, 34, 9]
   status: SATISFIED
-  time: 79.44
+  time: 79.288
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -3377,7 +3377,7 @@
     - [40, 23, 2]
     used_size: [46, 33, 9]
   status: SATISFIED
-  time: 80.503
+  time: 80.349
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -3507,7 +3507,7 @@
     - [33, 31, 8]
     used_size: [39, 35, 10]
   status: SATISFIED
-  time: 82.232
+  time: 82.073
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -3637,7 +3637,7 @@
     - [33, 31, 8]
     used_size: [39, 34, 10]
   status: SATISFIED
-  time: 83.474
+  time: 83.301
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -3767,7 +3767,7 @@
     - [33, 30, 4]
     used_size: [39, 33, 10]
   status: SATISFIED
-  time: 84.707
+  time: 84.529
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -3897,7 +3897,7 @@
     - [33, 29, 4]
     used_size: [39, 32, 10]
   status: SATISFIED
-  time: 85.868
+  time: 85.68
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -4027,7 +4027,7 @@
     - [33, 28, 4]
     used_size: [39, 31, 10]
   status: SATISFIED
-  time: 87.011
+  time: 86.806
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -4157,7 +4157,7 @@
     - [33, 28, 4]
     used_size: [39, 31, 9]
   status: SATISFIED
-  time: 88.696
+  time: 88.49
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -4287,7 +4287,7 @@
     - [33, 27, 4]
     used_size: [39, 30, 9]
   status: SATISFIED
-  time: 89.837
+  time: 89.628
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -4417,7 +4417,7 @@
     - [33, 26, 4]
     used_size: [39, 29, 9]
   status: SATISFIED
-  time: 91.041
+  time: 90.831
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -4547,7 +4547,7 @@
     - [32, 26, 4]
     used_size: [38, 29, 9]
   status: SATISFIED
-  time: 93.2
+  time: 92.966
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -4677,7 +4677,7 @@
     - [32, 26, 4]
     used_size: [38, 32, 8]
   status: SATISFIED
-  time: 95.428
+  time: 95.179
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -4807,7 +4807,7 @@
     - [32, 26, 4]
     used_size: [38, 31, 8]
   status: SATISFIED
-  time: 96.51
+  time: 96.255
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -4937,7 +4937,7 @@
     - [32, 26, 4]
     used_size: [38, 30, 8]
   status: SATISFIED
-  time: 97.601
+  time: 97.333
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -5067,7 +5067,7 @@
     - [32, 26, 4]
     used_size: [38, 29, 8]
   status: SATISFIED
-  time: 98.704
+  time: 98.442
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -5197,7 +5197,7 @@
     - [34, 24, 4]
     used_size: [40, 27, 8]
   status: SATISFIED
-  time: 100.449
+  time: 100.184
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -5327,7 +5327,7 @@
     - [33, 12, 4]
     used_size: [39, 27, 8]
   status: SATISFIED
-  time: 101.544
+  time: 101.279
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -5457,7 +5457,7 @@
     - [14, 19, 13]
     used_size: [20, 28, 15]
   status: SATISFIED
-  time: 118.199
+  time: 117.871
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -5587,7 +5587,7 @@
     - [14, 24, 7]
     used_size: [20, 27, 15]
   status: SATISFIED
-  time: 122.04
+  time: 121.686
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -5717,7 +5717,7 @@
     - [14, 23, 7]
     used_size: [20, 26, 15]
   status: SATISFIED
-  time: 123.328
+  time: 122.969
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -5847,7 +5847,7 @@
     - [14, 12, 7]
     used_size: [20, 26, 14]
   status: SATISFIED
-  time: 127.855
+  time: 127.498
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -5977,7 +5977,7 @@
     - [14, 4, 11]
     used_size: [20, 24, 15]
   status: SATISFIED
-  time: 151.57
+  time: 151.049
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -6107,7 +6107,7 @@
     - [14, 7, 12]
     used_size: [20, 23, 15]
   status: SATISFIED
-  time: 159.903
+  time: 159.391
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -6237,7 +6237,7 @@
     - [15, 12, 7]
     used_size: [21, 21, 15]
   status: SATISFIED
-  time: 232.053
+  time: 231.58
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -6367,7 +6367,7 @@
     - [14, 25, 8]
     used_size: [20, 33, 10]
   status: SATISFIED
-  time: 315.77
+  time: 315.625
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -6497,7 +6497,7 @@
     - [21, 13, 13]
     used_size: [27, 16, 15]
   status: SATISFIED
-  time: 392.271
+  time: 392.109
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -6627,7 +6627,7 @@
     - [10, 24, 10]
     used_size: [16, 33, 12]
   status: SATISFIED
-  time: 565.703
+  time: 566.137
 - configuration: Huub_free_no_gen_bounds
   data_file: ../container-loading/cl12.dzn
   model: ../container-loading/container-loading.mzn
@@ -6757,6 +6757,6 @@
     - [19, 2, 4]
     used_size: [25, 21, 12]
   status: SATISFIED
-  time: 818.964
+  time: 819.523
 - {configuration: Huub_free_no_gen_bounds, data_file: ../container-loading/cl12.dzn,
   model: ../container-loading/container-loading.mzn, problem: '', status: SATISFIED}

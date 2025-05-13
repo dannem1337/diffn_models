@@ -1,7 +1,7 @@
 {blockType: complete, configuration: Huub_vsids_m+o, data_file: ../container-loading/cl06.dzn,
-  evaluatedReifiedConstraints: 2688, extractedViews: 600, failures: 28546, flatBoolConstraints: 960,
-  flatBoolVars: 1728, flatIntConstraints: 1758, flatIntVars: 1205, flatTime: 0.165167,
-  initTime: 0.042307, intVariables: 605, method: minimize, model: ../container-loading/container-loading.mzn,
-  nSolutions: 33, objective: 11250, oracleDecisions: 304249, paths: 0, peakDepth: 2598,
-  problem: '', propagations: 7394843, propagators: 2118, restarts: 584, solveTime: 1199.81946,
-  status: SATISFIED, time: 1200.21072662808, unifiedVariables: 0, userDecisions: 0}
+  evaluatedReifiedConstraints: 2688, extractedViews: 600, failures: 28719, flatBoolConstraints: 960,
+  flatBoolVars: 1728, flatIntConstraints: 1758, flatIntVars: 1205, flatTime: 0.160101,
+  initTime: 0.041561, intVariables: 605, method: minimize, model: ../container-loading/container-loading.mzn,
+  nSolutions: 33, objective: 11250, oracleDecisions: 306695, paths: 0, peakDepth: 2598,
+  problem: '', propagations: 7457545, propagators: 2118, restarts: 591, solveTime: 1199.814983,
+  status: SATISFIED, time: 1200.1764944074675, unifiedVariables: 0, userDecisions: 0}

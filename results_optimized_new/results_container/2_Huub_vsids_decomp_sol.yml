@@ -107,7 +107,7 @@
     - [27, 26, 1]
     used_size: [35, 33, 15]
   status: SATISFIED
-  time: 3.563
+  time: 3.719
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -217,7 +217,7 @@
     - [26, 26, 1]
     used_size: [34, 33, 15]
   status: SATISFIED
-  time: 3.609
+  time: 3.766
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -327,7 +327,7 @@
     - [25, 26, 1]
     used_size: [33, 33, 15]
   status: SATISFIED
-  time: 3.653
+  time: 3.813
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -437,7 +437,7 @@
     - [25, 26, 1]
     used_size: [34, 32, 15]
   status: SATISFIED
-  time: 3.699
+  time: 3.862
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -547,7 +547,7 @@
     - [25, 26, 1]
     used_size: [34, 32, 14]
   status: SATISFIED
-  time: 3.766
+  time: 3.933
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -657,7 +657,7 @@
     - [25, 26, 1]
     used_size: [34, 32, 13]
   status: SATISFIED
-  time: 3.815
+  time: 3.982
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -767,7 +767,7 @@
     - [25, 26, 1]
     used_size: [33, 32, 13]
   status: SATISFIED
-  time: 3.861
+  time: 4.03
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -877,7 +877,7 @@
     - [24, 24, 1]
     used_size: [32, 32, 13]
   status: SATISFIED
-  time: 3.908
+  time: 4.077
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -987,7 +987,7 @@
     - [24, 24, 1]
     used_size: [33, 31, 13]
   status: SATISFIED
-  time: 3.958
+  time: 4.127
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -1097,7 +1097,7 @@
     - [24, 24, 0]
     used_size: [33, 31, 12]
   status: SATISFIED
-  time: 4.009
+  time: 4.179
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -1207,7 +1207,7 @@
     - [24, 24, 0]
     used_size: [34, 30, 12]
   status: SATISFIED
-  time: 4.056
+  time: 4.226
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -1317,7 +1317,7 @@
     - [24, 24, 0]
     used_size: [33, 30, 12]
   status: SATISFIED
-  time: 4.103
+  time: 4.273
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -1427,7 +1427,7 @@
     - [24, 24, 0]
     used_size: [32, 30, 12]
   status: SATISFIED
-  time: 4.153
+  time: 4.321
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -1537,7 +1537,7 @@
     - [24, 24, 0]
     used_size: [33, 29, 12]
   status: SATISFIED
-  time: 4.201
+  time: 4.369
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -1647,7 +1647,7 @@
     - [24, 25, 0]
     used_size: [33, 29, 11]
   status: SATISFIED
-  time: 4.295
+  time: 4.459
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -1757,7 +1757,7 @@
     - [24, 25, 0]
     used_size: [32, 29, 11]
   status: SATISFIED
-  time: 4.347
+  time: 4.508
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -1867,7 +1867,7 @@
     - [23, 20, 0]
     used_size: [31, 29, 11]
   status: SATISFIED
-  time: 4.398
+  time: 4.559
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -1977,7 +1977,7 @@
     - [15, 9, 6]
     used_size: [23, 29, 14]
   status: SATISFIED
-  time: 4.545
+  time: 4.705
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -2087,7 +2087,7 @@
     - [15, 9, 6]
     used_size: [24, 29, 13]
   status: SATISFIED
-  time: 4.593
+  time: 4.755
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -2197,7 +2197,7 @@
     - [9, 9, 8]
     used_size: [24, 29, 12]
   status: SATISFIED
-  time: 4.787
+  time: 4.95
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -2307,7 +2307,7 @@
     - [9, 9, 8]
     used_size: [23, 29, 12]
   status: SATISFIED
-  time: 4.832
+  time: 4.996
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -2417,7 +2417,7 @@
     - [9, 9, 8]
     used_size: [22, 29, 12]
   status: SATISFIED
-  time: 4.887
+  time: 5.055
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -2527,7 +2527,7 @@
     - [8, 6, 9]
     used_size: [16, 31, 15]
   status: SATISFIED
-  time: 5.154
+  time: 5.334
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -2637,7 +2637,7 @@
     - [8, 6, 9]
     used_size: [16, 30, 15]
   status: SATISFIED
-  time: 5.205
+  time: 5.387
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -2747,7 +2747,7 @@
     - [9, 25, 10]
     used_size: [17, 28, 15]
   status: SATISFIED
-  time: 13.621
+  time: 13.893
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -2857,7 +2857,7 @@
     - [9, 10, 2]
     used_size: [17, 27, 15]
   status: SATISFIED
-  time: 13.716
+  time: 13.992
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -2967,7 +2967,7 @@
     - [8, 9, 0]
     used_size: [16, 28, 15]
   status: SATISFIED
-  time: 14.283
+  time: 14.56
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -3077,7 +3077,7 @@
     - [11, 5, 8]
     used_size: [19, 23, 15]
   status: SATISFIED
-  time: 16.737
+  time: 17.012
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -3187,7 +3187,7 @@
     - [25, 5, 0]
     used_size: [33, 13, 15]
   status: SATISFIED
-  time: 32.759
+  time: 33.242
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -3297,7 +3297,7 @@
     - [24, 0, 9]
     used_size: [32, 13, 15]
   status: SATISFIED
-  time: 36.439
+  time: 37.11
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -3407,7 +3407,7 @@
     - [23, 10, 5]
     used_size: [31, 13, 15]
   status: SATISFIED
-  time: 39.827
+  time: 40.67
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -3517,7 +3517,7 @@
     - [22, 6, 2]
     used_size: [30, 13, 15]
   status: SATISFIED
-  time: 42.701
+  time: 43.728
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -3627,7 +3627,7 @@
     - [5, 23, 0]
     used_size: [13, 29, 15]
   status: SATISFIED
-  time: 54.24
+  time: 55.809
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -3737,7 +3737,7 @@
     - [24, 6, 4]
     used_size: [33, 28, 6]
   status: SATISFIED
-  time: 70.263
+  time: 72.078
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -3847,7 +3847,7 @@
     - [23, 9, 0]
     used_size: [34, 16, 10]
   status: SATISFIED
-  time: 119.829
+  time: 125.399
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -3957,7 +3957,7 @@
     - [20, 29, 3]
     used_size: [28, 32, 6]
   status: SATISFIED
-  time: 134.479
+  time: 141.911
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -4067,7 +4067,7 @@
     - [3, 22, 5]
     used_size: [15, 31, 11]
   status: SATISFIED
-  time: 189.356
+  time: 201.842
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -4177,7 +4177,7 @@
     - [6, 29, 6]
     used_size: [14, 33, 11]
   status: SATISFIED
-  time: 203.947
+  time: 218.678
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -4287,7 +4287,7 @@
     - [9, 24, 3]
     used_size: [17, 27, 11]
   status: SATISFIED
-  time: 422.176
+  time: 469.791
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -4397,7 +4397,7 @@
     - [3, 27, 5]
     used_size: [14, 30, 12]
   status: SATISFIED
-  time: 435.404
+  time: 484.076
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -4507,7 +4507,7 @@
     - [17, 30, 4]
     used_size: [25, 33, 6]
   status: SATISFIED
-  time: 448.553
+  time: 497.862
 - configuration: Huub_vsids_decomp
   data_file: ../container-loading/cl11.dzn
   model: ../container-loading/container-loading.mzn
@@ -4617,6 +4617,6 @@
     - [21, 14, 2]
     used_size: [29, 28, 6]
   status: SATISFIED
-  time: 664.79
+  time: 723.328
 - {configuration: Huub_vsids_decomp, data_file: ../container-loading/cl11.dzn, model: ../container-loading/container-loading.mzn,
   problem: '', status: SATISFIED}
