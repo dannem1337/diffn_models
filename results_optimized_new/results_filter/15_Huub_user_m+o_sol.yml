@@ -9,7 +9,7 @@
     t: [0, 2, 4, 6, 30, 8, 32, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 4, 6, 8, 32,
       33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
   status: SATISFIED
-  time: 0.188
+  time: 0.189
 - configuration: Huub_user_m+o
   data_file: ../filters/fir16_1_1.dzn
   model: ../filters/filter.mzn
@@ -45,7 +45,7 @@
     t: [0, 2, 4, 6, 24, 8, 26, 10, 12, 14, 16, 18, 20, 22, 28, 30, 32, 4, 6, 8, 26,
       27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
   status: SATISFIED
-  time: 0.201
+  time: 0.202
 - configuration: Huub_user_m+o
   data_file: ../filters/fir16_1_1.dzn
   model: ../filters/filter.mzn

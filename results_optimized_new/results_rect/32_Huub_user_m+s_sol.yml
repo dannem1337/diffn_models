@@ -10,6 +10,6 @@
       0]
     Y: [0, 13, 19, 17, 17, 28, 20, 17, 25, 24, 13, 22, 0, 20, 19, 0, 0, 16, 0, 0]
   status: SATISFIED
-  time: 4.101
+  time: 3.968
 - {configuration: Huub_user_m+s, data_file: ../rectangle-packing/data_square/rpp20_false.dzn,
   model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

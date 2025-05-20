@@ -11,6 +11,6 @@
     Y: [0, 21, 10, 10, 22, 14, 20, 31, 30, 0, 0, 27, 11, 0, 24, 14, 22, 21, 20, 0,
       0, 0]
   status: SATISFIED
-  time: 70.292
+  time: 68.902
 - {configuration: Huub_user_basic, data_file: ../rectangle-packing/rpp22_false.dzn,
   model: ../rectangle-packing/rect_packing.mzn, problem: '', status: SATISFIED}

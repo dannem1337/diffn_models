@@ -32,6 +32,6 @@
     last_loaded_shelf: !ConstrEnum {argument: 10, constructor: S}
     objective: !ConstrEnum {argument: 10, constructor: S}
   status: SATISFIED
-  time: 0.497
+  time: 0.524
 - {configuration: Huub_vsids_m+o, data_file: ../products-and-shelves/ps-25-05.dzn,
   model: ../products-and-shelves/product-and-shelves.mzn, problem: '', status: OPTIMAL_SOLUTION}

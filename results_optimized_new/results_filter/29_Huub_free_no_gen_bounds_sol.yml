@@ -10,7 +10,7 @@
       3, 3, 9, 5, 8, 7, 7, 8, 7, 4, 8, 7, 15, 14, 13, 10, 12, 16, 15, 12, 11, 11,
       9]
   status: SATISFIED
-  time: 0.438
+  time: 0.481
 - configuration: Huub_free_no_gen_bounds
   data_file: ../filters/dct_4_4.dzn
   model: ../filters/filter.mzn
@@ -23,7 +23,7 @@
       3, 3, 9, 5, 8, 7, 7, 8, 7, 4, 8, 7, 14, 14, 13, 10, 12, 15, 15, 12, 11, 11,
       9]
   status: SATISFIED
-  time: 0.45
+  time: 0.494
 - configuration: Huub_free_no_gen_bounds
   data_file: ../filters/dct_4_4.dzn
   model: ../filters/filter.mzn
@@ -36,7 +36,7 @@
       3, 3, 9, 5, 8, 7, 7, 8, 7, 4, 8, 7, 13, 13, 12, 10, 12, 14, 14, 11, 13, 11,
       9]
   status: SATISFIED
-  time: 0.461
+  time: 0.504
 - configuration: Huub_free_no_gen_bounds
   data_file: ../filters/dct_4_4.dzn
   model: ../filters/filter.mzn
@@ -48,7 +48,7 @@
     t: [0, 1, 0, 1, 1, 0, 0, 1, 3, 2, 2, 3, 2, 2, 4, 4, 7, 1, 5, 2, 3, 5, 1, 1, 3,
       6, 9, 7, 5, 4, 7, 3, 9, 8, 7, 7, 7, 5, 7, 11, 10, 8, 12, 12, 10, 9, 9, 11]
   status: SATISFIED
-  time: 0.69
+  time: 0.736
 - configuration: Huub_free_no_gen_bounds
   data_file: ../filters/dct_4_4.dzn
   model: ../filters/filter.mzn
@@ -60,7 +60,7 @@
     t: [0, 1, 0, 1, 1, 0, 0, 1, 2, 2, 2, 3, 3, 2, 3, 4, 7, 1, 5, 2, 3, 4, 1, 1, 3,
       3, 7, 6, 5, 5, 7, 9, 9, 6, 7, 6, 6, 5, 7, 9, 10, 8, 7, 10, 9, 8, 9, 11]
   status: SATISFIED
-  time: 0.719
+  time: 0.766
 - configuration: Huub_free_no_gen_bounds
   data_file: ../filters/dct_4_4.dzn
   model: ../filters/filter.mzn
@@ -72,7 +72,7 @@
     t: [0, 1, 0, 1, 1, 0, 0, 1, 2, 2, 2, 3, 3, 2, 3, 4, 7, 1, 5, 2, 3, 4, 1, 1, 3,
       3, 7, 6, 5, 7, 5, 8, 9, 6, 7, 6, 6, 5, 7, 9, 10, 8, 7, 10, 9, 8, 9, 10]
   status: SATISFIED
-  time: 0.73
+  time: 0.777
 - configuration: Huub_free_no_gen_bounds
   data_file: ../filters/dct_4_4.dzn
   model: ../filters/filter.mzn
@@ -84,6 +84,6 @@
     t: [0, 0, 0, 0, 3, 2, 1, 1, 1, 1, 4, 4, 2, 2, 2, 5, 5, 3, 3, 1, 1, 3, 5, 5, 5,
       1, 1, 7, 3, 7, 7, 7, 7, 5, 5, 7, 6, 7, 6, 7, 8, 8, 8, 8, 9, 9, 9, 9]
   status: SATISFIED
-  time: 2.552
+  time: 2.627
 - {configuration: Huub_free_no_gen_bounds, data_file: ../filters/dct_4_4.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}

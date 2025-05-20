@@ -9,6 +9,6 @@
     t: [2, 2, 2, 2, 0, 0, 0, 0, 5, 4, 2, 2, 3, 3, 4, 4, 4, 4, 6, 6, 7, 7, 7, 7, 9,
       9, 10, 10]
   status: SATISFIED
-  time: 0.187
+  time: 0.269
 - {configuration: Huub_vsids_s+o, data_file: ../filters/ar_2_4.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}

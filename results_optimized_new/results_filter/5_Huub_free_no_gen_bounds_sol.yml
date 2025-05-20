@@ -10,7 +10,7 @@
       7, 13, 12, 9, 3, 7, 16, 15, 12, 15, 16, 19, 13, 9, 15, 14, 17, 20, 17, 16, 12,
       11, 18, 18]
   status: SATISFIED
-  time: 0.584
+  time: 0.553
 - configuration: Huub_free_no_gen_bounds
   data_file: ../filters/dct_2_2.dzn
   model: ../filters/filter.mzn
@@ -23,7 +23,7 @@
       7, 13, 12, 9, 3, 7, 16, 15, 12, 15, 16, 18, 13, 9, 15, 14, 17, 19, 17, 16, 12,
       11, 19, 18]
   status: SATISFIED
-  time: 0.595
+  time: 0.564
 - configuration: Huub_free_no_gen_bounds
   data_file: ../filters/dct_2_2.dzn
   model: ../filters/filter.mzn
@@ -36,7 +36,7 @@
       7, 5, 5, 13, 11, 9, 13, 15, 14, 12, 13, 12, 11, 17, 11, 9, 16, 14, 18, 13, 15,
       16, 15, 17]
   status: SATISFIED
-  time: 0.653
+  time: 0.622
 - configuration: Huub_free_no_gen_bounds
   data_file: ../filters/dct_2_2.dzn
   model: ../filters/filter.mzn
@@ -49,6 +49,6 @@
       13, 5, 9, 11, 15, 13, 15, 14, 15, 13, 10, 9, 11, 10, 11, 16, 15, 12, 12, 13,
       14, 17, 17]
   status: SATISFIED
-  time: 1.676
+  time: 1.653
 - {configuration: Huub_free_no_gen_bounds, data_file: ../filters/dct_2_2.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}

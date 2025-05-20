@@ -9,7 +9,7 @@
     t: [0, 0, 1, 2, 3, 4, 4, 6, 6, 7, 7, 8, 8, 8, 9, 10, 11, 11, 12, 12, 13, 12, 13,
       14, 14, 14, 16, 14, 16, 15, 16, 18, 17, 19]
   status: SATISFIED
-  time: 0.573
+  time: 0.243
 - configuration: Huub_user_m+s
   data_file: ../filters/ewf_2_2.dzn
   model: ../filters/filter.mzn
@@ -21,7 +21,7 @@
     t: [0, 0, 1, 2, 3, 4, 4, 6, 6, 7, 7, 8, 8, 8, 9, 10, 11, 11, 12, 12, 13, 12, 13,
       14, 16, 14, 15, 14, 18, 15, 16, 17, 17, 18]
   status: SATISFIED
-  time: 0.579
+  time: 0.25
 - configuration: Huub_user_m+s
   data_file: ../filters/ewf_2_2.dzn
   model: ../filters/filter.mzn
@@ -33,6 +33,6 @@
     t: [0, 0, 1, 2, 3, 4, 4, 6, 6, 7, 8, 7, 8, 9, 8, 10, 10, 11, 12, 11, 13, 12, 13,
       12, 15, 14, 13, 14, 17, 15, 16, 15, 17, 16]
   status: SATISFIED
-  time: 0.591
+  time: 0.263
 - {configuration: Huub_user_m+s, data_file: ../filters/ewf_2_2.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}

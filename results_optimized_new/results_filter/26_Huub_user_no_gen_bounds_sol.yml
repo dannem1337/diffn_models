@@ -3,73 +3,121 @@
   model: ../filters/filter.mzn
   problem: ''
   solution:
-    objective: 28
-    r: [1, 2, 1, 1, 2, 1, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+    objective: 33
+    r: [1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
       1, 1, 1, 1, 1, 1, 1, 1]
-    t: [0, 0, 8, 12, 12, 14, 8, 14, 16, 4, 10, 6, 6, 4, 10, 2, 2, 2, 10, 14, 15, 16,
+    t: [0, 0, 16, 12, 4, 12, 10, 6, 8, 8, 14, 14, 6, 4, 10, 2, 2, 2, 18, 19, 20, 21,
+      22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+  status: SATISFIED
+  time: 2.726
+- configuration: Huub_user_no_gen_bounds
+  data_file: ../filters/fir16_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 31
+    r: [1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 0, 14, 12, 4, 12, 10, 6, 8, 8, 14, 16, 6, 4, 10, 2, 2, 2, 16, 17, 18, 19,
+      20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+  status: SATISFIED
+  time: 2.739
+- configuration: Huub_user_no_gen_bounds
+  data_file: ../filters/fir16_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 30
+    r: [1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 0, 12, 14, 4, 12, 10, 6, 8, 8, 14, 16, 6, 4, 10, 2, 2, 2, 14, 16, 17, 18,
+      19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+  status: SATISFIED
+  time: 2.742
+- configuration: Huub_user_no_gen_bounds
+  data_file: ../filters/fir16_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 29
+    r: [1, 2, 1, 2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 0, 12, 12, 4, 14, 10, 6, 8, 8, 14, 16, 6, 4, 10, 2, 2, 2, 14, 15, 16, 17,
+      18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+  status: SATISFIED
+  time: 2.746
+- configuration: Huub_user_no_gen_bounds
+  data_file: ../filters/fir16_1_2.dzn
+  model: ../filters/filter.mzn
+  problem: ''
+  solution:
+    objective: 28
+    r: [1, 2, 1, 1, 1, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+      1, 1, 1, 1, 1, 1, 1, 1]
+    t: [0, 0, 10, 12, 4, 14, 14, 6, 8, 8, 16, 12, 6, 4, 10, 2, 2, 2, 12, 14, 15, 16,
       17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
   status: SATISFIED
-  time: 2.707
+  time: 2.75
 - configuration: Huub_user_no_gen_bounds
   data_file: ../filters/fir16_1_2.dzn
   model: ../filters/filter.mzn
   problem: ''
   solution:
     objective: 27
-    r: [1, 2, 1, 1, 1, 2, 2, 1, 2, 1, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+    r: [1, 2, 1, 2, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
       1, 1, 1, 1, 1, 1, 1, 1]
-    t: [0, 0, 8, 10, 12, 12, 8, 14, 14, 4, 16, 6, 6, 4, 10, 2, 2, 2, 10, 12, 14, 15,
+    t: [0, 0, 10, 10, 4, 12, 14, 6, 8, 8, 14, 16, 6, 4, 12, 2, 2, 2, 12, 13, 14, 15,
       16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
   status: SATISFIED
-  time: 2.721
+  time: 2.754
 - configuration: Huub_user_no_gen_bounds
   data_file: ../filters/fir16_1_2.dzn
   model: ../filters/filter.mzn
   problem: ''
   solution:
     objective: 26
-    r: [1, 2, 1, 1, 2, 1, 2, 1, 2, 1, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+    r: [1, 2, 1, 1, 1, 1, 2, 1, 2, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
       1, 1, 1, 1, 1, 1, 1, 1]
-    t: [0, 0, 8, 10, 10, 12, 8, 14, 14, 4, 16, 6, 6, 4, 12, 2, 2, 2, 10, 12, 13, 14,
+    t: [0, 0, 8, 10, 4, 12, 12, 6, 10, 8, 14, 16, 6, 4, 14, 2, 2, 2, 10, 12, 13, 14,
       15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
   status: SATISFIED
-  time: 2.725
+  time: 2.758
 - configuration: Huub_user_no_gen_bounds
   data_file: ../filters/fir16_1_2.dzn
   model: ../filters/filter.mzn
   problem: ''
   solution:
     objective: 25
-    r: [1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 1, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+    r: [1, 2, 1, 2, 1, 1, 1, 1, 2, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
       1, 1, 1, 1, 1, 1, 1, 1]
-    t: [0, 0, 8, 8, 10, 10, 12, 12, 14, 4, 16, 6, 6, 4, 14, 2, 2, 2, 10, 11, 12, 13,
+    t: [0, 0, 8, 8, 4, 10, 12, 6, 10, 14, 14, 16, 6, 4, 12, 2, 2, 2, 10, 11, 12, 13,
       14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
   status: SATISFIED
-  time: 2.729
+  time: 2.762
 - configuration: Huub_user_no_gen_bounds
   data_file: ../filters/fir16_1_2.dzn
   model: ../filters/filter.mzn
   problem: ''
   solution:
     objective: 24
-    r: [1, 2, 1, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+    r: [1, 2, 1, 1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
       1, 1, 1, 1, 1, 1, 1, 1]
-    t: [0, 0, 6, 8, 8, 10, 10, 12, 12, 4, 14, 6, 16, 4, 14, 2, 2, 2, 8, 10, 11, 12,
+    t: [0, 0, 6, 8, 4, 10, 10, 6, 12, 14, 12, 16, 14, 4, 8, 2, 2, 2, 8, 10, 11, 12,
       13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
   status: SATISFIED
-  time: 2.733
+  time: 2.767
 - configuration: Huub_user_no_gen_bounds
   data_file: ../filters/fir16_1_2.dzn
   model: ../filters/filter.mzn
   problem: ''
   solution:
     objective: 23
-    r: [1, 2, 1, 2, 1, 2, 1, 2, 1, 1, 1, 2, 1, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+    r: [1, 2, 1, 2, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
       1, 1, 1, 1, 1, 1, 1, 1]
-    t: [0, 0, 6, 6, 8, 8, 10, 10, 12, 4, 14, 12, 16, 4, 14, 2, 2, 2, 8, 9, 10, 11,
+    t: [0, 0, 6, 6, 4, 8, 10, 10, 12, 12, 14, 14, 16, 4, 8, 2, 2, 2, 8, 9, 10, 11,
       12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
   status: SATISFIED
-  time: 2.737
+  time: 2.772
 - configuration: Huub_user_no_gen_bounds
   data_file: ../filters/fir16_1_2.dzn
   model: ../filters/filter.mzn
@@ -78,10 +126,10 @@
     objective: 22
     r: [1, 2, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
       1, 1, 1, 1, 1, 1, 1, 1]
-    t: [0, 0, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 4, 16, 2, 2, 2, 6, 8, 9, 10,
+    t: [0, 0, 4, 6, 4, 8, 8, 10, 10, 12, 12, 14, 14, 6, 16, 2, 2, 2, 6, 8, 9, 10,
       11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
   status: SATISFIED
-  time: 2.742
+  time: 2.777
 - configuration: Huub_user_no_gen_bounds
   data_file: ../filters/fir16_1_2.dzn
   model: ../filters/filter.mzn
@@ -93,7 +141,7 @@
     t: [0, 0, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 2, 2, 2, 6, 7, 8, 9, 10,
       11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   status: SATISFIED
-  time: 2.747
+  time: 2.782
 - configuration: Huub_user_no_gen_bounds
   data_file: ../filters/fir16_1_2.dzn
   model: ../filters/filter.mzn
@@ -105,7 +153,7 @@
     t: [0, 0, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 2, 2, 4, 6, 7, 8, 9,
       10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
   status: SATISFIED
-  time: 2.764
+  time: 2.797
 - configuration: Huub_user_no_gen_bounds
   data_file: ../filters/fir16_1_2.dzn
   model: ../filters/filter.mzn
@@ -117,6 +165,6 @@
     t: [0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 2, 4, 5, 6, 7, 8,
       9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
   status: SATISFIED
-  time: 2.771
+  time: 2.803
 - {configuration: Huub_user_no_gen_bounds, data_file: ../filters/fir16_1_2.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}

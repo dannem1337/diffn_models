@@ -1,6 +1,6 @@
 {blockType: complete, configuration: Huub_free_m+o, data_file: ../filters/ar_2_3.dzn,
-  extractedViews: 4, failures: 736, flatIntConstraints: 37, flatIntVars: 61, flatTime: 0.174689,
-  initTime: 0.007593, intVariables: 45, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 3, objective: 15, oracleDecisions: 375, paths: 0, peakDepth: 57, problem: '',
-  propagations: 11216, propagators: 33, restarts: 17, solveTime: 0.039573, status: OPTIMAL_SOLUTION,
-  time: 0.8930391548201442, unifiedVariables: 0, userDecisions: 2648}
+  extractedViews: 4, failures: 740, flatIntConstraints: 37, flatIntVars: 61, flatTime: 0.176269,
+  initTime: 0.005893, intVariables: 45, method: minimize, model: ../filters/filter.mzn,
+  nSolutions: 3, objective: 15, oracleDecisions: 414, paths: 0, peakDepth: 51, problem: '',
+  propagations: 11021, propagators: 33, restarts: 17, solveTime: 0.039133, status: OPTIMAL_SOLUTION,
+  time: 0.7432160284370184, unifiedVariables: 0, userDecisions: 2462}

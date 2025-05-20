@@ -3,30 +3,10 @@
   model: ../filters/filter.mzn
   problem: ''
   solution:
-    objective: 17
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2]
-    t: [0, 3, 5, 6, 12, 13, 14, 15, 16, 1, 2, 2, 4, 9, 10, 3, 7, 4, 12, 8, 9, 7, 8]
-  status: SATISFIED
-  time: 0.206
-- configuration: Huub_vsids_basic
-  data_file: ../filters/fir_1_2.dzn
-  model: ../filters/filter.mzn
-  problem: ''
-  solution:
-    objective: 16
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2]
-    t: [0, 3, 5, 6, 11, 12, 13, 14, 15, 1, 2, 2, 4, 7, 9, 3, 7, 4, 7, 8, 9, 9, 11]
-  status: SATISFIED
-  time: 0.211
-- configuration: Huub_vsids_basic
-  data_file: ../filters/fir_1_2.dzn
-  model: ../filters/filter.mzn
-  problem: ''
-  solution:
     objective: 15
-    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2]
-    t: [0, 3, 5, 6, 10, 11, 12, 13, 14, 1, 2, 2, 4, 7, 8, 3, 7, 4, 10, 8, 9, 9, 12]
+    r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2]
+    t: [1, 2, 6, 7, 10, 11, 12, 13, 14, 2, 3, 4, 5, 0, 5, 3, 7, 5, 7, 8, 9, 9, 10]
   status: SATISFIED
-  time: 0.213
+  time: 0.427
 - {configuration: Huub_vsids_basic, data_file: ../filters/fir_1_2.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}
