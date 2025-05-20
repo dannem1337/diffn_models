@@ -5,10 +5,10 @@
   solution:
     objective: 20
     r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    t: [5, 6, 9, 14, 15, 16, 17, 18, 19, 3, 4, 7, 12, 1, 2, 6, 10, 4, 8, 2, 16, 0,
-      14]
+    t: [5, 6, 13, 14, 15, 16, 17, 18, 19, 7, 11, 0, 2, 3, 4, 6, 9, 4, 13, 2, 15, 1,
+      17]
   status: SATISFIED
-  time: 0.258
+  time: 0.207
 - configuration: Huub_vsids_m+o
   data_file: ../filters/fir_1_1.dzn
   model: ../filters/filter.mzn
@@ -16,10 +16,10 @@
   solution:
     objective: 19
     r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    t: [5, 6, 9, 13, 14, 15, 16, 17, 18, 3, 4, 7, 10, 1, 2, 6, 8, 4, 12, 2, 14, 0,
+    t: [5, 6, 12, 13, 14, 15, 16, 17, 18, 7, 8, 0, 2, 3, 4, 6, 10, 4, 12, 2, 14, 1,
       16]
   status: SATISFIED
-  time: 0.263
+  time: 0.212
 - configuration: Huub_vsids_m+o
   data_file: ../filters/fir_1_1.dzn
   model: ../filters/filter.mzn
@@ -27,9 +27,9 @@
   solution:
     objective: 18
     r: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    t: [0, 1, 9, 12, 13, 14, 15, 16, 17, 2, 3, 7, 9, 4, 5, 6, 7, 5, 13, 3, 11, 1,
+    t: [6, 7, 11, 12, 13, 14, 15, 16, 17, 7, 9, 0, 1, 2, 3, 4, 5, 5, 11, 3, 13, 1,
       15]
   status: SATISFIED
-  time: 0.266
+  time: 0.214
 - {configuration: Huub_vsids_m+o, data_file: ../filters/fir_1_1.dzn, model: ../filters/filter.mzn,
   problem: '', status: OPTIMAL_SOLUTION}

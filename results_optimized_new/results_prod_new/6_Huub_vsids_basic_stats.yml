@@ -1,8 +1,30 @@
-{blockType: complete, configuration: Huub_vsids_basic, data_file: ../products-and-shelves/ps-100-16.dzn,
-  eliminatedImplications: 5000, evaluatedReifiedConstraints: 101500, extractedViews: 35000,
-  failures: 665281, flatBoolConstraints: 48750, flatBoolVars: 82750, flatIntConstraints: 78844,
-  flatIntVars: 30200, flatTime: 5.47856, initTime: 1.468999, intVariables: 30197,
-  method: minimize, model: ../products-and-shelves/product-and-shelves.mzn, nSolutions: 0,
-  oracleDecisions: 1528224, paths: 0, peakDepth: 67310, problem: '', propagations: 45901654,
-  propagators: 67593, restarts: 32, solveTime: 1193.414214, status: UNKNOWN, time: 1202.4345510127023,
-  unifiedVariables: 0, userDecisions: 0}
+blockType: complete
+configuration: Huub_vsids_basic
+data_file: ../products-and-shelves/ps-100-16.dzn
+eliminatedImplications: 5000
+evaluatedReifiedConstraints: 101500
+extractedViews: 35000
+failures: 572534
+flatBoolConstraints: 48750
+flatBoolVars: 82750
+flatIntConstraints: 78844
+flatIntVars: 30200
+flatTime: 5.61329
+initTime: 1.442243
+intVariables: 30197
+method: minimize
+model: ../products-and-shelves/product-and-shelves.mzn
+nSolutions: 6
+objective: !ConstrEnum {argument: 16, constructor: S}
+oracleDecisions: 2648351
+paths: 0
+peakDepth: 67075
+problem: ''
+propagations: 86662102
+propagators: 67593
+restarts: 63
+solveTime: 496.231242
+status: OPTIMAL_SOLUTION
+time: 505.3686630288139
+unifiedVariables: 0
+userDecisions: 0

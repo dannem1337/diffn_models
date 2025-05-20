@@ -22,7 +22,7 @@
     - !ConstrEnum {argument: 3, constructor: S}
     - !ConstrEnum {argument: 3, constructor: S}
     - !ConstrEnum {argument: 1, constructor: S}
-    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
     - !ConstrEnum {argument: 2, constructor: S}
     - !ConstrEnum {argument: 10, constructor: S}
     - !ConstrEnum {argument: 10, constructor: S}
@@ -31,7 +31,7 @@
     last_loaded_shelf: !ConstrEnum {argument: 10, constructor: S}
     objective: !ConstrEnum {argument: 10, constructor: S}
   status: SATISFIED
-  time: 0.542
+  time: 0.528
 - configuration: Huub_vsids_basic
   data_file: ../products-and-shelves/ps-25-01.dzn
   model: ../products-and-shelves/product-and-shelves.mzn
@@ -56,7 +56,7 @@
     - !ConstrEnum {argument: 3, constructor: S}
     - !ConstrEnum {argument: 3, constructor: S}
     - !ConstrEnum {argument: 1, constructor: S}
-    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
     - !ConstrEnum {argument: 2, constructor: S}
     - !ConstrEnum {argument: 4, constructor: S}
     - !ConstrEnum {argument: 4, constructor: S}
@@ -65,7 +65,7 @@
     last_loaded_shelf: !ConstrEnum {argument: 9, constructor: S}
     objective: !ConstrEnum {argument: 9, constructor: S}
   status: SATISFIED
-  time: 0.562
+  time: 0.553
 - configuration: Huub_vsids_basic
   data_file: ../products-and-shelves/ps-25-01.dzn
   model: ../products-and-shelves/product-and-shelves.mzn
@@ -90,7 +90,7 @@
     - !ConstrEnum {argument: 3, constructor: S}
     - !ConstrEnum {argument: 3, constructor: S}
     - !ConstrEnum {argument: 1, constructor: S}
-    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
     - !ConstrEnum {argument: 2, constructor: S}
     - !ConstrEnum {argument: 4, constructor: S}
     - !ConstrEnum {argument: 4, constructor: S}
@@ -99,7 +99,7 @@
     last_loaded_shelf: !ConstrEnum {argument: 6, constructor: S}
     objective: !ConstrEnum {argument: 6, constructor: S}
   status: SATISFIED
-  time: 0.574
+  time: 0.566
 - configuration: Huub_vsids_basic
   data_file: ../products-and-shelves/ps-25-01.dzn
   model: ../products-and-shelves/product-and-shelves.mzn
@@ -124,7 +124,7 @@
     - !ConstrEnum {argument: 3, constructor: S}
     - !ConstrEnum {argument: 3, constructor: S}
     - !ConstrEnum {argument: 1, constructor: S}
-    - !ConstrEnum {argument: 2, constructor: S}
+    - !ConstrEnum {argument: 1, constructor: S}
     - !ConstrEnum {argument: 2, constructor: S}
     - !ConstrEnum {argument: 4, constructor: S}
     - !ConstrEnum {argument: 4, constructor: S}
@@ -133,6 +133,6 @@
     last_loaded_shelf: !ConstrEnum {argument: 5, constructor: S}
     objective: !ConstrEnum {argument: 5, constructor: S}
   status: SATISFIED
-  time: 0.598
+  time: 0.59
 - {configuration: Huub_vsids_basic, data_file: ../products-and-shelves/ps-25-01.dzn,
   model: ../products-and-shelves/product-and-shelves.mzn, problem: '', status: OPTIMAL_SOLUTION}
