@@ -1,7 +1,0 @@
-{blockType: complete, configuration: Huub_vsid_decomp, data_file: ../filters/ar_1_1.dzn,
-  evaluatedHalfReifiedConstraints: 360, extractedViews: 4, failures: 40994, flatBoolConstraints: 180,
-  flatBoolVars: 360, flatIntConstraints: 395, flatIntVars: 33, flatTime: 0.205336,
-  initTime: 0.01067, intVariables: 29, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 3, objective: 34, oracleDecisions: 45961, paths: 0, peakDepth: 467,
-  problem: '', propagations: 3529907, propagators: 391, restarts: 0, solveTime: 1.485837,
-  status: OPTIMAL_SOLUTION, time: 1.945659170858562, unifiedVariables: 0, userDecisions: 0}

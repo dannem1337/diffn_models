@@ -1,10 +1,32 @@
+% ------------------------------------------------------------------------------
+% Copyright 2025 Ericsson
+%
+% Permission is hereby granted, free of charge, to any person obtaining a copy
+% of this software and associated documentation files (the “Software”), to deal
+% in the Software without restriction, including without limitation the rights
+% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+% copies of the Software, and to permit persons to whom the Software is
+% furnished to do so, subject to the following conditions:
+%
+% The above copyright notice and this permission notice shall be included in all
+% copies or substantial portions of the Software.
+%
+% THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+% SOFTWARE.
+% ------------------------------------------------------------------------------
+%% Author: Danyal Mirza danyal.mirza@ericsson.com
 %% Problem description:
 % In a warehouse, a number of products are to be placed on some shelves such that
 % the the minimum amount of shelves are used. These products are all shaped like
 % 3-dimensional boxes, with dimensions length, width and height. The shelves are
-% also shaped like 3-dimensional with dimensions length, width and height and the
-% number of shelves are finite. Neither the shelf or the products are allowed
-% to be rotated.
+% also shaped like 3-dimensional boxes with dimensions length, width and height
+% and the number of shelves are finite. Neither the shelf or the products are
+% allowed to be rotated.
 %
 %            +--------------+
 %           /|             /|
@@ -48,7 +70,7 @@ array[Item] of Product: product = array1d(Item, [
 	p | p in Product, _ in 1..nr_products[p]
 ]);
 
-%% Descision Variables
+%% Decsision Variables
 % The size of each product is its size if it is in the shelf and [0, 0, 0] if it is not
 array[Item, Shelf, Dimension] of var 0..max(product_size): item_shelve_size ::no_output;
 % Product j is placed on shelf item_shelving[j]
@@ -107,17 +129,20 @@ constraint symmetry_breaking_constraint(
 	)
 );
 
+% solve :: seq_search([
+% 			int_search(item_shelve_size, first_fail, indomain_min, complete),
+% 			int_search(item_shelve_placement, first_fail, indomain_min, complete)
+% 		])
 solve minimize last_loaded_shelf;
 
-% Output
-% Real placement
+% % Output
+% % Real placement
 % array[Item] of any: item_placement ::output_only ::output = [
 % 	(p[Length], p[Width], p[Height])
 % 	| it in Item, p = fix(item_shelve_placement[it, fix(item_shelving[it]), ..])
 % ];
 
-% Output code to check the placement on all (potentially unused shelves)
-% function int: enum2int($$E: e) = e;
+% % Output code to check the placement on all (potentially unused shelves)
 % output [
 % 	show2d([(d, i): item_shelve_placement[i, s, d] | i in Item where product[i] = p, d in Dimension]) ++ "\n"
 % 	| s in Shelf, p in Product,

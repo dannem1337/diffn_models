@@ -1,7 +1,0 @@
-{blockType: complete, configuration: Huub_free_no_gen_bounds, data_file: ../container-loading/cl04.dzn,
-  evaluatedReifiedConstraints: 1302, extractedViews: 300, failures: 167873, flatBoolConstraints: 465,
-  flatBoolVars: 837, flatIntConstraints: 864, flatIntVars: 605, flatTime: 0.121179,
-  initTime: 0.025209, intVariables: 305, method: minimize, model: ../container-loading/container-loading.mzn,
-  nSolutions: 49, objective: 3360, oracleDecisions: 678266, paths: 0, peakDepth: 1552,
-  problem: '', propagations: 19316232, propagators: 1029, restarts: 2418, solveTime: 1199.876038,
-  status: SATISFIED, time: 1200.2866658316925, unifiedVariables: 0, userDecisions: 0}

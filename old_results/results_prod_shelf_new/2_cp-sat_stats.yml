@@ -1,6 +1,0 @@
-{boolVariables: 20433, configuration: cp-sat, data_file: ../products-and-shelves/ps-25-01.dzn,
-  eliminatedImplications: 240, evaluatedHalfReifiedConstraints: 16560, evaluatedReifiedConstraints: 3150,
-  failures: 89566, flatBoolConstraints: 5010, flatBoolVars: 19740, flatIntConstraints: 20078,
-  flatIntVars: 1488, flatTime: 1.48361, method: minimize, model: ../products-and-shelves/product-and-shelves.mzn,
-  nSolutions: 6, objective: 5, objectiveBound: 5, paths: 0, problem: '', propagations: 64346459,
-  solveTime: 42.4183, status: OPTIMAL_SOLUTION, time: 44.71211845241487}

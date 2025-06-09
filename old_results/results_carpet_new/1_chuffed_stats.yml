@@ -1,8 +1,0 @@
-{backjumps: 3120873, baseMem: 0.0, boolVariables: 74337, configuration: chuffed, data_file: ../carpet-cutting/mzn_rnd_test.17.dzn,
-  evaluatedHalfReifiedConstraints: 1, evaluatedReifiedConstraints: 4651, failures: 4545188,
-  flatBoolConstraints: 1253, flatBoolVars: 4630, flatIntConstraints: 4801, flatIntVars: 169,
-  flatTime: 0.374768, initTime: 0.097, intVars: 225, method: minimize, model: ../carpet-cutting/cc_base-fixed.mzn,
-  nSolutions: 10, nodes: 7666829, nogoods: 4545188, objective: 2171, optTime: 618.903,
-  paths: 0, peakDepth: 75, peakMem: 0.0, problem: '', propagations: 5783443891, propagators: 9341,
-  randomSeed: -845885318, restarts: 10, solveTime: 1199.622, status: SATISFIED, time: 1201.291446578689,
-  trailMem: 0.28, variables: 74564}

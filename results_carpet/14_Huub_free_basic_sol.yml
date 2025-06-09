@@ -1,9 +1,0 @@
-- configuration: Huub_free_basic
-  data_file: ../carpet-cutting/mzn_rnd_test.16.dzn
-  model: ../carpet-cutting/cc_base-fixed.mzn
-  problem: ''
-  solution: {RollLen: 1933, objective: 1933}
-  status: SATISFIED
-  time: 618.131
-- {configuration: Huub_free_basic, data_file: ../carpet-cutting/mzn_rnd_test.16.dzn,
-  model: ../carpet-cutting/cc_base-fixed.mzn, problem: '', status: SATISFIED}

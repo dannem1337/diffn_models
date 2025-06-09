@@ -1,6 +1,0 @@
-{blockType: complete, configuration: Huub_vsids, data_file: ../filters/fir_1_2.dzn,
-  extractedViews: 1, failures: 206, flatIntConstraints: 26, flatIntVars: 33, flatTime: 0.168525,
-  initTime: 0.005377, intVariables: 24, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 1, objective: 15, oracleDecisions: 380, paths: 0, peakDepth: 125, problem: '',
-  propagations: 3398, propagators: 25, restarts: 0, solveTime: 0.019538, status: OPTIMAL_SOLUTION,
-  time: 0.44068053225055337, unifiedVariables: 0, userDecisions: 0}

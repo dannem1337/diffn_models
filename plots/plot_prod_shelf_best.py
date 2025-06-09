@@ -25,11 +25,7 @@ df_opt = df[(df["status"] == "OPTIMAL_SOLUTION")]
 
 # Define mapping from original config names to display names
 name_mapping = {
-    "Huub_vsids_no_gen_bounds": "Combined",
-    "Huub_vsids_m+o": "M+O",
-    "Huub_vsids_m+s": "M+S",
     "Huub_vsids_s+o": "S+O",
-    "Huub_vsids_basic": "Basic",
     "Huub_vsids_decomp": "Decomposition",
     "chuffed": "Chuffed",
     "gecode": "Gecode",
@@ -126,11 +122,12 @@ for config in custom_order:
 plt.xscale('log')  # <-- log scale on x-axis
 plt.xlabel("Time (seconds)", fontsize=14)
 plt.ylabel("Solved instances", fontsize=14)
-plt.title("Products and Shelves (VSIDS)",fontsize=14)
+plt.title("Products and Shelves (VSIDS)", fontsize=14)
+
 plt.legend(title="Configuration", loc='lower right')
 plt.gca().yaxis.set_major_locator(MaxNLocator(integer=True))  # Force integer ticks
 plt.grid(True)
 plt.tight_layout()
 plt.xlim(right=1200)
 # plt.savefig("cactus_prod_shelf.pgf", format='pgf')
-plt.savefig("images/cactus_prod_shelf_vsids_optimized_all.pgf")
+plt.savefig("images/cactus_prod_shelf_vsids_optimized.pgf")

@@ -1,4 +1,0 @@
-{boolVariables: 28, configuration: cp-sat, data_file: ../filters/ar_1_1.dzn, failures: 1,
-  flatIntConstraints: 37, flatIntVars: 33, flatTime: 0.170829, method: minimize, model: ../filters/filter.mzn,
-  nSolutions: 1, objective: 34, objectiveBound: 34, paths: 0, problem: '', propagations: 206,
-  solveTime: 0.008222, status: OPTIMAL_SOLUTION, time: 0.4748110957443714}

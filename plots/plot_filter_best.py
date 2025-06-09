@@ -22,11 +22,7 @@ df_opt = df[(df["status"] == "OPTIMAL_SOLUTION")]
 plt.figure(figsize=(10, 6))
 
 name_mapping = {
-    "Huub_user_no_gen_bounds": "Combined",
-    "Huub_user_m+o": "M+O",
     "Huub_user_m+s": "M+S",
-    "Huub_user_s+o": "S+O",
-    "Huub_user_basic": "Basic",
     "Huub_user_decomp": "Decomposition",
     "chuffed": "Chuffed",
     "gecode": "Gecode",
@@ -127,7 +123,7 @@ plt.gca().yaxis.set_major_locator(MaxNLocator(integer=True))  # Force integer ti
 plt.grid(True)
 plt.tight_layout()
 plt.xlim(right=1200)
-plt.savefig("images/cactus_filter_user_optimized_all.pgf")
+plt.savefig("images/cactus_filter_user_optimized.pgf")
 
 # Read CSV into DataFrame
 df = pd.read_csv(data)
@@ -142,10 +138,6 @@ df_opt = df[(df["status"] == "OPTIMAL_SOLUTION")]
 plt.figure(figsize=(10, 6))
 
 name_mapping = {
-    "Huub_free_no_gen_bounds": "Combined",
-    "Huub_free_m+o": "M+O",
-    "Huub_free_m+s": "M+S",
-    "Huub_free_s+o": "S+O",
     "Huub_free_basic": "Basic",
     "Huub_free_decomp": "Decomposition",
     "chuffed": "Chuffed",
@@ -223,7 +215,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.xlim(right=1200)
 #plt.savefig("cactus_filter.pgf", format='pgf')
-plt.savefig("images/cactus_filter_free_optimized_all.pgf")
+plt.savefig("images/cactus_filter_free_optimized.pgf")
 
 # Read CSV into DataFrame
 df = pd.read_csv(data)
@@ -239,10 +231,6 @@ plt.figure(figsize=(10, 6))
 
 name_mapping = {
     "Huub_vsids_no_gen_bounds": "Combined",
-    "Huub_vsids_m+o": "M+O",
-    "Huub_vsids_m+s": "M+S",
-    "Huub_vsids_s+o": "S+O",
-    "Huub_vsids_basic": "Basic",
     "Huub_vsids_decomp": "Decomposition",
     "chuffed": "Chuffed",
     "gecode": "Gecode",
@@ -311,11 +299,11 @@ for config in custom_order:
 plt.xscale('log')
 plt.xlabel("Time (seconds)", fontsize=14)
 plt.ylabel("Solved instances", fontsize=14)
-plt.title("Filters (Free Search)", fontsize=14)
+plt.title("Filters (VSIDS)", fontsize=14)
 plt.legend(title="Configuration")
 plt.gca().yaxis.set_major_locator(MaxNLocator(integer=True))  # Force integer ticks
 plt.grid(True)
 plt.tight_layout()
 plt.xlim(right=1200)
 #plt.savefig("cactus_filter.pgf", format='pgf')
-plt.savefig("images/cactus_filter_vsids_optimized_all.pgf")
+plt.savefig("images/cactus_filter_vsids_optimized.pgf")

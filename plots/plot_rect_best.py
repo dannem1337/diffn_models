@@ -6,31 +6,25 @@ import numpy as np
 
 
 matplotlib.use('pgf')
-
 # Provided CSV data
-data = "results/results_prod_shelf.csv"
-# data = "results_optimized/results_prod_shelf_free.csv"
+# data = "results_optimized/results_rect_free.csv"
+data = "results/results_rect.csv"
 
 # Read CSV into DataFrame
 df = pd.read_csv(data)
 
-# Define custom configuration order
 
 # Filter for only rows with OPTIMAL_SOLUTION
-df_opt = df[(df["status"] == "OPTIMAL_SOLUTION")]
-# df_opt = df[(df["status"] == "SATISFIED") | (df["status"] == "ALL_SOLUTIONS")]
+# df_opt = df[(df["status"] == "OPTIMAL_SOLUTION")]
+df_opt = df[(df["status"] == "SATISFIED") | (df["status"] == "ALL_SOLUTIONS")]
 # df_opt = df[(df["status"] == "OPTIMAL_SOLUTION") | (df["status"] == "SATISFIED")]
 
 # Create cactus plot comparing configurations
+plt.figure(figsize=(10, 6))
 
-# Define mapping from original config names to display names
 name_mapping = {
-    "Huub_vsids_no_gen_bounds": "Combined",
-    "Huub_vsids_m+o": "M+O",
-    "Huub_vsids_m+s": "M+S",
-    "Huub_vsids_s+o": "S+O",
-    "Huub_vsids_basic": "Basic",
-    "Huub_vsids_decomp": "Decomposition",
+    "Huub_user_no_gen_bounds": "Combined",
+    "Huub_user_decomp": "Decomposition",
     "chuffed": "Chuffed",
     "gecode": "Gecode",
     "cp-sat": "CP-SAT"
@@ -63,13 +57,11 @@ color_mapping = {
     "cp-sat":  "#ff7f0e"                     # orange
 }
 
-plt.figure(figsize=(10, 6))
 # Define the plotting order
 custom_order = list(name_mapping.keys())
 
 # Filter and plot
 df_filtered = df_opt[df_opt["configuration"].isin(custom_order)]
-
 
 for config in custom_order:
     group = df_filtered[df_filtered["configuration"] == config]
@@ -126,11 +118,10 @@ for config in custom_order:
 plt.xscale('log')  # <-- log scale on x-axis
 plt.xlabel("Time (seconds)", fontsize=14)
 plt.ylabel("Solved instances", fontsize=14)
-plt.title("Products and Shelves (VSIDS)",fontsize=14)
-plt.legend(title="Configuration", loc='lower right')
+plt.title("Rectangle Packing (User Search)", fontsize=14)
+plt.legend(title="Configuration")
 plt.gca().yaxis.set_major_locator(MaxNLocator(integer=True))  # Force integer ticks
 plt.grid(True)
 plt.tight_layout()
 plt.xlim(right=1200)
-# plt.savefig("cactus_prod_shelf.pgf", format='pgf')
-plt.savefig("images/cactus_prod_shelf_vsids_optimized_all.pgf")
+plt.savefig("images/cactus_rect_user_optimized.pgf")

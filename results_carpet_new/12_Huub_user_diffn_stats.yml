@@ -1,7 +1,0 @@
-{blockType: init, configuration: Huub_user_diffn, data_file: ../carpet-cutting/mzn_rnd_test.18.dzn,
-  error: 'MiniZinc stopped with a non-zero exit code, but did not output an error
-    message. ', evaluatedHalfReifiedConstraints: 38, evaluatedReifiedConstraints: 45244,
-  extractedViews: 51465, flatBoolConstraints: 16196, flatBoolVars: 61282, flatIntConstraints: 94969,
-  flatIntVars: 48937, flatTime: 2.91146, initTime: 1.72848, intVariables: 11416, method: minimize,
-  model: ../carpet-cutting/cc_base-fixed.mzn, nSolutions: 0, paths: 0, problem: '',
-  propagators: 33635, status: ERROR, time: 75.01083845738322, unifiedVariables: 0}

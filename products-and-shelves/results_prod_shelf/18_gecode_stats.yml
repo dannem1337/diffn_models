@@ -1,6 +1,0 @@
-{configuration: gecode, data_file: ../products-and-shelves/ps-100-20.dzn, eliminatedImplications: 5000,
-  error: 'MiniZinc stopped with a non-zero exit code, but did not output an error
-    message. ', evaluatedHalfReifiedConstraints: 1485000, evaluatedReifiedConstraints: 35000,
-  flatBoolConstraints: 272500, flatBoolVars: 1525000, flatIntConstraints: 1539709,
-  flatIntVars: 30200, flatTime: 134.978, method: minimize, model: ../products-and-shelves/product-and-shelves.mzn,
-  nSolutions: 0, paths: 0, problem: '', status: ERROR, time: 221.9959744475782}

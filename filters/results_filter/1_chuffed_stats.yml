@@ -1,8 +1,0 @@
-{backjumps: 674660, baseMem: 0.0, boolVariables: 14324, configuration: chuffed, data_file: ../filters/dct_1_2.dzn,
-  evaluatedReifiedConstraints: 1452, failures: 20878358, flatBoolConstraints: 606,
-  flatBoolVars: 1452, flatIntConstraints: 1531, flatIntVars: 80, flatTime: 0.24859,
-  initTime: 0.031, intVars: 80, method: minimize, model: ../filters/filter.mzn, nSolutions: 1,
-  nodes: 21553110, nogoods: 20878358, objective: 32, optTime: 0.011, paths: 0, peakDepth: 54,
-  peakMem: 0.0, problem: '', propagations: 8275625588, propagators: 2992, randomSeed: -1152808533,
-  restarts: 1, solveTime: 1199.748, status: SATISFIED, time: 1200.5422823280096, trailMem: 0.05,
-  variables: 14406}

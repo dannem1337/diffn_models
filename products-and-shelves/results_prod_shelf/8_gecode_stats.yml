@@ -1,5 +1,0 @@
-{configuration: gecode, data_file: ../products-and-shelves/ps-50-09.dzn, eliminatedImplications: 1000,
-  evaluatedHalfReifiedConstraints: 147000, evaluatedReifiedConstraints: 7000, flatBoolConstraints: 29500,
-  flatBoolVars: 155000, flatIntConstraints: 158023, flatIntVars: 6100, flatTime: 12.2506,
-  method: minimize, model: ../products-and-shelves/product-and-shelves.mzn, nSolutions: 0,
-  paths: 0, problem: '', status: UNKNOWN, time: 1204.2038615234196}

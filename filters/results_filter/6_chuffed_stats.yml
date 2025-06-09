@@ -1,8 +1,0 @@
-{backjumps: 239, baseMem: 0.0, boolVariables: 11461, configuration: chuffed, data_file: ../filters/ewf_2_2.dzn,
-  evaluatedReifiedConstraints: 1344, failures: 30, flatBoolConstraints: 336, flatBoolVars: 1344,
-  flatIntConstraints: 1405, flatIntVars: 84, flatTime: 0.213419, initTime: 0.024,
-  intVars: 83, method: minimize, model: ../filters/filter.mzn, nSolutions: 3, nodes: 410,
-  nogoods: 30, objective: 18, optTime: 0.013, paths: 0, peakDepth: 57, peakMem: 0.0,
-  problem: '', propagations: 42455, propagators: 2758, randomSeed: 2016954137, restarts: 3,
-  solveTime: 0.013, status: OPTIMAL_SOLUTION, time: 0.5107079204171896, trailMem: 0.04,
-  variables: 11546}

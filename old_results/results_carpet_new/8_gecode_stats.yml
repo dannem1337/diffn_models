@@ -1,7 +1,0 @@
-{configuration: gecode, data_file: ../carpet-cutting/mzn_rnd_test.02.dzn, evaluatedHalfReifiedConstraints: 2,
-  evaluatedReifiedConstraints: 12, failures: 2441541, flatBoolConstraints: 6, flatBoolVars: 14,
-  flatIntConstraints: 69, flatIntVars: 49, flatTime: 0.248013, initTime: 0.069611,
-  method: minimize, model: ../carpet-cutting/cc_base-fixed.mzn, nSolutions: 8, nodes: 4883133,
-  objective: 919, paths: 0, peakDepth: 31, problem: '', propagations: 17771921409,
-  propagators: 15096, restarts: 0, solutions: 8, solveTime: 1199.75, status: SATISFIED,
-  time: 1201.5630881628022, variables: 93}

@@ -1,8 +1,0 @@
-{blockType: complete, configuration: Huub_vsid_decomp, data_file: ../carpet-cutting/mzn_rnd_test.09.dzn,
-  evaluatedHalfReifiedConstraints: 3478, evaluatedReifiedConstraints: 52989, extractedViews: 58991,
-  failures: 9670, flatBoolConstraints: 19008, flatBoolVars: 74443, flatIntConstraints: 118711,
-  flatIntVars: 61253, flatTime: 3.38214, initTime: 2.215895, intVariables: 26409,
-  method: minimize, model: ../carpet-cutting/cc_base-fixed.mzn, nSolutions: 1842,
-  objective: 2505, oracleDecisions: 138724420, paths: 0, peakDepth: 70782, problem: '',
-  propagations: 701210052, propagators: 54032, restarts: 0, solveTime: 1194.860362,
-  status: SATISFIED, time: 1202.5949421683326, unifiedVariables: 0, userDecisions: 0}

@@ -1,6 +1,0 @@
-{configuration: Huub_user_no_gen_bounds, data_file: ../products-and-shelves/ps-75-11.dzn,
-  eliminatedImplications: 2250, error: 'MiniZinc stopped with a non-zero exit code,
-    but did not output an error message. ', evaluatedReifiedConstraints: 45150, flatBoolConstraints: 21750,
-  flatBoolVars: 36900, flatIntConstraints: 35349, flatIntVars: 13650, flatTime: 2.33319,
-  method: minimize, model: ../products-and-shelves/product-and-shelves.mzn, nSolutions: 0,
-  paths: 0, problem: '', status: ERROR, time: 3.921445682644844}
